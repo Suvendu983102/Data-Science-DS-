@@ -1,0 +1,1366 @@
+# ============================================================
+# DELIVERY DELAY & OPERATIONS ANALYTICS
+# ============================================================
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+# ============================================================
+# STEP 1: LOAD DATA
+# ============================================================
+
+df = pd.read_csv("delivery_operations.csv")
+
+print("=" * 70)
+print("DELIVERY DELAY & OPERATIONS ANALYTICS")
+print("=" * 70)
+
+print("\nDataset Shape:")
+print(df.shape)
+
+print("\nFirst 5 Records:")
+print(df.head())
+
+
+# ============================================================
+# STEP 2: DATA INFORMATION
+# ============================================================
+
+print("\n" + "=" * 70)
+print("DATA INFORMATION")
+print("=" * 70)
+
+print(df.info())
+
+print("\nColumns:")
+print(df.columns.tolist())
+
+print("\nStatistical Summary:")
+print(df.describe(include="all"))
+
+
+# ============================================================
+# STEP 3: CHECK MISSING VALUES
+# ============================================================
+
+print("\n" + "=" * 70)
+print("MISSING VALUES")
+print("=" * 70)
+
+print(df.isnull().sum())
+
+
+# ============================================================
+# STEP 4: CHECK DUPLICATES
+# ============================================================
+
+print("\n" + "=" * 70)
+print("DUPLICATES")
+print("=" * 70)
+
+print(
+    "Duplicate rows:",
+    df.duplicated().sum()
+)
+
+print(
+    "Duplicate order IDs:",
+    df["order_id"].duplicated().sum()
+)
+
+
+# ============================================================
+# STEP 5: REMOVE DUPLICATES
+# ============================================================
+
+df = df.drop_duplicates(
+    subset="order_id"
+)
+
+print(
+    "\nRecords after duplicate removal:",
+    len(df)
+)
+
+
+# ============================================================
+# STEP 6: CONVERT DATE COLUMNS
+# ============================================================
+
+df["order_date"] = pd.to_datetime(
+    df["order_date"],
+    errors="coerce"
+)
+
+df["promised_date"] = pd.to_datetime(
+    df["promised_date"],
+    errors="coerce"
+)
+
+df["actual_delivery_date"] = pd.to_datetime(
+    df["actual_delivery_date"],
+    errors="coerce"
+)
+
+
+print("\nDate conversion completed.")
+
+
+# ============================================================
+# STEP 7: HANDLE MISSING VALUES
+# ============================================================
+
+numeric_columns = [
+    "warehouse_processing_hours",
+    "distance_km",
+    "delivery_attempts"
+]
+
+for column in numeric_columns:
+
+    df[column] = df[column].fillna(
+        df[column].median()
+    )
+
+
+categorical_columns = [
+    "warehouse",
+    "carrier",
+    "route",
+    "product_type",
+    "day_of_week",
+    "season"
+]
+
+for column in categorical_columns:
+
+    df[column] = df[column].fillna(
+        "Unknown"
+    )
+
+
+# ============================================================
+# STEP 8: CALCULATE DELIVERY DELAY
+# ============================================================
+
+df["delay_days"] = (
+    df["actual_delivery_date"]
+    -
+    df["promised_date"]
+).dt.days
+
+
+# ============================================================
+# STEP 9: ON-TIME FLAG
+# ============================================================
+
+df["on_time_flag"] = np.where(
+    df["delay_days"] <= 0,
+    1,
+    0
+)
+
+
+# ============================================================
+# STEP 10: DELIVERY STATUS
+# ============================================================
+
+df["delivery_status"] = np.where(
+    df["delay_days"] <= 0,
+    "On Time",
+    "Delayed"
+)
+
+
+print("\nDelivery Status:")
+print(
+    df["delivery_status"]
+    .value_counts()
+)
+
+
+# ============================================================
+# STEP 11: DELAY CATEGORY
+# ============================================================
+
+def delay_category(days):
+
+    if days <= 0:
+        return "On Time"
+
+    elif days <= 2:
+        return "1-2 Days Late"
+
+    elif days <= 5:
+        return "3-5 Days Late"
+
+    else:
+        return "6+ Days Late"
+
+
+df["delay_category"] = (
+    df["delay_days"]
+    .apply(delay_category)
+)
+
+
+print("\nDelay Categories:")
+print(
+    df["delay_category"]
+    .value_counts()
+)
+
+
+# ============================================================
+# STEP 12: MAIN KPIs
+# ============================================================
+
+total_orders = df[
+    "order_id"
+].nunique()
+
+delayed_orders = (
+    df["delay_days"] > 0
+).sum()
+
+on_time_orders = (
+    df["delay_days"] <= 0
+).sum()
+
+on_time_percentage = (
+    on_time_orders /
+    total_orders
+) * 100
+
+delay_percentage = (
+    delayed_orders /
+    total_orders
+) * 100
+
+average_delay = (
+    df["delay_days"].mean()
+)
+
+median_delay = (
+    df["delay_days"].median()
+)
+
+maximum_delay = (
+    df["delay_days"].max()
+)
+
+
+print("\n" + "=" * 70)
+print("DELIVERY KPIs")
+print("=" * 70)
+
+print(
+    "Total Orders:",
+    total_orders
+)
+
+print(
+    "On-Time Orders:",
+    on_time_orders
+)
+
+print(
+    "Delayed Orders:",
+    delayed_orders
+)
+
+print(
+    "On-Time Percentage:",
+    round(
+        on_time_percentage,
+        2
+    ),
+    "%"
+)
+
+print(
+    "Delay Percentage:",
+    round(
+        delay_percentage,
+        2
+    ),
+    "%"
+)
+
+print(
+    "Average Delay:",
+    round(
+        average_delay,
+        2
+    ),
+    "days"
+)
+
+print(
+    "Median Delay:",
+    round(
+        median_delay,
+        2
+    ),
+    "days"
+)
+
+print(
+    "Maximum Delay:",
+    maximum_delay,
+    "days"
+)
+
+
+# ============================================================
+# STEP 13: MONTHLY DELIVERY TREND
+# ============================================================
+
+df["month"] = (
+    df["order_date"]
+    .dt.to_period("M")
+    .astype(str)
+)
+
+
+monthly_delivery = (
+    df.groupby("month")
+    .agg(
+        total_orders=("order_id", "count"),
+        delayed_orders=("delay_days",
+                        lambda x: (x > 0).sum()),
+        average_delay=("delay_days", "mean"),
+        on_time_rate=("on_time_flag", "mean")
+    )
+    .reset_index()
+)
+
+
+monthly_delivery[
+    "on_time_rate"
+] = (
+    monthly_delivery["on_time_rate"]
+    * 100
+)
+
+
+print("\n" + "=" * 70)
+print("MONTHLY DELIVERY PERFORMANCE")
+print("=" * 70)
+
+print(
+    monthly_delivery.round(2)
+)
+
+
+# ============================================================
+# MONTHLY DELAY GRAPH
+# ============================================================
+
+plt.figure(figsize=(12, 6))
+
+plt.plot(
+    monthly_delivery["month"],
+    monthly_delivery["average_delay"],
+    marker="o"
+)
+
+plt.title(
+    "Average Delivery Delay by Month"
+)
+
+plt.xlabel("Month")
+
+plt.ylabel(
+    "Average Delay (Days)"
+)
+
+plt.xticks(rotation=45)
+
+plt.grid(True)
+
+plt.tight_layout()
+
+plt.show()
+
+
+# ============================================================
+# STEP 14: WAREHOUSE ANALYSIS
+# ============================================================
+
+warehouse_analysis = (
+    df.groupby("warehouse")
+    .agg(
+        orders=("order_id", "count"),
+        delayed_orders=(
+            "delay_days",
+            lambda x: (x > 0).sum()
+        ),
+        average_delay=(
+            "delay_days",
+            "mean"
+        ),
+        on_time_rate=(
+            "on_time_flag",
+            "mean"
+        )
+    )
+)
+
+warehouse_analysis[
+    "on_time_rate"
+] = (
+    warehouse_analysis[
+        "on_time_rate"
+    ] * 100
+)
+
+warehouse_analysis[
+    "delay_rate"
+] = (
+    warehouse_analysis["delayed_orders"] /
+    warehouse_analysis["orders"]
+) * 100
+
+
+warehouse_analysis = (
+    warehouse_analysis
+    .sort_values(
+        "average_delay",
+        ascending=False
+    )
+)
+
+
+print("\n" + "=" * 70)
+print("WAREHOUSE PERFORMANCE")
+print("=" * 70)
+
+print(
+    warehouse_analysis.round(2)
+)
+
+
+# ============================================================
+# WAREHOUSE GRAPH
+# ============================================================
+
+plt.figure(figsize=(10, 6))
+
+sns.barplot(
+    data=warehouse_analysis.reset_index(),
+    x="warehouse",
+    y="average_delay"
+)
+
+plt.title(
+    "Average Delivery Delay by Warehouse"
+)
+
+plt.xlabel("Warehouse")
+
+plt.ylabel(
+    "Average Delay (Days)"
+)
+
+plt.xticks(rotation=45)
+
+plt.tight_layout()
+
+plt.show()
+
+
+# ============================================================
+# STEP 15: CARRIER ANALYSIS
+# ============================================================
+
+carrier_analysis = (
+    df.groupby("carrier")
+    .agg(
+        orders=("order_id", "count"),
+        delayed_orders=(
+            "delay_days",
+            lambda x: (x > 0).sum()
+        ),
+        average_delay=(
+            "delay_days",
+            "mean"
+        ),
+        on_time_rate=(
+            "on_time_flag",
+            "mean"
+        )
+    )
+)
+
+
+carrier_analysis[
+    "on_time_rate"
+] = (
+    carrier_analysis["on_time_rate"]
+    * 100
+)
+
+carrier_analysis[
+    "delay_rate"
+] = (
+    carrier_analysis["delayed_orders"] /
+    carrier_analysis["orders"]
+) * 100
+
+
+carrier_analysis = (
+    carrier_analysis
+    .sort_values(
+        "average_delay",
+        ascending=False
+    )
+)
+
+
+print("\n" + "=" * 70)
+print("CARRIER PERFORMANCE")
+print("=" * 70)
+
+print(
+    carrier_analysis.round(2)
+)
+
+
+# ============================================================
+# CARRIER GRAPH
+# ============================================================
+
+plt.figure(figsize=(10, 6))
+
+sns.barplot(
+    data=carrier_analysis.reset_index(),
+    x="carrier",
+    y="average_delay"
+)
+
+plt.title(
+    "Average Delivery Delay by Carrier"
+)
+
+plt.xlabel("Carrier")
+
+plt.ylabel(
+    "Average Delay (Days)"
+)
+
+plt.xticks(rotation=45)
+
+plt.tight_layout()
+
+plt.show()
+
+
+# ============================================================
+# STEP 16: ROUTE ANALYSIS
+# ============================================================
+
+route_analysis = (
+    df.groupby("route")
+    .agg(
+        orders=("order_id", "count"),
+        delayed_orders=(
+            "delay_days",
+            lambda x: (x > 0).sum()
+        ),
+        average_delay=(
+            "delay_days",
+            "mean"
+        ),
+        on_time_rate=(
+            "on_time_flag",
+            "mean"
+        )
+    )
+)
+
+
+route_analysis[
+    "on_time_rate"
+] = (
+    route_analysis["on_time_rate"]
+    * 100
+)
+
+route_analysis[
+    "delay_rate"
+] = (
+    route_analysis["delayed_orders"] /
+    route_analysis["orders"]
+) * 100
+
+
+route_analysis = (
+    route_analysis
+    .sort_values(
+        "average_delay",
+        ascending=False
+    )
+)
+
+
+print("\n" + "=" * 70)
+print("ROUTE PERFORMANCE")
+print("=" * 70)
+
+print(
+    route_analysis.round(2)
+)
+
+
+# ============================================================
+# ROUTE GRAPH
+# ============================================================
+
+plt.figure(figsize=(10, 6))
+
+sns.barplot(
+    data=route_analysis.reset_index(),
+    x="route",
+    y="average_delay"
+)
+
+plt.title(
+    "Average Delivery Delay by Route"
+)
+
+plt.xlabel("Route")
+
+plt.ylabel(
+    "Average Delay (Days)"
+)
+
+plt.tight_layout()
+
+plt.show()
+
+
+# ============================================================
+# STEP 17: PRODUCT TYPE ANALYSIS
+# ============================================================
+
+product_analysis = (
+    df.groupby("product_type")
+    .agg(
+        orders=("order_id", "count"),
+        delayed_orders=(
+            "delay_days",
+            lambda x: (x > 0).sum()
+        ),
+        average_delay=(
+            "delay_days",
+            "mean"
+        ),
+        on_time_rate=(
+            "on_time_flag",
+            "mean"
+        )
+    )
+)
+
+
+product_analysis[
+    "on_time_rate"
+] = (
+    product_analysis["on_time_rate"]
+    * 100
+)
+
+product_analysis[
+    "delay_rate"
+] = (
+    product_analysis["delayed_orders"] /
+    product_analysis["orders"]
+) * 100
+
+
+print("\n" + "=" * 70)
+print("PRODUCT TYPE ANALYSIS")
+print("=" * 70)
+
+print(
+    product_analysis.round(2)
+)
+
+
+# ============================================================
+# PRODUCT TYPE GRAPH
+# ============================================================
+
+plt.figure(figsize=(10, 6))
+
+sns.barplot(
+    data=product_analysis.reset_index(),
+    x="product_type",
+    y="average_delay"
+)
+
+plt.title(
+    "Average Delay by Product Type"
+)
+
+plt.xlabel("Product Type")
+
+plt.ylabel(
+    "Average Delay (Days)"
+)
+
+plt.xticks(rotation=45)
+
+plt.tight_layout()
+
+plt.show()
+
+
+# ============================================================
+# STEP 18: SEASONAL ANALYSIS
+# ============================================================
+
+season_analysis = (
+    df.groupby("season")
+    .agg(
+        orders=("order_id", "count"),
+        delayed_orders=(
+            "delay_days",
+            lambda x: (x > 0).sum()
+        ),
+        average_delay=(
+            "delay_days",
+            "mean"
+        ),
+        on_time_rate=(
+            "on_time_flag",
+            "mean"
+        )
+    )
+)
+
+
+season_analysis[
+    "on_time_rate"
+] = (
+    season_analysis["on_time_rate"]
+    * 100
+)
+
+season_analysis[
+    "delay_rate"
+] = (
+    season_analysis["delayed_orders"] /
+    season_analysis["orders"]
+) * 100
+
+
+print("\n" + "=" * 70)
+print("SEASONAL PERFORMANCE")
+print("=" * 70)
+
+print(
+    season_analysis.round(2)
+)
+
+
+# ============================================================
+# SEASON GRAPH
+# ============================================================
+
+plt.figure(figsize=(10, 6))
+
+sns.barplot(
+    data=season_analysis.reset_index(),
+    x="season",
+    y="average_delay"
+)
+
+plt.title(
+    "Average Delivery Delay by Season"
+)
+
+plt.xlabel("Season")
+
+plt.ylabel(
+    "Average Delay (Days)"
+)
+
+plt.xticks(rotation=45)
+
+plt.tight_layout()
+
+plt.show()
+
+
+# ============================================================
+# STEP 19: DAY-OF-WEEK ANALYSIS
+# ============================================================
+
+day_analysis = (
+    df.groupby("day_of_week")
+    .agg(
+        orders=("order_id", "count"),
+        average_delay=(
+            "delay_days",
+            "mean"
+        ),
+        on_time_rate=(
+            "on_time_flag",
+            "mean"
+        )
+    )
+)
+
+
+day_analysis[
+    "on_time_rate"
+] = (
+    day_analysis["on_time_rate"]
+    * 100
+)
+
+
+day_order = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+]
+
+day_analysis = (
+    day_analysis
+    .reindex(day_order)
+)
+
+
+print("\n" + "=" * 70)
+print("DAY-OF-WEEK PERFORMANCE")
+print("=" * 70)
+
+print(
+    day_analysis.round(2)
+)
+
+
+# ============================================================
+# STEP 20: PROCESSING TIME ANALYSIS
+# ============================================================
+
+processing_analysis = (
+    df.groupby("warehouse")
+    .agg(
+        average_processing_hours=(
+            "warehouse_processing_hours",
+            "mean"
+        ),
+        average_delay=(
+            "delay_days",
+            "mean"
+        )
+    )
+)
+
+
+print("\n" + "=" * 70)
+print("WAREHOUSE PROCESSING ANALYSIS")
+print("=" * 70)
+
+print(
+    processing_analysis.round(2)
+)
+
+
+# ============================================================
+# STEP 21: DELIVERY ATTEMPT ANALYSIS
+# ============================================================
+
+attempt_analysis = (
+    df.groupby("delivery_attempts")
+    .agg(
+        orders=("order_id", "count"),
+        average_delay=(
+            "delay_days",
+            "mean"
+        ),
+        on_time_rate=(
+            "on_time_flag",
+            "mean"
+        )
+    )
+)
+
+
+attempt_analysis[
+    "on_time_rate"
+] = (
+    attempt_analysis["on_time_rate"]
+    * 100
+)
+
+
+print("\n" + "=" * 70)
+print("DELIVERY ATTEMPT ANALYSIS")
+print("=" * 70)
+
+print(
+    attempt_analysis.round(2)
+)
+
+
+# ============================================================
+# STEP 22: DISTANCE ANALYSIS
+# ============================================================
+
+df["distance_band"] = pd.cut(
+    df["distance_km"],
+    bins=[
+        0,
+        100,
+        500,
+        1000,
+        2000
+    ],
+    labels=[
+        "0-100 km",
+        "101-500 km",
+        "501-1000 km",
+        "1000+ km"
+    ]
+)
+
+
+distance_analysis = (
+    df.groupby(
+        "distance_band",
+        observed=False
+    )
+    .agg(
+        orders=("order_id", "count"),
+        average_distance=(
+            "distance_km",
+            "mean"
+        ),
+        average_delay=(
+            "delay_days",
+            "mean"
+        ),
+        on_time_rate=(
+            "on_time_flag",
+            "mean"
+        )
+    )
+)
+
+
+distance_analysis[
+    "on_time_rate"
+] = (
+    distance_analysis[
+        "on_time_rate"
+    ] * 100
+)
+
+
+print("\n" + "=" * 70)
+print("DISTANCE ANALYSIS")
+print("=" * 70)
+
+print(
+    distance_analysis.round(2)
+)
+
+
+# ============================================================
+# STEP 23: DELAY DISTRIBUTION
+# ============================================================
+
+plt.figure(figsize=(10, 6))
+
+sns.histplot(
+    df["delay_days"],
+    bins=20,
+    kde=True
+)
+
+plt.title(
+    "Distribution of Delivery Delays"
+)
+
+plt.xlabel(
+    "Delay (Days)"
+)
+
+plt.ylabel(
+    "Number of Orders"
+)
+
+plt.tight_layout()
+
+plt.show()
+
+
+# ============================================================
+# STEP 24: DELAY CATEGORY GRAPH
+# ============================================================
+
+delay_category_order = [
+    "On Time",
+    "1-2 Days Late",
+    "3-5 Days Late",
+    "6+ Days Late"
+]
+
+delay_counts = (
+    df["delay_category"]
+    .value_counts()
+    .reindex(
+        delay_category_order
+    )
+    .fillna(0)
+)
+
+
+plt.figure(figsize=(10, 6))
+
+delay_counts.plot(
+    kind="bar"
+)
+
+plt.title(
+    "Orders by Delay Category"
+)
+
+plt.xlabel(
+    "Delay Category"
+)
+
+plt.ylabel(
+    "Number of Orders"
+)
+
+plt.xticks(rotation=20)
+
+plt.tight_layout()
+
+plt.show()
+
+
+# ============================================================
+# STEP 25: HOTSPOT ANALYSIS
+# ============================================================
+
+hotspots = (
+    df.groupby(
+        [
+            "warehouse",
+            "carrier",
+            "route"
+        ]
+    )
+    .agg(
+        orders=("order_id", "count"),
+        average_delay=(
+            "delay_days",
+            "mean"
+        ),
+        delayed_orders=(
+            "delay_days",
+            lambda x: (x > 0).sum()
+        )
+    )
+)
+
+
+hotspots[
+    "delay_rate"
+] = (
+    hotspots["delayed_orders"] /
+    hotspots["orders"]
+) * 100
+
+
+# Only combinations with enough orders
+hotspots_filtered = hotspots[
+    hotspots["orders"] >= 10
+].sort_values(
+    "average_delay",
+    ascending=False
+)
+
+
+print("\n" + "=" * 70)
+print("TOP OPERATIONAL DELAY HOTSPOTS")
+print("=" * 70)
+
+print(
+    hotspots_filtered
+    .head(15)
+    .round(2)
+)
+
+
+# ============================================================
+# STEP 26: CORRELATION ANALYSIS
+# ============================================================
+
+numeric_columns = [
+    "delay_days",
+    "warehouse_processing_hours",
+    "distance_km",
+    "delivery_attempts"
+]
+
+correlation = df[
+    numeric_columns
+].corr()
+
+
+print("\n" + "=" * 70)
+print("CORRELATION ANALYSIS")
+print("=" * 70)
+
+print(
+    correlation.round(2)
+)
+
+
+# ============================================================
+# CORRELATION HEATMAP
+# ============================================================
+
+plt.figure(figsize=(9, 7))
+
+sns.heatmap(
+    correlation,
+    annot=True,
+    cmap="coolwarm",
+    fmt=".2f"
+)
+
+plt.title(
+    "Delivery Operations Correlation Heatmap"
+)
+
+plt.tight_layout()
+
+plt.show()
+
+
+# ============================================================
+# STEP 27: SIMPLE DELAY RISK MODEL
+# ============================================================
+
+# Simple rule-based risk score
+df["delay_risk_score"] = 0
+
+df.loc[
+    df["distance_km"] > 1000,
+    "delay_risk_score"
+] += 1
+
+df.loc[
+    df["warehouse_processing_hours"] > 12,
+    "delay_risk_score"
+] += 1
+
+df.loc[
+    df["delivery_attempts"] > 1,
+    "delay_risk_score"
+] += 1
+
+df.loc[
+    df["season"] == "Festive",
+    "delay_risk_score"
+] += 1
+
+
+def risk_category(score):
+
+    if score == 0:
+        return "Low"
+
+    elif score <= 2:
+        return "Medium"
+
+    else:
+        return "High"
+
+
+df["delay_risk"] = (
+    df["delay_risk_score"]
+    .apply(risk_category)
+)
+
+
+print("\n" + "=" * 70)
+print("DELAY RISK ANALYSIS")
+print("=" * 70)
+
+print(
+    df["delay_risk"]
+    .value_counts()
+)
+
+
+# ============================================================
+# STEP 28: RISK CATEGORY PERFORMANCE
+# ============================================================
+
+risk_analysis = (
+    df.groupby("delay_risk")
+    .agg(
+        orders=("order_id", "count"),
+        average_delay=(
+            "delay_days",
+            "mean"
+        ),
+        delayed_orders=(
+            "delay_days",
+            lambda x: (x > 0).sum()
+        )
+    )
+)
+
+
+risk_analysis[
+    "delay_rate"
+] = (
+    risk_analysis["delayed_orders"] /
+    risk_analysis["orders"]
+) * 100
+
+
+print("\nRisk Category Performance:")
+
+print(
+    risk_analysis.round(2)
+)
+
+
+# ============================================================
+# STEP 29: EXPORT RESULTS
+# ============================================================
+
+warehouse_analysis.to_csv(
+    "warehouse_delivery_analysis.csv"
+)
+
+carrier_analysis.to_csv(
+    "carrier_delivery_analysis.csv"
+)
+
+route_analysis.to_csv(
+    "route_delivery_analysis.csv"
+)
+
+product_analysis.to_csv(
+    "product_delivery_analysis.csv"
+)
+
+season_analysis.to_csv(
+    "season_delivery_analysis.csv"
+)
+
+monthly_delivery.to_csv(
+    "monthly_delivery_analysis.csv"
+)
+
+hotspots_filtered.to_csv(
+    "delivery_hotspots.csv"
+)
+
+risk_analysis.to_csv(
+    "delivery_risk_analysis.csv"
+)
+
+
+# ============================================================
+# STEP 30: FINAL BUSINESS SUMMARY
+# ============================================================
+
+print("\n")
+print("=" * 70)
+print("FINAL DELIVERY OPERATIONS SUMMARY")
+print("=" * 70)
+
+print(
+    f"Total Orders       : {total_orders}"
+)
+
+print(
+    f"On-Time Orders     : {on_time_orders}"
+)
+
+print(
+    f"Delayed Orders     : {delayed_orders}"
+)
+
+print(
+    f"On-Time Rate       : {on_time_percentage:.2f}%"
+)
+
+print(
+    f"Average Delay      : {average_delay:.2f} days"
+)
+
+print(
+    f"Maximum Delay      : {maximum_delay} days"
+)
+
+print(
+    "\nWarehouse with highest average delay:"
+)
+
+print(
+    warehouse_analysis.index[0]
+)
+
+print(
+    "\nCarrier with highest average delay:"
+)
+
+print(
+    carrier_analysis.index[0]
+)
+
+print(
+    "\nRoute with highest average delay:"
+)
+
+print(
+    route_analysis.index[0]
+)
+
+print(
+    "\nProduct type with highest average delay:"
+)
+
+print(
+    product_analysis.index[
+        product_analysis[
+            "average_delay"
+        ].argmax()
+    ]
+)
+
+print(
+    "\nSeason with highest average delay:"
+)
+
+print(
+    season_analysis.index[
+        season_analysis[
+            "average_delay"
+        ].argmax()
+    ]
+)
+
+print("\nAnalysis completed successfully!")

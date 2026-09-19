@@ -1,0 +1,1201 @@
+order_id,order_date,warehouse,carrier,route,product_type,day_of_week,season,promised_date,delay_days,actual_delivery_date,delivery_status,warehouse_processing_hours,distance_km,delivery_attempts
+O00001,2026-02-02,Kolkata-W1,BlueDart,Local,Home,Tuesday,Festive,2026-02-04,3,2026-02-07,Delayed,25.3,1470.8,1
+O00002,2025-07-18,Hyderabad-W1,BlueDart,West,Home,Sunday,Winter,2025-07-21,1,2025-07-22,Delayed,10.6,1533.2,3
+O00003,2026-01-26,Kolkata-W1,BlueDart,Regional,Beauty,Tuesday,Summer,2026-01-28,2,2026-01-30,Delayed,33.6,427.6,3
+O00004,2026-05-13,Kolkata-W1,XpressBees,North,Beauty,Monday,Spring,2026-05-17,1,2026-05-18,Delayed,9.5,1081.4,1
+O00005,2025-06-21,Kolkata-W1,DTDC,East,Home,Sunday,Summer,2025-06-25,4,2025-06-29,Delayed,5.6,1541.3,3
+O00006,2025-03-27,Bengaluru-W1,BlueDart,South,Home,Wednesday,Monsoon,2025-04-03,1,2025-04-04,Delayed,3.5,738.7,1
+O00007,2026-07-12,Kolkata-W1,Delhivery,South,Electronics,Friday,Monsoon,2026-07-19,0,2026-07-19,On Time,13.1,1678.2,1
+O00008,2025-07-05,Mumbai-W1,Delhivery,West,Fashion,Sunday,Festive,2025-07-08,3,2025-07-11,Delayed,6.5,1625.8,1
+O00009,2025-06-05,Delhi-W1,XpressBees,Local,Beauty,Thursday,Monsoon,2025-06-11,3,2025-06-14,Delayed,9.5,378.6,1
+O00010,2026-05-08,Bengaluru-W1,DTDC,Local,Electronics,Thursday,Monsoon,2026-05-10,2,2026-05-12,Delayed,11.8,469.8,1
+O00011,2026-06-05,Mumbai-W1,DTDC,Regional,Fashion,Monday,Summer,2026-06-07,1,2026-06-08,Delayed,4.6,328.9,1
+O00012,2025-05-10,Mumbai-W1,DTDC,South,Beauty,Saturday,Winter,2025-05-14,1,2025-05-15,Delayed,10.4,356.9,1
+O00013,2025-03-22,Hyderabad-W1,XpressBees,West,Electronics,Saturday,Spring,2025-03-24,1,2025-03-25,Delayed,7.6,1634.6,3
+O00014,2026-01-19,Hyderabad-W1,DTDC,North,Sports,Wednesday,Monsoon,2026-01-22,0,2026-01-22,On Time,2.7,1676.4,1
+O00015,2025-10-22,Mumbai-W1,DTDC,Local,Sports,Tuesday,Monsoon,2025-10-27,4,2025-10-31,Delayed,12.2,98.2,2
+O00016,2025-09-26,Hyderabad-W1,BlueDart,South,Beauty,Tuesday,Summer,2025-10-03,1,2025-10-04,Delayed,13.3,1070.5,1
+O00017,2026-07-16,Delhi-W1,DTDC,East,Electronics,Friday,Spring,2026-07-20,1,2026-07-21,Delayed,19.1,1017.8,3
+O00018,2026-06-19,Delhi-W1,BlueDart,West,Fashion,Tuesday,Summer,2026-06-26,2,2026-06-28,Delayed,3.6,706.0,1
+O00019,2026-01-13,Hyderabad-W1,BlueDart,Regional,Fashion,Saturday,Winter,2026-01-20,2,2026-01-22,Delayed,28.2,1138.9,3
+O00020,2026-01-11,Kolkata-W1,DTDC,Local,Electronics,Saturday,Summer,2026-01-18,1,2026-01-19,Delayed,5.0,1705.5,1
+O00021,2025-03-29,Mumbai-W1,Delhivery,Local,Sports,Thursday,Spring,2025-04-03,3,2025-04-06,Delayed,1.6,310.6,1
+O00022,2025-04-21,Delhi-W1,EcomExpress,North,Electronics,Friday,Spring,2025-04-23,3,2025-04-26,Delayed,8.9,221.1,1
+O00023,2026-08-07,Hyderabad-W1,Delhivery,Local,Sports,Wednesday,Monsoon,2026-08-13,2,2026-08-15,Delayed,11.1,64.9,1
+O00024,2025-06-03,Hyderabad-W1,DTDC,West,Sports,Friday,Winter,2025-06-10,1,2025-06-11,Delayed,7.8,658.1,1
+O00025,2026-04-08,Delhi-W1,DTDC,South,Fashion,Sunday,Festive,2026-04-11,3,2026-04-14,Delayed,3.6,611.0,1
+O00026,2026-07-23,Delhi-W1,Delhivery,South,Beauty,Wednesday,Monsoon,2026-07-30,0,2026-07-30,On Time,6.2,778.3,1
+O00027,2025-06-05,Kolkata-W1,DTDC,South,Home,Saturday,Summer,2025-06-12,1,2025-06-13,Delayed,10.7,908.4,2
+O00028,2025-11-14,Hyderabad-W1,BlueDart,East,Electronics,Tuesday,Summer,2025-11-16,0,2025-11-16,On Time,30.7,1365.3,1
+O00029,2026-07-13,Hyderabad-W1,XpressBees,East,Sports,Monday,Spring,2026-07-16,2,2026-07-18,Delayed,3.7,708.8,1
+O00030,2025-08-26,Bengaluru-W1,DTDC,Local,Electronics,Friday,Spring,2025-08-28,4,2025-09-01,Delayed,5.6,598.5,2
+O00031,2025-11-30,Kolkata-W1,DTDC,East,Beauty,Friday,Spring,2025-12-07,1,2025-12-08,Delayed,3.0,1489.2,3
+O00032,2025-04-16,Delhi-W1,Delhivery,East,Beauty,Thursday,Festive,2025-04-18,2,2025-04-20,Delayed,6.6,1530.4,1
+O00033,2026-04-27,Delhi-W1,BlueDart,North,Home,Thursday,Festive,2026-04-29,5,2026-05-04,Delayed,8.2,422.8,3
+O00034,2026-01-17,Mumbai-W1,Delhivery,East,Home,Saturday,Monsoon,2026-01-21,2,2026-01-23,Delayed,16.1,569.8,2
+O00035,2025-09-18,Delhi-W1,Delhivery,Regional,Sports,Wednesday,Festive,2025-09-23,5,2025-09-28,Delayed,10.8,1486.1,1
+O00036,2025-10-20,Hyderabad-W1,DTDC,Regional,Home,Monday,Spring,2025-10-26,3,2025-10-29,Delayed,21.0,147.5,1
+O00037,2025-12-01,Delhi-W1,BlueDart,Regional,Sports,Sunday,Monsoon,2025-12-06,2,2025-12-08,Delayed,8.5,589.9,1
+O00038,2026-04-21,Hyderabad-W1,DTDC,Local,Fashion,Thursday,Monsoon,2026-04-26,2,2026-04-28,Delayed,0.5,809.8,1
+O00039,2025-08-13,Hyderabad-W1,DTDC,South,Sports,Thursday,Winter,2025-08-16,0,2025-08-16,On Time,11.2,340.8,1
+O00040,2026-07-09,Kolkata-W1,DTDC,North,Home,Tuesday,Festive,2026-07-13,2,2026-07-15,Delayed,2.1,327.9,1
+O00041,2026-03-30,Delhi-W1,DTDC,Local,Electronics,Tuesday,Summer,2026-04-03,2,2026-04-05,Delayed,15.8,767.6,1
+O00042,2025-10-23,Kolkata-W1,XpressBees,South,Home,Saturday,Summer,2025-10-25,1,2025-10-26,Delayed,8.5,1359.4,3
+O00043,2026-07-29,Hyderabad-W1,EcomExpress,North,Beauty,Saturday,Winter,2026-08-03,2,2026-08-05,Delayed,5.4,1513.2,3
+O00044,2026-04-08,Delhi-W1,BlueDart,North,Home,Thursday,Spring,2026-04-14,1,2026-04-15,Delayed,3.3,1762.7,2
+O00045,2025-08-02,Delhi-W1,XpressBees,North,Fashion,Wednesday,Winter,2025-08-05,0,2025-08-05,On Time,6.0,137.8,1
+O00046,2026-08-08,Kolkata-W1,EcomExpress,Regional,Sports,Sunday,Spring,2026-08-12,7,2026-08-19,Delayed,8.2,393.9,3
+O00047,2025-06-07,Kolkata-W1,EcomExpress,Regional,Beauty,Monday,Festive,2025-06-09,6,2025-06-15,Delayed,25.8,1363.2,2
+O00048,2025-09-29,Hyderabad-W1,EcomExpress,Regional,Sports,Thursday,Festive,2025-10-05,6,2025-10-11,Delayed,7.7,975.4,1
+O00049,2025-08-26,Hyderabad-W1,XpressBees,North,Sports,Wednesday,Monsoon,2025-08-31,0,2025-08-31,On Time,10.0,593.2,1
+O00050,2025-10-30,Delhi-W1,BlueDart,West,Home,Wednesday,Monsoon,2025-11-05,0,2025-11-05,On Time,8.0,374.0,1
+O00051,2026-06-05,Delhi-W1,Delhivery,North,Electronics,Thursday,Monsoon,2026-06-09,4,2026-06-13,Delayed,10.0,508.5,1
+O00052,2025-11-17,Bengaluru-W1,EcomExpress,Regional,Beauty,Wednesday,Monsoon,2025-11-20,6,2025-11-26,Delayed,9.6,775.6,1
+O00053,2025-02-28,Bengaluru-W1,Delhivery,North,Fashion,Friday,Summer,2025-03-05,1,2025-03-06,Delayed,8.6,323.0,2
+O00054,2025-12-24,Mumbai-W1,Delhivery,Regional,Fashion,Wednesday,Monsoon,2025-12-27,1,2025-12-28,Delayed,5.3,1735.8,1
+O00055,2025-09-08,Hyderabad-W1,DTDC,Regional,Electronics,Thursday,Monsoon,2025-09-15,4,2025-09-19,Delayed,13.4,198.1,1
+O00056,2026-03-12,Mumbai-W1,Delhivery,Regional,Electronics,Wednesday,Monsoon,2026-03-18,3,2026-03-21,Delayed,3.7,1774.1,2
+O00057,2025-05-26,Mumbai-W1,DTDC,West,Home,Sunday,Spring,2025-06-01,3,2025-06-04,Delayed,11.9,1516.2,1
+O00058,2025-12-18,Kolkata-W1,BlueDart,South,Fashion,Thursday,Monsoon,2025-12-20,1,2025-12-21,Delayed,13.6,764.6,1
+O00059,2026-07-24,Kolkata-W1,BlueDart,North,Beauty,Tuesday,Winter,2026-07-29,1,2026-07-30,Delayed,1.7,1333.0,2
+O00060,2025-09-02,Bengaluru-W1,DTDC,Local,Electronics,Thursday,Monsoon,2025-09-08,1,2025-09-09,Delayed,3.4,1210.4,3
+O00061,2026-07-14,Mumbai-W1,BlueDart,Regional,Electronics,Wednesday,Monsoon,2026-07-18,1,2026-07-19,Delayed,1.9,387.9,2
+O00062,2025-10-28,Bengaluru-W1,EcomExpress,West,Electronics,Thursday,Summer,2025-11-04,4,2025-11-08,Delayed,18.6,613.6,1
+O00063,2026-03-14,Hyderabad-W1,BlueDart,Local,Beauty,Monday,Monsoon,2026-03-18,2,2026-03-20,Delayed,5.8,926.1,3
+O00064,2025-04-10,Delhi-W1,DTDC,South,Fashion,Thursday,Spring,2025-04-13,3,2025-04-16,Delayed,18.0,1149.9,1
+O00065,2026-04-25,Kolkata-W1,EcomExpress,North,Beauty,Thursday,Festive,2026-05-02,5,2026-05-07,Delayed,6.8,979.5,1
+O00066,2026-02-19,Hyderabad-W1,Delhivery,West,Beauty,Monday,Monsoon,2026-02-26,1,2026-02-27,Delayed,4.0,854.0,2
+O00067,2025-06-14,Hyderabad-W1,Delhivery,Regional,Home,Monday,Monsoon,2025-06-18,2,2025-06-20,Delayed,5.1,800.5,2
+O00068,2025-10-29,Kolkata-W1,Delhivery,Regional,Electronics,Monday,Monsoon,2025-11-04,2,2025-11-06,Delayed,9.5,899.4,1
+O00069,2025-05-01,Kolkata-W1,DTDC,Regional,Fashion,Saturday,Summer,2025-05-05,2,2025-05-07,Delayed,13.5,784.7,1
+O00070,2025-03-29,Mumbai-W1,Delhivery,West,Home,Friday,Festive,2025-04-03,4,2025-04-07,Delayed,8.8,976.7,1
+O00071,2025-08-05,Bengaluru-W1,BlueDart,Local,Home,Saturday,Summer,2025-08-08,0,2025-08-08,On Time,15.4,1598.9,1
+O00072,2026-07-27,Hyderabad-W1,Delhivery,South,Sports,Thursday,Summer,2026-08-03,0,2026-08-03,On Time,7.6,1140.9,2
+O00073,2025-06-28,Mumbai-W1,XpressBees,North,Electronics,Saturday,Summer,2025-07-03,2,2025-07-05,Delayed,8.2,1302.1,2
+O00074,2025-06-12,Mumbai-W1,XpressBees,South,Fashion,Saturday,Spring,2025-06-18,0,2025-06-18,On Time,4.8,1077.5,1
+O00075,2026-08-16,Hyderabad-W1,Delhivery,Regional,Fashion,Monday,Festive,2026-08-22,3,2026-08-25,Delayed,4.4,1159.2,1
+O00076,2025-06-19,Hyderabad-W1,Delhivery,South,Fashion,Monday,Spring,2025-06-23,1,2025-06-24,Delayed,14.1,1043.1,2
+O00077,2025-10-28,Delhi-W1,XpressBees,Local,Electronics,Tuesday,Spring,2025-10-30,1,2025-10-31,Delayed,3.7,53.2,1
+O00078,2026-01-09,Bengaluru-W1,Delhivery,East,Fashion,Saturday,Festive,2026-01-16,2,2026-01-18,Delayed,6.8,1799.3,2
+O00079,2025-07-22,Hyderabad-W1,EcomExpress,East,Beauty,Friday,Spring,2025-07-29,2,2025-07-31,Delayed,14.5,65.3,1
+O00080,2025-02-16,Kolkata-W1,XpressBees,North,Beauty,Thursday,Festive,2025-02-18,4,2025-02-22,Delayed,2.3,714.3,1
+O00081,2026-04-08,Delhi-W1,DTDC,North,Electronics,Sunday,Monsoon,2026-04-14,2,2026-04-16,Delayed,18.9,193.7,1
+O00082,2026-02-12,Bengaluru-W1,XpressBees,South,Fashion,Sunday,Summer,2026-02-18,1,2026-02-19,Delayed,4.0,179.0,1
+O00083,2025-07-13,Kolkata-W1,BlueDart,North,Sports,Wednesday,Spring,2025-07-20,2,2025-07-22,Delayed,19.0,1429.4,1
+O00084,2026-03-03,Kolkata-W1,EcomExpress,West,Sports,Friday,Festive,2026-03-06,5,2026-03-11,Delayed,3.7,769.5,1
+O00085,2025-11-13,Bengaluru-W1,DTDC,Local,Sports,Friday,Winter,2025-11-20,1,2025-11-21,Delayed,14.1,1443.0,1
+O00086,2026-04-24,Delhi-W1,Delhivery,Regional,Beauty,Tuesday,Spring,2026-04-30,2,2026-05-02,Delayed,5.7,494.7,2
+O00087,2026-02-25,Kolkata-W1,BlueDart,Regional,Sports,Thursday,Spring,2026-03-03,1,2026-03-04,Delayed,26.4,465.4,1
+O00088,2025-09-26,Mumbai-W1,BlueDart,South,Fashion,Thursday,Festive,2025-09-29,2,2025-10-01,Delayed,7.3,456.0,2
+O00089,2026-04-26,Bengaluru-W1,EcomExpress,Regional,Fashion,Monday,Winter,2026-05-01,3,2026-05-04,Delayed,3.3,1111.0,2
+O00090,2025-09-20,Bengaluru-W1,DTDC,South,Sports,Monday,Winter,2025-09-25,1,2025-09-26,Delayed,11.9,1467.9,1
+O00091,2026-03-02,Hyderabad-W1,BlueDart,North,Home,Friday,Monsoon,2026-03-05,1,2026-03-06,Delayed,6.2,816.8,3
+O00092,2025-06-15,Delhi-W1,DTDC,North,Sports,Tuesday,Spring,2025-06-18,5,2025-06-23,Delayed,12.7,685.8,1
+O00093,2026-03-04,Mumbai-W1,DTDC,West,Home,Thursday,Summer,2026-03-09,1,2026-03-10,Delayed,18.8,1752.6,2
+O00094,2026-02-01,Mumbai-W1,BlueDart,West,Electronics,Tuesday,Spring,2026-02-06,1,2026-02-07,Delayed,14.3,214.6,3
+O00095,2025-08-04,Hyderabad-W1,DTDC,Local,Electronics,Wednesday,Summer,2025-08-09,1,2025-08-10,Delayed,2.1,878.5,3
+O00096,2025-04-17,Kolkata-W1,EcomExpress,Regional,Fashion,Sunday,Summer,2025-04-22,4,2025-04-26,Delayed,3.7,738.2,2
+O00097,2025-04-08,Kolkata-W1,BlueDart,West,Beauty,Thursday,Festive,2025-04-15,5,2025-04-20,Delayed,10.2,181.1,1
+O00098,2026-04-27,Mumbai-W1,EcomExpress,Local,Fashion,Monday,Spring,2026-05-04,3,2026-05-07,Delayed,10.9,486.4,1
+O00099,2026-05-14,Delhi-W1,EcomExpress,East,Fashion,Friday,Festive,2026-05-18,5,2026-05-23,Delayed,0.8,56.1,2
+O00100,2025-08-18,Kolkata-W1,DTDC,West,Beauty,Tuesday,Monsoon,2025-08-21,0,2025-08-21,On Time,3.1,1579.1,1
+O00101,2025-09-14,Bengaluru-W1,DTDC,Local,Fashion,Sunday,Summer,2025-09-16,1,2025-09-17,Delayed,4.0,1096.1,1
+O00102,2025-02-12,Hyderabad-W1,BlueDart,South,Beauty,Sunday,Winter,2025-02-16,2,2025-02-18,Delayed,19.7,1468.0,1
+O00103,2025-08-30,Delhi-W1,Delhivery,South,Fashion,Sunday,Summer,2025-09-01,1,2025-09-02,Delayed,5.2,941.2,3
+O00104,2026-07-08,Kolkata-W1,BlueDart,Local,Electronics,Monday,Monsoon,2026-07-10,0,2026-07-10,On Time,13.4,1081.1,1
+O00105,2025-04-05,Mumbai-W1,EcomExpress,North,Home,Friday,Summer,2025-04-11,2,2025-04-13,Delayed,17.1,1263.0,1
+O00106,2025-07-07,Hyderabad-W1,DTDC,East,Fashion,Monday,Festive,2025-07-10,2,2025-07-12,Delayed,5.1,1634.9,1
+O00107,2026-01-20,Kolkata-W1,EcomExpress,Local,Home,Thursday,Spring,2026-01-27,2,2026-01-29,Delayed,8.0,169.7,1
+O00108,2026-02-04,Mumbai-W1,XpressBees,West,Sports,Tuesday,Winter,2026-02-08,0,2026-02-08,On Time,13.5,599.1,2
+O00109,2026-05-21,Kolkata-W1,XpressBees,North,Fashion,Wednesday,Festive,2026-05-24,2,2026-05-26,Delayed,2.1,1277.7,1
+O00110,2025-06-16,Hyderabad-W1,EcomExpress,Local,Electronics,Saturday,Spring,2025-06-21,2,2025-06-23,Delayed,7.0,1725.2,2
+O00111,2025-05-05,Bengaluru-W1,Delhivery,Regional,Beauty,Sunday,Winter,2025-05-08,2,2025-05-10,Delayed,18.2,1765.5,1
+O00112,2025-03-28,Bengaluru-W1,Delhivery,West,Electronics,Monday,Monsoon,2025-03-30,3,2025-04-02,Delayed,10.7,1150.4,3
+O00113,2026-05-04,Mumbai-W1,BlueDart,West,Home,Saturday,Summer,2026-05-11,2,2026-05-13,Delayed,10.8,352.5,1
+O00114,2025-08-14,Bengaluru-W1,BlueDart,South,Beauty,Tuesday,Winter,2025-08-19,3,2025-08-22,Delayed,15.5,219.0,1
+O00115,2025-12-11,Hyderabad-W1,BlueDart,Regional,Electronics,Thursday,Monsoon,2025-12-14,2,2025-12-16,Delayed,5.6,1703.1,3
+O00116,2026-06-02,Mumbai-W1,DTDC,Regional,Electronics,Monday,Spring,2026-06-05,1,2026-06-06,Delayed,3.8,783.9,2
+O00117,2025-01-31,Kolkata-W1,Delhivery,West,Electronics,Thursday,Winter,2025-02-07,2,2025-02-09,Delayed,10.4,354.7,2
+O00118,2025-10-23,Delhi-W1,EcomExpress,East,Beauty,Wednesday,Monsoon,2025-10-25,3,2025-10-28,Delayed,6.0,1681.3,1
+O00119,2026-02-18,Kolkata-W1,XpressBees,North,Electronics,Sunday,Spring,2026-02-23,2,2026-02-25,Delayed,5.7,192.6,1
+O00120,2025-05-15,Hyderabad-W1,Delhivery,South,Electronics,Wednesday,Festive,2025-05-17,2,2025-05-19,Delayed,3.7,1314.6,2
+O00121,2026-06-09,Mumbai-W1,Delhivery,Regional,Home,Sunday,Summer,2026-06-16,2,2026-06-18,Delayed,11.8,1127.3,2
+O00122,2025-01-04,Kolkata-W1,Delhivery,South,Electronics,Friday,Monsoon,2025-01-07,0,2025-01-07,On Time,7.4,162.5,1
+O00123,2025-06-27,Mumbai-W1,BlueDart,West,Electronics,Friday,Festive,2025-07-01,2,2025-07-03,Delayed,3.8,613.1,1
+O00124,2025-09-16,Bengaluru-W1,DTDC,North,Sports,Friday,Spring,2025-09-20,2,2025-09-22,Delayed,16.1,274.1,1
+O00125,2025-03-06,Delhi-W1,EcomExpress,Local,Beauty,Thursday,Winter,2025-03-12,4,2025-03-16,Delayed,6.7,1090.1,1
+O00126,2025-12-29,Hyderabad-W1,BlueDart,Regional,Sports,Friday,Summer,2026-01-02,2,2026-01-04,Delayed,12.0,861.4,2
+O00127,2025-01-17,Kolkata-W1,DTDC,North,Home,Tuesday,Spring,2025-01-24,0,2025-01-24,On Time,22.6,12.7,1
+O00128,2025-07-19,Delhi-W1,Delhivery,South,Sports,Saturday,Monsoon,2025-07-26,0,2025-07-26,On Time,15.9,1756.4,2
+O00129,2026-06-28,Hyderabad-W1,DTDC,West,Fashion,Saturday,Summer,2026-07-05,2,2026-07-07,Delayed,21.1,632.5,1
+O00130,2025-07-31,Hyderabad-W1,BlueDart,North,Beauty,Thursday,Festive,2025-08-05,3,2025-08-08,Delayed,15.7,468.5,1
+O00131,2026-03-11,Bengaluru-W1,Delhivery,Local,Electronics,Thursday,Summer,2026-03-17,0,2026-03-17,On Time,7.0,404.3,2
+O00132,2025-09-30,Mumbai-W1,BlueDart,North,Sports,Friday,Festive,2025-10-05,5,2025-10-10,Delayed,4.6,290.1,1
+O00133,2025-10-17,Mumbai-W1,EcomExpress,West,Sports,Sunday,Spring,2025-10-21,3,2025-10-24,Delayed,6.8,1798.5,1
+O00134,2026-04-28,Delhi-W1,Delhivery,South,Electronics,Saturday,Winter,2026-05-02,0,2026-05-02,On Time,7.1,534.7,2
+O00135,2025-08-22,Bengaluru-W1,DTDC,Regional,Electronics,Saturday,Summer,2025-08-25,3,2025-08-28,Delayed,18.7,732.9,3
+O00136,2026-02-12,Hyderabad-W1,BlueDart,Regional,Home,Friday,Winter,2026-02-17,2,2026-02-19,Delayed,6.1,1569.1,3
+O00137,2025-05-26,Bengaluru-W1,XpressBees,East,Sports,Thursday,Winter,2025-05-28,1,2025-05-29,Delayed,3.1,1157.2,1
+O00138,2026-07-16,Bengaluru-W1,DTDC,South,Sports,Wednesday,Summer,2026-07-19,2,2026-07-21,Delayed,10.0,666.8,1
+O00139,2026-03-06,Delhi-W1,DTDC,East,Fashion,Sunday,Summer,2026-03-11,0,2026-03-11,On Time,8.9,1617.5,1
+O00140,2026-03-08,Mumbai-W1,Delhivery,East,Fashion,Wednesday,Winter,2026-03-15,1,2026-03-16,Delayed,4.8,1350.8,1
+O00141,2026-06-29,Bengaluru-W1,DTDC,West,Sports,Friday,Monsoon,2026-07-05,0,2026-07-05,On Time,6.5,414.1,1
+O00142,2026-05-12,Bengaluru-W1,BlueDart,West,Fashion,Wednesday,Monsoon,2026-05-17,2,2026-05-19,Delayed,21.5,1160.5,2
+O00143,2025-03-30,Bengaluru-W1,XpressBees,West,Sports,Tuesday,Summer,2025-04-05,2,2025-04-07,Delayed,11.8,1660.7,3
+O00144,2026-02-15,Kolkata-W1,EcomExpress,Local,Beauty,Tuesday,Winter,2026-02-21,2,2026-02-23,Delayed,6.8,896.1,1
+O00145,2025-08-29,Bengaluru-W1,XpressBees,South,Home,Tuesday,Winter,2025-09-02,4,2025-09-06,Delayed,4.8,1321.8,1
+O00146,2025-08-11,Bengaluru-W1,BlueDart,Regional,Fashion,Thursday,Spring,2025-08-13,2,2025-08-15,Delayed,28.5,1748.1,1
+O00147,2026-04-13,Hyderabad-W1,Delhivery,South,Sports,Thursday,Winter,2026-04-18,2,2026-04-20,Delayed,24.2,1244.3,1
+O00148,2026-07-23,Kolkata-W1,BlueDart,West,Fashion,Thursday,Monsoon,2026-07-25,0,2026-07-25,On Time,15.1,188.9,1
+O00149,2025-11-18,Bengaluru-W1,DTDC,Local,Home,Thursday,Spring,2025-11-24,0,2025-11-24,On Time,7.3,444.0,1
+O00150,2026-01-10,Bengaluru-W1,Delhivery,South,Beauty,Thursday,Monsoon,2026-01-14,1,2026-01-15,Delayed,4.6,1073.2,1
+O00151,2025-04-22,Delhi-W1,EcomExpress,South,Electronics,Friday,Festive,2025-04-24,5,2025-04-29,Delayed,4.7,499.6,1
+O00152,2026-06-11,Delhi-W1,EcomExpress,East,Electronics,Wednesday,Summer,2026-06-14,3,2026-06-17,Delayed,7.3,1723.8,2
+O00153,2026-02-16,Kolkata-W1,BlueDart,South,Fashion,Friday,Festive,2026-02-22,5,2026-02-27,Delayed,6.1,732.6,1
+O00154,2025-09-26,Hyderabad-W1,DTDC,East,Sports,Wednesday,Summer,2025-09-29,0,2025-09-29,On Time,8.5,825.7,1
+O00155,2025-09-09,Kolkata-W1,EcomExpress,East,Home,Friday,Monsoon,2025-09-16,2,2025-09-18,Delayed,8.2,1264.4,1
+O00156,2026-01-09,Kolkata-W1,XpressBees,North,Beauty,Tuesday,Monsoon,2026-01-11,2,2026-01-13,Delayed,4.1,946.0,2
+O00157,2026-03-26,Delhi-W1,Delhivery,West,Beauty,Monday,Festive,2026-03-28,3,2026-03-31,Delayed,4.2,691.0,1
+O00158,2026-06-21,Delhi-W1,XpressBees,Local,Beauty,Thursday,Summer,2026-06-23,1,2026-06-24,Delayed,6.9,142.6,1
+O00159,2026-01-03,Hyderabad-W1,EcomExpress,East,Electronics,Monday,Summer,2026-01-10,3,2026-01-13,Delayed,8.0,1075.6,1
+O00160,2025-09-12,Bengaluru-W1,EcomExpress,South,Home,Monday,Spring,2025-09-17,2,2025-09-19,Delayed,20.4,1562.3,1
+O00161,2026-04-08,Hyderabad-W1,BlueDart,East,Electronics,Tuesday,Winter,2026-04-14,1,2026-04-15,Delayed,10.4,1235.9,2
+O00162,2025-09-25,Bengaluru-W1,BlueDart,East,Fashion,Monday,Spring,2025-10-01,1,2025-10-02,Delayed,10.1,689.8,2
+O00163,2025-05-06,Mumbai-W1,Delhivery,East,Beauty,Monday,Monsoon,2025-05-12,0,2025-05-12,On Time,10.6,234.3,1
+O00164,2026-01-28,Delhi-W1,BlueDart,Regional,Home,Tuesday,Festive,2026-02-02,4,2026-02-06,Delayed,17.5,1470.3,1
+O00165,2025-11-30,Mumbai-W1,DTDC,Regional,Beauty,Wednesday,Summer,2025-12-02,2,2025-12-04,Delayed,58.8,1695.4,3
+O00166,2026-07-19,Mumbai-W1,Delhivery,Regional,Electronics,Friday,Spring,2026-07-21,3,2026-07-24,Delayed,5.7,702.0,3
+O00167,2026-01-03,Delhi-W1,DTDC,Regional,Electronics,Saturday,Festive,2026-01-10,6,2026-01-16,Delayed,27.2,1312.9,1
+O00168,2026-07-09,Mumbai-W1,BlueDart,North,Electronics,Monday,Festive,2026-07-12,2,2026-07-14,Delayed,2.7,742.3,3
+O00169,2026-07-08,Kolkata-W1,Delhivery,East,Beauty,Thursday,Winter,2026-07-13,2,2026-07-15,Delayed,6.9,906.6,2
+O00170,2026-04-01,Bengaluru-W1,EcomExpress,North,Home,Tuesday,Summer,2026-04-05,2,2026-04-07,Delayed,3.7,1506.5,3
+O00171,2025-03-08,Hyderabad-W1,XpressBees,South,Home,Sunday,Festive,2025-03-13,2,2025-03-15,Delayed,13.2,154.7,1
+O00172,2025-03-07,Delhi-W1,EcomExpress,West,Fashion,Sunday,Summer,2025-03-14,4,2025-03-18,Delayed,15.6,957.0,1
+O00173,2026-08-18,Kolkata-W1,DTDC,Local,Beauty,Monday,Spring,2026-08-21,0,2026-08-21,On Time,3.1,390.2,1
+O00174,2026-02-04,Hyderabad-W1,EcomExpress,North,Fashion,Saturday,Festive,2026-02-07,5,2026-02-12,Delayed,16.9,615.0,1
+O00175,2025-10-14,Hyderabad-W1,EcomExpress,Regional,Fashion,Wednesday,Festive,2025-10-17,8,2025-10-25,Delayed,10.8,1161.7,1
+O00176,2025-07-05,Hyderabad-W1,XpressBees,Regional,Fashion,Wednesday,Spring,2025-07-07,5,2025-07-12,Delayed,14.5,53.9,1
+O00177,2025-10-11,Mumbai-W1,XpressBees,South,Fashion,Saturday,Summer,2025-10-15,3,2025-10-18,Delayed,18.4,1070.9,1
+O00178,2026-05-31,Mumbai-W1,EcomExpress,East,Electronics,Thursday,Summer,2026-06-03,4,2026-06-07,Delayed,13.4,513.8,1
+O00179,2025-08-25,Mumbai-W1,XpressBees,Local,Fashion,Monday,Festive,2025-08-31,2,2025-09-02,Delayed,2.6,1206.7,3
+O00180,2025-01-18,Mumbai-W1,EcomExpress,North,Home,Thursday,Spring,2025-01-20,3,2025-01-23,Delayed,6.4,259.1,1
+O00181,2026-02-18,Kolkata-W1,Delhivery,East,Fashion,Wednesday,Monsoon,2026-02-22,0,2026-02-22,On Time,2.9,1325.8,1
+O00182,2025-01-09,Mumbai-W1,EcomExpress,East,Electronics,Sunday,Summer,2025-01-15,5,2025-01-20,Delayed,1.5,1163.9,1
+O00183,2026-02-24,Delhi-W1,BlueDart,West,Sports,Wednesday,Monsoon,2026-02-28,1,2026-03-01,Delayed,3.6,1748.4,1
+O00184,2025-01-29,Hyderabad-W1,XpressBees,West,Sports,Friday,Festive,2025-02-05,3,2025-02-08,Delayed,6.8,1640.7,1
+O00185,2025-12-14,Kolkata-W1,XpressBees,North,Sports,Wednesday,Monsoon,2025-12-18,2,2025-12-20,Delayed,25.9,513.5,1
+O00186,2026-07-30,Mumbai-W1,DTDC,North,Beauty,Tuesday,Monsoon,2026-08-05,1,2026-08-06,Delayed,8.4,54.0,1
+O00187,2026-03-26,Hyderabad-W1,DTDC,North,Home,Friday,Summer,2026-03-31,2,2026-04-02,Delayed,10.8,1181.4,3
+O00188,2026-01-15,Kolkata-W1,BlueDart,North,Electronics,Thursday,Festive,2026-01-19,2,2026-01-21,Delayed,5.9,1087.2,1
+O00189,2026-01-01,Hyderabad-W1,XpressBees,Regional,Sports,Wednesday,Monsoon,2026-01-06,1,2026-01-07,Delayed,7.4,54.2,1
+O00190,2025-08-15,Kolkata-W1,XpressBees,East,Electronics,Saturday,Summer,2025-08-19,1,2025-08-20,Delayed,9.0,225.2,3
+O00191,2025-04-28,Bengaluru-W1,DTDC,East,Electronics,Tuesday,Monsoon,2025-05-05,0,2025-05-05,On Time,7.1,1054.5,3
+O00192,2026-02-16,Kolkata-W1,DTDC,Regional,Beauty,Friday,Summer,2026-02-22,2,2026-02-24,Delayed,12.3,1641.7,1
+O00193,2025-12-22,Mumbai-W1,EcomExpress,East,Sports,Tuesday,Festive,2025-12-26,4,2025-12-30,Delayed,5.4,1632.2,1
+O00194,2025-09-11,Hyderabad-W1,XpressBees,North,Fashion,Friday,Spring,2025-09-14,1,2025-09-15,Delayed,2.8,276.9,1
+O00195,2026-06-27,Hyderabad-W1,XpressBees,Local,Electronics,Friday,Summer,2026-07-04,2,2026-07-06,Delayed,2.3,695.3,2
+O00196,2026-03-20,Hyderabad-W1,EcomExpress,West,Sports,Friday,Summer,2026-03-23,5,2026-03-28,Delayed,14.9,82.5,2
+O00197,2025-03-22,Delhi-W1,XpressBees,West,Electronics,Saturday,Monsoon,2025-03-29,1,2025-03-30,Delayed,0.8,847.3,1
+O00198,2025-02-15,Delhi-W1,BlueDart,East,Beauty,Thursday,Festive,2025-02-22,5,2025-02-27,Delayed,7.3,1356.8,1
+O00199,2025-02-18,Mumbai-W1,DTDC,Local,Beauty,Friday,Winter,2025-02-22,0,2025-02-22,On Time,3.7,1423.0,1
+O00200,2026-03-25,Bengaluru-W1,DTDC,West,Fashion,Friday,Winter,2026-03-31,2,2026-04-02,Delayed,12.6,900.7,1
+O00201,2026-02-11,Delhi-W1,DTDC,Local,Beauty,Tuesday,Spring,2026-02-17,0,2026-02-17,On Time,8.6,177.1,3
+O00202,2025-10-10,Kolkata-W1,Delhivery,Regional,Sports,Friday,Festive,2025-10-12,5,2025-10-17,Delayed,8.7,689.5,1
+O00203,2026-04-18,Mumbai-W1,BlueDart,South,Beauty,Thursday,Summer,2026-04-24,0,2026-04-24,On Time,9.2,1678.1,3
+O00204,2026-02-20,Bengaluru-W1,BlueDart,East,Fashion,Sunday,Winter,2026-02-25,0,2026-02-25,On Time,9.0,417.2,3
+O00205,2026-08-23,Kolkata-W1,EcomExpress,Regional,Home,Saturday,Spring,2026-08-27,6,2026-09-02,Delayed,2.8,579.0,2
+O00206,2025-05-01,Hyderabad-W1,Delhivery,Regional,Electronics,Saturday,Festive,2025-05-04,5,2025-05-09,Delayed,6.1,1345.6,2
+O00207,2025-01-03,Delhi-W1,XpressBees,Local,Electronics,Tuesday,Spring,2025-01-09,0,2025-01-09,On Time,4.5,1321.8,1
+O00208,2025-11-12,Kolkata-W1,BlueDart,East,Sports,Sunday,Winter,2025-11-15,0,2025-11-15,On Time,5.1,1642.4,1
+O00209,2026-04-05,Bengaluru-W1,Delhivery,Regional,Fashion,Friday,Monsoon,2026-04-07,2,2026-04-09,Delayed,9.1,701.7,1
+O00210,2025-08-15,Mumbai-W1,Delhivery,North,Fashion,Tuesday,Monsoon,2025-08-19,1,2025-08-20,Delayed,14.9,928.7,1
+O00211,2025-03-20,Kolkata-W1,BlueDart,Regional,Fashion,Saturday,Festive,2025-03-26,4,2025-03-30,Delayed,14.6,844.0,1
+O00212,2026-06-28,Mumbai-W1,EcomExpress,North,Electronics,Thursday,Spring,2026-07-01,3,2026-07-04,Delayed,10.1,1670.3,1
+O00213,2025-03-12,Hyderabad-W1,Delhivery,South,Beauty,Tuesday,Summer,2025-03-19,1,2025-03-20,Delayed,6.4,1385.9,1
+O00214,2025-07-16,Bengaluru-W1,DTDC,North,Electronics,Thursday,Winter,2025-07-22,3,2025-07-25,Delayed,8.7,1497.4,1
+O00215,2025-02-27,Bengaluru-W1,Delhivery,North,Electronics,Sunday,Monsoon,2025-03-01,0,2025-03-01,On Time,13.5,243.9,3
+O00216,2026-02-28,Delhi-W1,XpressBees,Local,Electronics,Sunday,Monsoon,2026-03-07,1,2026-03-08,Delayed,5.1,1426.4,1
+O00217,2026-04-14,Bengaluru-W1,BlueDart,Regional,Beauty,Wednesday,Spring,2026-04-17,1,2026-04-18,Delayed,8.4,782.2,3
+O00218,2025-02-17,Kolkata-W1,XpressBees,South,Home,Friday,Monsoon,2025-02-20,5,2025-02-25,Delayed,5.8,46.9,3
+O00219,2026-03-11,Kolkata-W1,EcomExpress,Regional,Sports,Thursday,Spring,2026-03-15,5,2026-03-20,Delayed,5.0,112.9,3
+O00220,2025-07-04,Kolkata-W1,DTDC,North,Home,Friday,Winter,2025-07-08,0,2025-07-08,On Time,8.1,1221.8,1
+O00221,2025-06-14,Hyderabad-W1,BlueDart,West,Home,Sunday,Spring,2025-06-17,1,2025-06-18,Delayed,6.4,672.8,1
+O00222,2025-11-27,Bengaluru-W1,Delhivery,North,Electronics,Thursday,Monsoon,2025-12-04,0,2025-12-04,On Time,10.3,1563.3,1
+O00223,2025-11-26,Bengaluru-W1,DTDC,Regional,Home,Monday,Spring,2025-11-30,2,2025-12-02,Delayed,6.4,1323.0,1
+O00224,2025-05-01,Kolkata-W1,Delhivery,South,Electronics,Sunday,Monsoon,2025-05-04,5,2025-05-09,Delayed,7.6,43.9,1
+O00225,2025-08-01,Delhi-W1,EcomExpress,West,Electronics,Monday,Festive,2025-08-08,6,2025-08-14,Delayed,2.7,1238.0,1
+O00226,2026-05-22,Delhi-W1,BlueDart,South,Sports,Monday,Monsoon,2026-05-27,0,2026-05-27,On Time,13.8,350.3,2
+O00227,2026-07-07,Bengaluru-W1,EcomExpress,Local,Fashion,Sunday,Monsoon,2026-07-13,4,2026-07-17,Delayed,14.0,763.5,2
+O00228,2025-06-17,Bengaluru-W1,EcomExpress,North,Electronics,Thursday,Monsoon,2025-06-22,3,2025-06-25,Delayed,4.4,1126.4,1
+O00229,2026-06-30,Mumbai-W1,EcomExpress,North,Home,Saturday,Festive,2026-07-05,4,2026-07-09,Delayed,4.8,1571.5,1
+O00230,2026-03-03,Bengaluru-W1,EcomExpress,Local,Sports,Saturday,Summer,2026-03-09,3,2026-03-12,Delayed,9.4,823.7,3
+O00231,2025-08-09,Kolkata-W1,Delhivery,Regional,Home,Friday,Monsoon,2025-08-12,3,2025-08-15,Delayed,6.0,1456.2,1
+O00232,2025-01-10,Hyderabad-W1,XpressBees,North,Fashion,Monday,Summer,2025-01-13,1,2025-01-14,Delayed,10.1,1410.4,1
+O00233,2025-04-30,Bengaluru-W1,Delhivery,Regional,Beauty,Friday,Winter,2025-05-04,5,2025-05-09,Delayed,19.3,749.1,1
+O00234,2025-09-04,Bengaluru-W1,DTDC,South,Fashion,Thursday,Spring,2025-09-06,2,2025-09-08,Delayed,4.6,904.3,2
+O00235,2025-12-26,Kolkata-W1,EcomExpress,West,Sports,Friday,Summer,2025-12-29,2,2025-12-31,Delayed,14.5,1262.4,3
+O00236,2025-08-09,Mumbai-W1,DTDC,West,Fashion,Friday,Winter,2025-08-15,0,2025-08-15,On Time,4.0,60.9,1
+O00237,2026-05-21,Bengaluru-W1,Delhivery,West,Fashion,Monday,Spring,2026-05-23,1,2026-05-24,Delayed,5.1,1604.0,1
+O00238,2025-02-27,Delhi-W1,EcomExpress,East,Sports,Sunday,Monsoon,2025-03-05,2,2025-03-07,Delayed,9.5,1386.8,1
+O00239,2026-04-05,Delhi-W1,Delhivery,Local,Sports,Saturday,Monsoon,2026-04-11,2,2026-04-13,Delayed,12.3,452.7,3
+O00240,2025-05-08,Delhi-W1,EcomExpress,West,Home,Tuesday,Monsoon,2025-05-14,3,2025-05-17,Delayed,19.0,1766.2,1
+O00241,2025-03-27,Hyderabad-W1,Delhivery,North,Electronics,Wednesday,Festive,2025-03-29,3,2025-04-01,Delayed,23.0,327.0,1
+O00242,2025-04-14,Hyderabad-W1,BlueDart,Local,Beauty,Thursday,Festive,2025-04-19,4,2025-04-23,Delayed,6.9,1645.8,1
+O00243,2025-05-23,Bengaluru-W1,XpressBees,South,Beauty,Thursday,Festive,2025-05-30,2,2025-06-01,Delayed,8.4,587.4,1
+O00244,2025-07-24,Bengaluru-W1,XpressBees,South,Beauty,Thursday,Festive,2025-07-30,4,2025-08-03,Delayed,10.4,1374.8,1
+O00245,2025-02-07,Bengaluru-W1,EcomExpress,South,Fashion,Wednesday,Winter,2025-02-11,2,2025-02-13,Delayed,8.1,824.2,1
+O00246,2025-12-29,Hyderabad-W1,BlueDart,South,Sports,Tuesday,Winter,2026-01-01,2,2026-01-03,Delayed,6.8,1327.0,2
+O00247,2025-11-05,Bengaluru-W1,DTDC,East,Sports,Saturday,Monsoon,2025-11-12,3,2025-11-15,Delayed,5.7,284.6,3
+O00248,2025-02-21,Kolkata-W1,BlueDart,Regional,Sports,Friday,Spring,2025-02-24,2,2025-02-26,Delayed,12.4,488.8,1
+O00249,2025-01-01,Mumbai-W1,EcomExpress,Regional,Electronics,Saturday,Festive,2025-01-04,7,2025-01-11,Delayed,19.0,184.2,1
+O00250,2025-01-11,Delhi-W1,BlueDart,West,Sports,Thursday,Spring,2025-01-13,1,2025-01-14,Delayed,2.5,1557.9,1
+O00251,2025-08-02,Delhi-W1,DTDC,East,Sports,Friday,Winter,2025-08-06,1,2025-08-07,Delayed,7.2,536.8,1
+O00252,2026-07-10,Kolkata-W1,EcomExpress,Regional,Fashion,Monday,Festive,2026-07-14,6,2026-07-20,Delayed,2.5,1251.6,1
+O00253,2026-06-02,Bengaluru-W1,XpressBees,South,Home,Saturday,Winter,2026-06-09,3,2026-06-12,Delayed,11.9,1477.3,1
+O00254,2026-02-19,Hyderabad-W1,BlueDart,Regional,Beauty,Monday,Winter,2026-02-23,2,2026-02-25,Delayed,5.0,1623.0,3
+O00255,2025-01-08,Bengaluru-W1,XpressBees,Local,Fashion,Monday,Summer,2025-01-12,3,2025-01-15,Delayed,17.5,195.8,3
+O00256,2025-01-05,Bengaluru-W1,XpressBees,West,Fashion,Sunday,Winter,2025-01-09,0,2025-01-09,On Time,7.6,1608.0,1
+O00257,2025-12-28,Delhi-W1,Delhivery,Regional,Fashion,Saturday,Monsoon,2026-01-04,2,2026-01-06,Delayed,12.0,359.1,1
+O00258,2025-04-22,Delhi-W1,DTDC,Local,Beauty,Thursday,Winter,2025-04-27,4,2025-05-01,Delayed,4.5,1327.7,1
+O00259,2025-09-30,Hyderabad-W1,BlueDart,North,Fashion,Wednesday,Festive,2025-10-04,3,2025-10-07,Delayed,9.2,1313.3,1
+O00260,2026-02-26,Delhi-W1,XpressBees,Local,Home,Thursday,Monsoon,2026-03-02,2,2026-03-04,Delayed,9.1,20.3,1
+O00261,2025-09-22,Bengaluru-W1,XpressBees,Local,Sports,Monday,Winter,2025-09-24,1,2025-09-25,Delayed,10.9,401.0,1
+O00262,2026-04-03,Kolkata-W1,DTDC,South,Home,Monday,Monsoon,2026-04-05,1,2026-04-06,Delayed,5.4,888.0,2
+O00263,2025-07-31,Hyderabad-W1,XpressBees,South,Sports,Thursday,Winter,2025-08-04,2,2025-08-06,Delayed,16.5,759.0,1
+O00264,2025-03-19,Kolkata-W1,XpressBees,West,Sports,Wednesday,Monsoon,2025-03-24,1,2025-03-25,Delayed,10.5,1653.8,1
+O00265,2025-08-09,Bengaluru-W1,XpressBees,South,Fashion,Wednesday,Spring,2025-08-13,0,2025-08-13,On Time,18.5,650.7,1
+O00266,2026-01-04,Hyderabad-W1,XpressBees,Local,Fashion,Sunday,Summer,2026-01-08,1,2026-01-09,Delayed,2.8,1686.9,1
+O00267,2025-12-13,Kolkata-W1,Delhivery,East,Beauty,Friday,Monsoon,2025-12-17,0,2025-12-17,On Time,9.3,829.7,1
+O00268,2025-01-25,Hyderabad-W1,Delhivery,South,Electronics,Tuesday,Festive,2025-01-31,3,2025-02-03,Delayed,7.4,1736.0,1
+O00269,2026-02-24,Bengaluru-W1,EcomExpress,South,Home,Monday,Summer,2026-03-01,5,2026-03-06,Delayed,23.3,1328.6,3
+O00270,2025-12-20,Hyderabad-W1,BlueDart,Local,Beauty,Wednesday,Summer,2025-12-23,1,2025-12-24,Delayed,12.5,1493.7,1
+O00271,2026-02-21,Bengaluru-W1,DTDC,North,Beauty,Saturday,Winter,2026-02-25,2,2026-02-27,Delayed,8.2,193.3,2
+O00272,2026-05-30,Hyderabad-W1,EcomExpress,North,Home,Sunday,Monsoon,2026-06-02,2,2026-06-04,Delayed,12.1,1057.1,1
+O00273,2025-08-03,Hyderabad-W1,Delhivery,Regional,Home,Monday,Summer,2025-08-08,2,2025-08-10,Delayed,6.2,261.1,2
+O00274,2025-04-22,Delhi-W1,Delhivery,West,Sports,Tuesday,Festive,2025-04-26,4,2025-04-30,Delayed,11.1,539.2,1
+O00275,2026-07-13,Bengaluru-W1,Delhivery,North,Electronics,Saturday,Festive,2026-07-16,2,2026-07-18,Delayed,31.2,1124.3,1
+O00276,2026-03-04,Mumbai-W1,EcomExpress,South,Fashion,Monday,Festive,2026-03-11,5,2026-03-16,Delayed,5.7,1308.6,2
+O00277,2026-07-16,Hyderabad-W1,Delhivery,East,Electronics,Sunday,Winter,2026-07-19,2,2026-07-21,Delayed,9.2,75.3,1
+O00278,2025-08-04,Kolkata-W1,EcomExpress,Regional,Electronics,Sunday,Spring,2025-08-09,4,2025-08-13,Delayed,4.8,958.0,1
+O00279,2026-02-17,Delhi-W1,Delhivery,West,Fashion,Wednesday,Monsoon,2026-02-21,2,2026-02-23,Delayed,4.2,1019.7,3
+O00280,2026-01-15,Delhi-W1,XpressBees,East,Electronics,Friday,Summer,2026-01-21,0,2026-01-21,On Time,14.6,146.5,2
+O00281,2026-08-25,Hyderabad-W1,XpressBees,East,Beauty,Thursday,Monsoon,2026-08-30,3,2026-09-02,Delayed,3.5,903.7,1
+O00282,2025-08-20,Mumbai-W1,BlueDart,South,Beauty,Sunday,Summer,2025-08-26,2,2025-08-28,Delayed,11.0,1286.3,3
+O00283,2025-09-15,Delhi-W1,Delhivery,Local,Fashion,Saturday,Winter,2025-09-19,0,2025-09-19,On Time,14.1,100.5,1
+O00284,2025-09-13,Bengaluru-W1,BlueDart,Local,Fashion,Thursday,Monsoon,2025-09-16,1,2025-09-17,Delayed,6.4,1369.7,1
+O00285,2026-02-07,Hyderabad-W1,EcomExpress,Local,Home,Wednesday,Winter,2026-02-14,3,2026-02-17,Delayed,18.1,1039.7,2
+O00286,2026-02-28,Hyderabad-W1,BlueDart,North,Home,Wednesday,Winter,2026-03-07,1,2026-03-08,Delayed,17.1,1500.6,1
+O00287,2025-03-06,Mumbai-W1,Delhivery,Local,Electronics,Saturday,Monsoon,2025-03-11,0,2025-03-11,On Time,6.4,396.4,3
+O00288,2025-07-09,Bengaluru-W1,EcomExpress,West,Electronics,Tuesday,Monsoon,2025-07-14,5,2025-07-19,Delayed,3.1,1500.7,3
+O00289,2026-08-26,Bengaluru-W1,EcomExpress,South,Fashion,Sunday,Summer,2026-08-31,3,2026-09-03,Delayed,11.6,174.7,1
+O00290,2025-06-22,Mumbai-W1,XpressBees,North,Electronics,Saturday,Festive,2025-06-24,2,2025-06-26,Delayed,8.1,729.9,1
+O00291,2026-07-15,Kolkata-W1,EcomExpress,West,Sports,Monday,Winter,2026-07-22,2,2026-07-24,Delayed,9.5,363.1,2
+O00292,2025-08-15,Bengaluru-W1,EcomExpress,Local,Beauty,Tuesday,Spring,2025-08-22,3,2025-08-25,Delayed,11.5,1577.5,2
+O00293,2026-08-04,Kolkata-W1,BlueDart,West,Electronics,Thursday,Summer,2026-08-08,0,2026-08-08,On Time,2.7,1270.3,1
+O00294,2026-01-23,Kolkata-W1,EcomExpress,East,Electronics,Monday,Summer,2026-01-25,6,2026-01-31,Delayed,6.1,50.5,3
+O00295,2026-02-05,Hyderabad-W1,DTDC,South,Home,Tuesday,Festive,2026-02-10,3,2026-02-13,Delayed,21.8,22.1,1
+O00296,2025-08-01,Hyderabad-W1,XpressBees,South,Sports,Thursday,Festive,2025-08-06,6,2025-08-12,Delayed,9.7,527.8,3
+O00297,2025-02-22,Delhi-W1,XpressBees,West,Electronics,Monday,Winter,2025-02-28,1,2025-03-01,Delayed,12.0,262.2,1
+O00298,2025-05-19,Hyderabad-W1,EcomExpress,Regional,Beauty,Friday,Summer,2025-05-21,4,2025-05-25,Delayed,9.2,1136.4,1
+O00299,2026-02-22,Bengaluru-W1,BlueDart,South,Electronics,Sunday,Summer,2026-02-25,1,2026-02-26,Delayed,11.8,1196.5,1
+O00300,2025-05-23,Bengaluru-W1,XpressBees,East,Fashion,Saturday,Spring,2025-05-30,0,2025-05-30,On Time,16.9,1695.8,3
+O00301,2026-05-24,Kolkata-W1,XpressBees,South,Sports,Saturday,Winter,2026-05-28,1,2026-05-29,Delayed,1.6,1713.9,3
+O00302,2026-05-01,Bengaluru-W1,DTDC,Regional,Electronics,Saturday,Winter,2026-05-04,2,2026-05-06,Delayed,13.5,1187.7,3
+O00303,2026-03-13,Hyderabad-W1,EcomExpress,South,Sports,Friday,Festive,2026-03-16,7,2026-03-23,Delayed,8.1,15.2,1
+O00304,2026-06-27,Hyderabad-W1,XpressBees,South,Electronics,Sunday,Winter,2026-07-01,0,2026-07-01,On Time,15.0,649.4,3
+O00305,2025-10-20,Hyderabad-W1,XpressBees,Regional,Beauty,Tuesday,Spring,2025-10-25,2,2025-10-27,Delayed,6.6,926.1,1
+O00306,2025-10-11,Mumbai-W1,XpressBees,South,Beauty,Sunday,Winter,2025-10-18,1,2025-10-19,Delayed,6.4,901.0,1
+O00307,2025-01-14,Bengaluru-W1,XpressBees,West,Sports,Wednesday,Monsoon,2025-01-20,1,2025-01-21,Delayed,3.4,1088.0,1
+O00308,2025-09-29,Delhi-W1,BlueDart,North,Home,Monday,Monsoon,2025-10-04,0,2025-10-04,On Time,8.3,1729.2,2
+O00309,2025-01-25,Bengaluru-W1,Delhivery,West,Home,Tuesday,Spring,2025-01-30,0,2025-01-30,On Time,3.2,1593.9,1
+O00310,2025-11-18,Bengaluru-W1,DTDC,South,Fashion,Wednesday,Festive,2025-11-20,3,2025-11-23,Delayed,7.8,200.5,1
+O00311,2025-04-13,Mumbai-W1,BlueDart,Local,Home,Saturday,Summer,2025-04-16,1,2025-04-17,Delayed,9.5,482.4,1
+O00312,2025-02-09,Bengaluru-W1,DTDC,Local,Sports,Saturday,Winter,2025-02-12,0,2025-02-12,On Time,5.1,1500.4,3
+O00313,2025-08-23,Kolkata-W1,XpressBees,North,Home,Saturday,Festive,2025-08-30,3,2025-09-02,Delayed,2.4,1484.6,3
+O00314,2025-03-30,Hyderabad-W1,DTDC,South,Fashion,Wednesday,Festive,2025-04-02,4,2025-04-06,Delayed,1.9,499.3,1
+O00315,2025-04-10,Hyderabad-W1,EcomExpress,East,Electronics,Monday,Winter,2025-04-16,4,2025-04-20,Delayed,4.1,1316.4,3
+O00316,2025-05-24,Mumbai-W1,EcomExpress,South,Home,Monday,Summer,2025-05-30,2,2025-06-01,Delayed,1.8,1211.3,1
+O00317,2025-03-23,Hyderabad-W1,Delhivery,Local,Sports,Wednesday,Winter,2025-03-29,1,2025-03-30,Delayed,9.3,855.0,2
+O00318,2026-08-12,Kolkata-W1,Delhivery,Regional,Sports,Thursday,Summer,2026-08-16,3,2026-08-19,Delayed,31.8,366.6,2
+O00319,2026-07-25,Mumbai-W1,DTDC,North,Fashion,Saturday,Spring,2026-08-01,2,2026-08-03,Delayed,3.4,1600.1,1
+O00320,2025-08-17,Delhi-W1,BlueDart,Regional,Fashion,Tuesday,Summer,2025-08-23,3,2025-08-26,Delayed,36.4,1221.7,1
+O00321,2026-08-26,Hyderabad-W1,BlueDart,East,Beauty,Monday,Festive,2026-08-28,6,2026-09-03,Delayed,9.1,308.3,1
+O00322,2026-01-30,Bengaluru-W1,XpressBees,South,Beauty,Sunday,Spring,2026-02-01,2,2026-02-03,Delayed,10.4,1270.1,3
+O00323,2026-05-28,Kolkata-W1,BlueDart,East,Beauty,Wednesday,Monsoon,2026-06-02,1,2026-06-03,Delayed,2.5,1335.9,1
+O00324,2025-07-16,Kolkata-W1,Delhivery,Regional,Electronics,Thursday,Spring,2025-07-21,2,2025-07-23,Delayed,9.6,1597.0,2
+O00325,2025-10-01,Hyderabad-W1,BlueDart,South,Sports,Friday,Summer,2025-10-08,0,2025-10-08,On Time,5.9,405.0,1
+O00326,2026-08-13,Delhi-W1,XpressBees,West,Beauty,Wednesday,Spring,2026-08-18,1,2026-08-19,Delayed,21.0,1779.8,2
+O00327,2026-08-06,Bengaluru-W1,EcomExpress,West,Sports,Sunday,Spring,2026-08-11,3,2026-08-14,Delayed,1.9,280.3,1
+O00328,2026-07-16,Delhi-W1,BlueDart,East,Fashion,Thursday,Monsoon,2026-07-18,0,2026-07-18,On Time,5.9,1083.2,3
+O00329,2026-01-07,Delhi-W1,BlueDart,West,Electronics,Friday,Summer,2026-01-12,1,2026-01-13,Delayed,4.6,1184.6,3
+O00330,2025-03-21,Hyderabad-W1,Delhivery,West,Fashion,Thursday,Festive,2025-03-23,2,2025-03-25,Delayed,10.7,757.0,1
+O00331,2025-08-23,Bengaluru-W1,DTDC,Local,Sports,Monday,Spring,2025-08-29,2,2025-08-31,Delayed,1.1,857.7,1
+O00332,2025-10-14,Hyderabad-W1,EcomExpress,West,Beauty,Wednesday,Winter,2025-10-20,4,2025-10-24,Delayed,20.6,1604.2,1
+O00333,2026-07-26,Hyderabad-W1,DTDC,Local,Fashion,Sunday,Festive,2026-08-02,2,2026-08-04,Delayed,10.4,1163.3,1
+O00334,2026-06-29,Kolkata-W1,XpressBees,North,Home,Friday,Spring,2026-07-03,1,2026-07-04,Delayed,9.9,897.1,1
+O00335,2026-03-13,Hyderabad-W1,XpressBees,Local,Electronics,Thursday,Festive,2026-03-18,4,2026-03-22,Delayed,3.5,235.4,1
+O00336,2025-05-07,Mumbai-W1,DTDC,Local,Sports,Friday,Winter,2025-05-13,1,2025-05-14,Delayed,14.0,18.2,1
+O00337,2026-02-21,Bengaluru-W1,Delhivery,Regional,Beauty,Tuesday,Festive,2026-02-27,3,2026-03-02,Delayed,13.1,229.3,3
+O00338,2025-02-10,Kolkata-W1,Delhivery,Local,Fashion,Sunday,Festive,2025-02-17,4,2025-02-21,Delayed,17.9,1721.4,1
+O00339,2026-04-14,Bengaluru-W1,Delhivery,Local,Electronics,Wednesday,Winter,2026-04-17,1,2026-04-18,Delayed,6.9,1376.5,1
+O00340,2025-10-24,Kolkata-W1,EcomExpress,Regional,Beauty,Monday,Winter,2025-10-27,3,2025-10-30,Delayed,2.4,1741.0,1
+O00341,2026-08-20,Mumbai-W1,XpressBees,Local,Fashion,Friday,Winter,2026-08-27,2,2026-08-29,Delayed,5.3,69.1,2
+O00342,2026-08-24,Hyderabad-W1,XpressBees,West,Sports,Saturday,Monsoon,2026-08-26,0,2026-08-26,On Time,15.3,1226.0,1
+O00343,2025-02-11,Kolkata-W1,XpressBees,Local,Home,Thursday,Winter,2025-02-15,1,2025-02-16,Delayed,6.0,84.5,1
+O00344,2025-10-06,Kolkata-W1,EcomExpress,North,Home,Saturday,Festive,2025-10-13,6,2025-10-19,Delayed,26.3,1408.8,1
+O00345,2026-04-04,Kolkata-W1,XpressBees,Local,Sports,Friday,Winter,2026-04-07,8,2026-04-15,Delayed,14.2,688.8,1
+O00346,2025-02-02,Mumbai-W1,DTDC,Local,Electronics,Sunday,Spring,2025-02-06,0,2025-02-06,On Time,24.1,176.9,3
+O00347,2025-10-03,Bengaluru-W1,BlueDart,North,Sports,Saturday,Winter,2025-10-09,3,2025-10-12,Delayed,6.2,1024.6,3
+O00348,2025-03-31,Mumbai-W1,EcomExpress,Regional,Fashion,Thursday,Winter,2025-04-07,4,2025-04-11,Delayed,11.3,507.8,1
+O00349,2026-06-08,Kolkata-W1,BlueDart,West,Electronics,Friday,Summer,2026-06-10,1,2026-06-11,Delayed,4.1,1188.9,3
+O00350,2025-06-09,Kolkata-W1,DTDC,Local,Home,Monday,Festive,2025-06-13,4,2025-06-17,Delayed,14.6,1186.4,3
+O00351,2026-04-03,Hyderabad-W1,Delhivery,West,Fashion,Monday,Festive,2026-04-06,3,2026-04-09,Delayed,11.8,1270.5,1
+O00352,2026-02-03,Mumbai-W1,Delhivery,East,Beauty,Wednesday,Spring,2026-02-09,0,2026-02-09,On Time,13.7,1786.5,3
+O00353,2025-04-01,Mumbai-W1,Delhivery,West,Beauty,Monday,Monsoon,2025-04-08,1,2025-04-09,Delayed,6.6,699.1,3
+O00354,2026-08-04,Delhi-W1,EcomExpress,Regional,Beauty,Friday,Summer,2026-08-09,3,2026-08-12,Delayed,9.4,840.2,1
+O00355,2026-04-11,Bengaluru-W1,Delhivery,Regional,Home,Sunday,Spring,2026-04-17,4,2026-04-21,Delayed,9.0,1449.3,3
+O00356,2025-08-08,Delhi-W1,EcomExpress,Local,Sports,Friday,Spring,2025-08-11,6,2025-08-17,Delayed,6.6,1043.2,1
+O00357,2026-02-23,Delhi-W1,EcomExpress,North,Electronics,Monday,Festive,2026-03-02,6,2026-03-08,Delayed,9.7,71.9,3
+O00358,2026-01-14,Bengaluru-W1,BlueDart,Regional,Home,Tuesday,Summer,2026-01-17,1,2026-01-18,Delayed,10.9,1518.3,1
+O00359,2026-03-23,Hyderabad-W1,Delhivery,North,Fashion,Friday,Festive,2026-03-28,2,2026-03-30,Delayed,12.2,97.4,3
+O00360,2025-05-26,Hyderabad-W1,XpressBees,East,Fashion,Wednesday,Monsoon,2025-06-01,0,2025-06-01,On Time,6.5,311.6,1
+O00361,2025-08-21,Bengaluru-W1,Delhivery,North,Beauty,Tuesday,Festive,2025-08-25,2,2025-08-27,Delayed,14.2,188.2,3
+O00362,2026-01-06,Bengaluru-W1,Delhivery,South,Electronics,Monday,Winter,2026-01-10,1,2026-01-11,Delayed,13.6,144.9,1
+O00363,2025-08-22,Mumbai-W1,Delhivery,North,Beauty,Sunday,Festive,2025-08-28,4,2025-09-01,Delayed,12.3,51.1,3
+O00364,2026-01-02,Mumbai-W1,XpressBees,Regional,Fashion,Thursday,Winter,2026-01-06,2,2026-01-08,Delayed,14.8,103.8,1
+O00365,2026-04-26,Mumbai-W1,XpressBees,North,Fashion,Friday,Spring,2026-05-03,2,2026-05-05,Delayed,7.6,799.2,1
+O00366,2026-07-27,Mumbai-W1,EcomExpress,North,Sports,Thursday,Monsoon,2026-08-02,4,2026-08-06,Delayed,3.7,458.9,1
+O00367,2025-12-29,Kolkata-W1,XpressBees,South,Sports,Saturday,Winter,2026-01-04,2,2026-01-06,Delayed,13.6,232.1,1
+O00368,2026-08-13,Kolkata-W1,EcomExpress,South,Sports,Wednesday,Monsoon,2026-08-16,3,2026-08-19,Delayed,5.8,1187.4,1
+O00369,2026-05-26,Hyderabad-W1,BlueDart,Local,Beauty,Tuesday,Festive,2026-05-28,3,2026-05-31,Delayed,2.5,410.9,1
+O00370,2025-04-05,Kolkata-W1,EcomExpress,Regional,Electronics,Thursday,Festive,2025-04-08,7,2025-04-15,Delayed,5.9,39.0,1
+O00371,2025-08-04,Kolkata-W1,Delhivery,Local,Sports,Wednesday,Spring,2025-08-08,1,2025-08-09,Delayed,9.6,756.1,3
+O00372,2026-06-27,Mumbai-W1,DTDC,South,Home,Thursday,Festive,2026-06-29,3,2026-07-02,Delayed,19.6,562.2,1
+O00373,2025-05-15,Mumbai-W1,DTDC,North,Sports,Thursday,Winter,2025-05-21,3,2025-05-24,Delayed,10.9,576.9,1
+O00374,2025-03-24,Bengaluru-W1,Delhivery,South,Beauty,Wednesday,Spring,2025-03-28,1,2025-03-29,Delayed,14.8,804.3,2
+O00375,2026-01-26,Mumbai-W1,EcomExpress,East,Electronics,Friday,Monsoon,2026-01-31,4,2026-02-04,Delayed,13.4,1205.7,3
+O00376,2025-02-16,Bengaluru-W1,Delhivery,North,Sports,Thursday,Spring,2025-02-20,2,2025-02-22,Delayed,10.6,1111.6,1
+O00377,2026-01-27,Bengaluru-W1,XpressBees,Local,Electronics,Wednesday,Monsoon,2026-01-29,2,2026-01-31,Delayed,7.2,1687.4,1
+O00378,2026-01-20,Kolkata-W1,EcomExpress,North,Home,Thursday,Summer,2026-01-22,5,2026-01-27,Delayed,4.1,934.3,1
+O00379,2026-01-16,Mumbai-W1,Delhivery,East,Fashion,Sunday,Winter,2026-01-22,0,2026-01-22,On Time,28.3,853.3,1
+O00380,2025-03-18,Kolkata-W1,XpressBees,South,Electronics,Friday,Winter,2025-03-25,1,2025-03-26,Delayed,6.0,388.1,1
+O00381,2025-09-16,Mumbai-W1,XpressBees,Regional,Sports,Sunday,Monsoon,2025-09-21,3,2025-09-24,Delayed,7.1,1360.9,1
+O00382,2026-08-27,Kolkata-W1,EcomExpress,West,Beauty,Sunday,Festive,2026-09-02,6,2026-09-08,Delayed,8.0,257.7,3
+O00383,2026-02-03,Kolkata-W1,BlueDart,Regional,Beauty,Wednesday,Festive,2026-02-08,4,2026-02-12,Delayed,5.9,886.6,1
+O00384,2025-04-10,Kolkata-W1,BlueDart,Regional,Beauty,Sunday,Summer,2025-04-15,4,2025-04-19,Delayed,12.0,761.3,1
+O00385,2026-05-16,Hyderabad-W1,XpressBees,South,Beauty,Thursday,Monsoon,2026-05-22,1,2026-05-23,Delayed,5.9,1186.7,2
+O00386,2026-01-18,Kolkata-W1,BlueDart,Regional,Electronics,Monday,Summer,2026-01-22,4,2026-01-26,Delayed,7.0,1652.1,1
+O00387,2025-07-11,Delhi-W1,XpressBees,East,Beauty,Friday,Monsoon,2025-07-14,2,2025-07-16,Delayed,5.6,1704.1,1
+O00388,2026-08-03,Delhi-W1,BlueDart,South,Fashion,Thursday,Summer,2026-08-08,3,2026-08-11,Delayed,6.9,306.2,1
+O00389,2026-08-25,Delhi-W1,XpressBees,Regional,Home,Tuesday,Monsoon,2026-08-27,2,2026-08-29,Delayed,3.6,475.0,1
+O00390,2025-12-11,Bengaluru-W1,XpressBees,West,Electronics,Wednesday,Winter,2025-12-17,1,2025-12-18,Delayed,2.9,1461.9,1
+O00391,2025-01-10,Kolkata-W1,XpressBees,Local,Electronics,Thursday,Summer,2025-01-17,0,2025-01-17,On Time,22.2,935.3,1
+O00392,2025-09-21,Delhi-W1,XpressBees,South,Beauty,Friday,Summer,2025-09-25,1,2025-09-26,Delayed,14.8,818.2,1
+O00393,2025-09-25,Bengaluru-W1,DTDC,South,Beauty,Sunday,Monsoon,2025-09-30,1,2025-10-01,Delayed,20.1,1280.6,3
+O00394,2026-07-25,Delhi-W1,BlueDart,North,Electronics,Friday,Spring,2026-08-01,1,2026-08-02,Delayed,21.2,1085.5,1
+O00395,2025-07-14,Mumbai-W1,XpressBees,Regional,Beauty,Tuesday,Spring,2025-07-18,3,2025-07-21,Delayed,4.5,1747.4,3
+O00396,2026-07-16,Hyderabad-W1,Delhivery,Local,Beauty,Sunday,Winter,2026-07-22,3,2026-07-25,Delayed,19.6,1053.2,1
+O00397,2026-02-11,Kolkata-W1,EcomExpress,West,Beauty,Tuesday,Festive,2026-02-18,8,2026-02-26,Delayed,16.5,841.4,1
+O00398,2025-10-23,Hyderabad-W1,Delhivery,East,Beauty,Saturday,Festive,2025-10-25,3,2025-10-28,Delayed,6.9,979.4,3
+O00399,2025-04-07,Hyderabad-W1,Delhivery,South,Beauty,Saturday,Winter,2025-04-12,1,2025-04-13,Delayed,10.9,1456.3,1
+O00400,2026-04-07,Mumbai-W1,DTDC,East,Sports,Thursday,Festive,2026-04-12,2,2026-04-14,Delayed,14.5,1104.8,1
+O00401,2025-03-28,Mumbai-W1,BlueDart,East,Sports,Monday,Monsoon,2025-04-04,0,2025-04-04,On Time,12.6,1166.5,2
+O00402,2025-03-18,Mumbai-W1,DTDC,East,Sports,Sunday,Spring,2025-03-22,0,2025-03-22,On Time,8.0,1748.7,3
+O00403,2026-04-28,Bengaluru-W1,BlueDart,North,Electronics,Friday,Winter,2026-05-04,1,2026-05-05,Delayed,9.7,1115.0,3
+O00404,2025-05-26,Delhi-W1,XpressBees,East,Home,Monday,Monsoon,2025-05-29,0,2025-05-29,On Time,11.7,687.6,1
+O00405,2025-04-21,Kolkata-W1,DTDC,Regional,Electronics,Sunday,Winter,2025-04-26,2,2025-04-28,Delayed,6.7,1245.9,1
+O00406,2025-10-24,Mumbai-W1,EcomExpress,Regional,Sports,Sunday,Spring,2025-10-26,4,2025-10-30,Delayed,12.5,1188.7,3
+O00407,2026-03-02,Kolkata-W1,BlueDart,Local,Electronics,Sunday,Festive,2026-03-07,2,2026-03-09,Delayed,5.3,29.9,2
+O00408,2025-11-30,Kolkata-W1,DTDC,Local,Home,Sunday,Monsoon,2025-12-05,0,2025-12-05,On Time,20.0,843.9,1
+O00409,2026-06-07,Kolkata-W1,EcomExpress,West,Beauty,Monday,Spring,2026-06-10,4,2026-06-14,Delayed,16.0,1338.5,3
+O00410,2026-08-06,Mumbai-W1,Delhivery,East,Fashion,Thursday,Winter,2026-08-09,1,2026-08-10,Delayed,14.7,900.8,3
+O00411,2026-06-22,Mumbai-W1,XpressBees,East,Sports,Wednesday,Summer,2026-06-28,2,2026-06-30,Delayed,11.2,1404.4,1
+O00412,2025-06-11,Delhi-W1,XpressBees,North,Sports,Wednesday,Monsoon,2025-06-16,2,2025-06-18,Delayed,10.1,814.3,1
+O00413,2026-03-06,Mumbai-W1,Delhivery,East,Home,Wednesday,Winter,2026-03-11,1,2026-03-12,Delayed,16.4,1770.1,3
+O00414,2025-03-10,Mumbai-W1,DTDC,East,Beauty,Tuesday,Winter,2025-03-14,4,2025-03-18,Delayed,3.8,530.7,1
+O00415,2025-05-13,Kolkata-W1,Delhivery,East,Beauty,Sunday,Spring,2025-05-17,1,2025-05-18,Delayed,4.8,170.4,1
+O00416,2025-07-08,Delhi-W1,EcomExpress,South,Fashion,Sunday,Winter,2025-07-15,5,2025-07-20,Delayed,12.7,776.9,3
+O00417,2026-07-27,Hyderabad-W1,BlueDart,South,Beauty,Friday,Monsoon,2026-08-03,2,2026-08-05,Delayed,8.5,977.4,1
+O00418,2025-10-06,Mumbai-W1,DTDC,North,Home,Tuesday,Monsoon,2025-10-08,0,2025-10-08,On Time,5.9,631.6,2
+O00419,2026-03-06,Mumbai-W1,BlueDart,North,Beauty,Friday,Winter,2026-03-08,0,2026-03-08,On Time,17.1,439.9,1
+O00420,2026-06-26,Hyderabad-W1,Delhivery,Regional,Home,Saturday,Spring,2026-06-30,5,2026-07-05,Delayed,9.5,1211.3,3
+O00421,2025-06-10,Kolkata-W1,XpressBees,North,Sports,Friday,Monsoon,2025-06-17,2,2025-06-19,Delayed,10.8,681.9,1
+O00422,2026-03-29,Delhi-W1,BlueDart,West,Sports,Friday,Summer,2026-03-31,1,2026-04-01,Delayed,17.4,1138.3,1
+O00423,2025-06-19,Kolkata-W1,BlueDart,Regional,Sports,Thursday,Festive,2025-06-24,4,2025-06-28,Delayed,8.0,1403.4,1
+O00424,2025-02-26,Bengaluru-W1,XpressBees,East,Electronics,Wednesday,Spring,2025-03-05,0,2025-03-05,On Time,26.6,1371.0,3
+O00425,2025-08-28,Mumbai-W1,BlueDart,North,Sports,Sunday,Spring,2025-08-31,3,2025-09-03,Delayed,4.1,678.7,1
+O00426,2025-12-24,Bengaluru-W1,BlueDart,West,Home,Tuesday,Festive,2025-12-31,4,2026-01-04,Delayed,17.1,1024.4,2
+O00427,2025-07-20,Mumbai-W1,XpressBees,North,Fashion,Saturday,Festive,2025-07-25,3,2025-07-28,Delayed,6.1,812.1,3
+O00428,2026-03-20,Bengaluru-W1,XpressBees,North,Beauty,Tuesday,Monsoon,2026-03-24,2,2026-03-26,Delayed,15.4,1568.1,2
+O00429,2025-10-29,Hyderabad-W1,Delhivery,Regional,Sports,Sunday,Winter,2025-11-04,1,2025-11-05,Delayed,5.4,1582.4,1
+O00430,2025-04-16,Mumbai-W1,Delhivery,Regional,Electronics,Thursday,Winter,2025-04-22,1,2025-04-23,Delayed,2.9,622.0,3
+O00431,2025-04-11,Mumbai-W1,BlueDart,Local,Electronics,Friday,Summer,2025-04-15,1,2025-04-16,Delayed,15.6,169.7,3
+O00432,2025-04-07,Bengaluru-W1,DTDC,Regional,Home,Saturday,Winter,2025-04-12,1,2025-04-13,Delayed,6.9,305.8,1
+O00433,2025-01-29,Delhi-W1,Delhivery,Regional,Fashion,Wednesday,Summer,2025-01-31,1,2025-02-01,Delayed,3.0,663.8,1
+O00434,2026-05-21,Bengaluru-W1,Delhivery,South,Sports,Sunday,Summer,2026-05-28,0,2026-05-28,On Time,16.0,1017.8,3
+O00435,2026-03-14,Mumbai-W1,DTDC,North,Sports,Monday,Spring,2026-03-21,1,2026-03-22,Delayed,10.1,1183.9,1
+O00436,2026-01-14,Mumbai-W1,DTDC,Regional,Electronics,Monday,Spring,2026-01-16,3,2026-01-19,Delayed,6.9,599.8,3
+O00437,2025-03-14,Delhi-W1,XpressBees,North,Home,Thursday,Monsoon,2025-03-20,3,2025-03-23,Delayed,11.2,1203.2,3
+O00438,2025-09-11,Kolkata-W1,Delhivery,North,Electronics,Wednesday,Festive,2025-09-15,3,2025-09-18,Delayed,7.9,1688.2,3
+O00439,2026-05-31,Delhi-W1,EcomExpress,South,Electronics,Monday,Festive,2026-06-04,4,2026-06-08,Delayed,7.3,1175.4,3
+O00440,2026-07-04,Kolkata-W1,EcomExpress,North,Fashion,Monday,Summer,2026-07-07,2,2026-07-09,Delayed,14.4,289.6,1
+O00441,2025-01-20,Mumbai-W1,BlueDart,West,Home,Sunday,Festive,2025-01-26,3,2025-01-29,Delayed,10.2,1045.5,1
+O00442,2026-06-19,Hyderabad-W1,Delhivery,Regional,Fashion,Saturday,Summer,2026-06-23,3,2026-06-26,Delayed,5.1,977.7,1
+O00443,2026-02-25,Hyderabad-W1,EcomExpress,North,Home,Saturday,Festive,2026-02-28,5,2026-03-05,Delayed,8.7,1567.9,1
+O00444,2026-03-22,Bengaluru-W1,Delhivery,Local,Sports,Sunday,Monsoon,2026-03-24,2,2026-03-26,Delayed,14.3,633.8,1
+O00445,2025-05-16,Delhi-W1,Delhivery,Local,Beauty,Tuesday,Spring,2025-05-22,2,2025-05-24,Delayed,4.0,764.2,2
+O00446,2026-05-20,Delhi-W1,EcomExpress,South,Beauty,Sunday,Spring,2026-05-26,3,2026-05-29,Delayed,18.1,1079.6,1
+O00447,2025-10-28,Hyderabad-W1,Delhivery,West,Home,Wednesday,Summer,2025-11-01,2,2025-11-03,Delayed,9.9,946.3,1
+O00448,2025-02-02,Kolkata-W1,DTDC,Regional,Beauty,Monday,Festive,2025-02-06,3,2025-02-09,Delayed,9.5,1295.6,1
+O00449,2025-10-05,Delhi-W1,BlueDart,South,Electronics,Saturday,Winter,2025-10-10,2,2025-10-12,Delayed,9.8,77.5,2
+O00450,2025-05-13,Kolkata-W1,XpressBees,Local,Sports,Sunday,Monsoon,2025-05-15,1,2025-05-16,Delayed,22.8,1016.5,2
+O00451,2026-06-11,Kolkata-W1,EcomExpress,West,Sports,Saturday,Festive,2026-06-13,5,2026-06-18,Delayed,8.7,223.4,1
+O00452,2025-05-06,Kolkata-W1,XpressBees,Regional,Beauty,Saturday,Winter,2025-05-13,1,2025-05-14,Delayed,7.0,570.8,1
+O00453,2025-12-11,Kolkata-W1,BlueDart,North,Home,Tuesday,Monsoon,2025-12-14,1,2025-12-15,Delayed,8.0,1192.6,1
+O00454,2025-01-17,Bengaluru-W1,DTDC,Regional,Electronics,Wednesday,Monsoon,2025-01-20,3,2025-01-23,Delayed,15.6,287.6,1
+O00455,2026-07-16,Bengaluru-W1,DTDC,East,Home,Friday,Spring,2026-07-21,2,2026-07-23,Delayed,13.0,559.4,1
+O00456,2026-01-13,Hyderabad-W1,DTDC,Regional,Beauty,Saturday,Summer,2026-01-20,3,2026-01-23,Delayed,8.8,1266.9,1
+O00457,2025-03-01,Bengaluru-W1,DTDC,North,Sports,Wednesday,Festive,2025-03-03,5,2025-03-08,Delayed,29.8,1173.2,3
+O00458,2026-04-12,Delhi-W1,EcomExpress,East,Sports,Thursday,Monsoon,2026-04-15,2,2026-04-17,Delayed,12.4,168.4,2
+O00459,2026-01-26,Bengaluru-W1,EcomExpress,West,Home,Tuesday,Festive,2026-01-28,5,2026-02-02,Delayed,4.6,1041.2,2
+O00460,2025-07-06,Delhi-W1,Delhivery,South,Fashion,Friday,Monsoon,2025-07-08,2,2025-07-10,Delayed,1.7,269.3,2
+O00461,2026-05-13,Delhi-W1,Delhivery,West,Home,Saturday,Spring,2026-05-20,0,2026-05-20,On Time,13.1,457.8,2
+O00462,2026-08-23,Kolkata-W1,BlueDart,Regional,Fashion,Sunday,Summer,2026-08-26,2,2026-08-28,Delayed,7.3,829.3,3
+O00463,2025-12-27,Hyderabad-W1,Delhivery,South,Home,Saturday,Winter,2025-12-31,3,2026-01-03,Delayed,2.8,201.3,1
+O00464,2026-03-25,Kolkata-W1,BlueDart,Regional,Fashion,Tuesday,Winter,2026-03-29,3,2026-04-01,Delayed,8.2,1788.6,1
+O00465,2025-06-30,Kolkata-W1,BlueDart,Local,Fashion,Tuesday,Spring,2025-07-07,1,2025-07-08,Delayed,13.7,301.8,2
+O00466,2025-05-10,Bengaluru-W1,BlueDart,Local,Fashion,Monday,Monsoon,2025-05-13,1,2025-05-14,Delayed,7.8,1407.5,1
+O00467,2025-05-29,Bengaluru-W1,DTDC,North,Fashion,Saturday,Spring,2025-06-03,2,2025-06-05,Delayed,8.6,1494.6,1
+O00468,2026-04-17,Delhi-W1,XpressBees,West,Electronics,Wednesday,Summer,2026-04-23,1,2026-04-24,Delayed,1.5,1790.1,3
+O00469,2026-05-15,Bengaluru-W1,XpressBees,Local,Fashion,Tuesday,Winter,2026-05-22,4,2026-05-26,Delayed,13.2,774.4,1
+O00470,2025-12-21,Bengaluru-W1,EcomExpress,East,Fashion,Tuesday,Festive,2025-12-23,4,2025-12-27,Delayed,2.3,1574.0,2
+O00471,2025-07-30,Mumbai-W1,BlueDart,East,Sports,Thursday,Winter,2025-08-06,0,2025-08-06,On Time,5.8,1723.8,1
+O00472,2026-08-19,Delhi-W1,DTDC,Regional,Electronics,Thursday,Summer,2026-08-25,1,2026-08-26,Delayed,10.5,315.3,3
+O00473,2025-01-30,Delhi-W1,Delhivery,South,Fashion,Thursday,Monsoon,2025-02-06,1,2025-02-07,Delayed,5.0,865.6,2
+O00474,2026-07-31,Mumbai-W1,Delhivery,East,Beauty,Tuesday,Spring,2026-08-03,2,2026-08-05,Delayed,5.8,112.7,3
+O00475,2025-01-24,Delhi-W1,EcomExpress,Regional,Electronics,Friday,Winter,2025-01-26,4,2025-01-30,Delayed,10.2,1119.2,1
+O00476,2025-08-10,Hyderabad-W1,EcomExpress,South,Sports,Wednesday,Winter,2025-08-16,2,2025-08-18,Delayed,10.7,1048.6,1
+O00477,2026-08-25,Hyderabad-W1,BlueDart,Local,Home,Tuesday,Festive,2026-08-29,3,2026-09-01,Delayed,9.0,371.4,1
+O00478,2026-08-12,Mumbai-W1,BlueDart,Regional,Sports,Sunday,Spring,2026-08-17,2,2026-08-19,Delayed,1.4,1437.2,1
+O00479,2026-08-03,Bengaluru-W1,Delhivery,South,Sports,Sunday,Festive,2026-08-10,3,2026-08-13,Delayed,1.9,71.9,1
+O00480,2026-02-05,Hyderabad-W1,Delhivery,North,Electronics,Monday,Festive,2026-02-12,4,2026-02-16,Delayed,15.6,1452.2,1
+O00481,2026-08-27,Mumbai-W1,Delhivery,West,Electronics,Sunday,Monsoon,2026-09-02,3,2026-09-05,Delayed,6.8,52.8,1
+O00482,2026-05-27,Hyderabad-W1,Delhivery,West,Beauty,Saturday,Winter,2026-06-01,2,2026-06-03,Delayed,32.8,1184.0,3
+O00483,2025-03-29,Kolkata-W1,XpressBees,North,Beauty,Friday,Spring,2025-04-05,1,2025-04-06,Delayed,10.2,146.4,1
+O00484,2026-04-10,Mumbai-W1,BlueDart,East,Electronics,Friday,Monsoon,2026-04-14,0,2026-04-14,On Time,26.3,455.9,1
+O00485,2025-02-19,Delhi-W1,BlueDart,West,Electronics,Wednesday,Monsoon,2025-02-25,2,2025-02-27,Delayed,7.7,1300.8,2
+O00486,2025-04-13,Hyderabad-W1,Delhivery,South,Electronics,Friday,Monsoon,2025-04-16,2,2025-04-18,Delayed,6.2,508.3,1
+O00487,2026-01-03,Delhi-W1,DTDC,North,Home,Wednesday,Summer,2026-01-05,2,2026-01-07,Delayed,13.3,922.6,1
+O00488,2026-05-07,Mumbai-W1,Delhivery,East,Sports,Sunday,Summer,2026-05-11,1,2026-05-12,Delayed,17.5,1647.9,1
+O00489,2026-07-12,Hyderabad-W1,EcomExpress,Regional,Beauty,Friday,Monsoon,2026-07-17,5,2026-07-22,Delayed,7.8,94.1,2
+O00490,2025-09-25,Delhi-W1,DTDC,Regional,Beauty,Saturday,Summer,2025-09-30,3,2025-10-03,Delayed,13.0,1460.9,3
+O00491,2026-02-01,Bengaluru-W1,EcomExpress,South,Fashion,Wednesday,Spring,2026-02-05,3,2026-02-08,Delayed,2.4,122.2,1
+O00492,2025-11-16,Bengaluru-W1,DTDC,South,Home,Thursday,Winter,2025-11-19,3,2025-11-22,Delayed,4.6,232.6,3
+O00493,2026-06-04,Kolkata-W1,EcomExpress,South,Electronics,Thursday,Spring,2026-06-11,4,2026-06-15,Delayed,11.4,219.2,2
+O00494,2026-03-25,Mumbai-W1,Delhivery,West,Electronics,Friday,Winter,2026-03-28,2,2026-03-30,Delayed,6.8,1789.4,1
+O00495,2026-04-21,Delhi-W1,Delhivery,South,Home,Friday,Summer,2026-04-28,4,2026-05-02,Delayed,10.5,328.4,1
+O00496,2026-08-13,Kolkata-W1,DTDC,North,Beauty,Sunday,Spring,2026-08-20,1,2026-08-21,Delayed,11.6,1614.7,3
+O00497,2025-08-28,Mumbai-W1,EcomExpress,North,Electronics,Wednesday,Festive,2025-09-02,7,2025-09-09,Delayed,12.9,1783.7,1
+O00498,2025-09-15,Bengaluru-W1,XpressBees,East,Fashion,Sunday,Monsoon,2025-09-22,3,2025-09-25,Delayed,15.3,693.9,1
+O00499,2026-01-25,Delhi-W1,DTDC,North,Beauty,Wednesday,Winter,2026-01-29,5,2026-02-03,Delayed,15.6,1137.7,1
+O00500,2025-12-09,Hyderabad-W1,DTDC,West,Sports,Saturday,Winter,2025-12-16,0,2025-12-16,On Time,3.9,1403.5,1
+O00501,2026-01-22,Bengaluru-W1,BlueDart,Regional,Home,Tuesday,Festive,2026-01-26,4,2026-01-30,Delayed,7.9,709.8,2
+O00502,2026-01-29,Hyderabad-W1,DTDC,East,Beauty,Thursday,Festive,2026-01-31,2,2026-02-02,Delayed,7.7,295.5,2
+O00503,2025-09-27,Hyderabad-W1,XpressBees,North,Sports,Tuesday,Monsoon,2025-10-02,1,2025-10-03,Delayed,8.4,783.6,1
+O00504,2025-05-29,Delhi-W1,Delhivery,South,Fashion,Tuesday,Summer,2025-06-01,1,2025-06-02,Delayed,7.3,1390.5,3
+O00505,2026-01-15,Delhi-W1,EcomExpress,North,Home,Monday,Spring,2026-01-21,5,2026-01-26,Delayed,8.8,1406.5,1
+O00506,2025-01-28,Hyderabad-W1,BlueDart,Local,Electronics,Wednesday,Spring,2025-01-31,2,2025-02-02,Delayed,5.7,418.8,3
+O00507,2025-05-29,Kolkata-W1,EcomExpress,East,Electronics,Monday,Spring,2025-06-01,3,2025-06-04,Delayed,14.7,319.1,1
+O00508,2026-02-24,Hyderabad-W1,Delhivery,West,Sports,Monday,Summer,2026-03-02,0,2026-03-02,On Time,11.6,1657.4,3
+O00509,2025-10-07,Hyderabad-W1,DTDC,North,Beauty,Tuesday,Monsoon,2025-10-12,2,2025-10-14,Delayed,5.6,84.0,3
+O00510,2025-07-01,Delhi-W1,XpressBees,North,Fashion,Monday,Spring,2025-07-08,1,2025-07-09,Delayed,8.9,1323.9,1
+O00511,2025-06-15,Mumbai-W1,BlueDart,West,Sports,Saturday,Winter,2025-06-17,1,2025-06-18,Delayed,24.7,88.3,1
+O00512,2025-01-17,Bengaluru-W1,XpressBees,Regional,Fashion,Wednesday,Winter,2025-01-20,3,2025-01-23,Delayed,4.1,1509.0,3
+O00513,2025-05-30,Delhi-W1,XpressBees,South,Fashion,Tuesday,Winter,2025-06-06,2,2025-06-08,Delayed,4.8,1630.2,1
+O00514,2025-12-05,Kolkata-W1,XpressBees,South,Fashion,Wednesday,Festive,2025-12-08,6,2025-12-14,Delayed,15.2,538.9,1
+O00515,2025-02-14,Bengaluru-W1,XpressBees,Regional,Home,Saturday,Festive,2025-02-19,3,2025-02-22,Delayed,21.6,137.7,2
+O00516,2026-05-17,Delhi-W1,Delhivery,Regional,Sports,Friday,Summer,2026-05-22,2,2026-05-24,Delayed,10.8,867.8,1
+O00517,2025-07-08,Delhi-W1,XpressBees,Local,Home,Monday,Spring,2025-07-12,3,2025-07-15,Delayed,9.3,540.7,1
+O00518,2025-03-02,Mumbai-W1,XpressBees,West,Beauty,Tuesday,Festive,2025-03-07,4,2025-03-11,Delayed,3.5,753.8,1
+O00519,2025-10-21,Kolkata-W1,Delhivery,East,Beauty,Thursday,Winter,2025-10-26,1,2025-10-27,Delayed,6.4,1198.6,1
+O00520,2025-02-02,Kolkata-W1,EcomExpress,South,Electronics,Wednesday,Festive,2025-02-05,4,2025-02-09,Delayed,6.2,381.6,1
+O00521,2025-10-26,Delhi-W1,Delhivery,Regional,Electronics,Sunday,Winter,2025-10-28,2,2025-10-30,Delayed,6.5,645.7,1
+O00522,2026-02-19,Mumbai-W1,DTDC,Regional,Electronics,Saturday,Spring,2026-02-22,3,2026-02-25,Delayed,5.2,1409.7,1
+O00523,2026-07-03,Delhi-W1,Delhivery,West,Beauty,Monday,Summer,2026-07-10,4,2026-07-14,Delayed,3.4,1160.6,1
+O00524,2026-03-07,Hyderabad-W1,EcomExpress,East,Fashion,Wednesday,Monsoon,2026-03-12,3,2026-03-15,Delayed,13.3,590.7,1
+O00525,2026-05-10,Hyderabad-W1,DTDC,Regional,Fashion,Saturday,Monsoon,2026-05-14,2,2026-05-16,Delayed,11.2,1197.4,1
+O00526,2025-04-10,Mumbai-W1,DTDC,Local,Sports,Wednesday,Winter,2025-04-12,3,2025-04-15,Delayed,3.4,1378.7,2
+O00527,2025-01-23,Delhi-W1,BlueDart,East,Beauty,Friday,Festive,2025-01-27,3,2025-01-30,Delayed,9.0,1068.5,3
+O00528,2026-02-24,Mumbai-W1,XpressBees,Local,Electronics,Sunday,Festive,2026-03-02,2,2026-03-04,Delayed,7.1,434.9,2
+O00529,2026-02-28,Delhi-W1,DTDC,North,Beauty,Saturday,Winter,2026-03-04,0,2026-03-04,On Time,23.1,5.4,3
+O00530,2026-05-02,Delhi-W1,DTDC,South,Fashion,Wednesday,Spring,2026-05-06,1,2026-05-07,Delayed,18.5,1446.1,2
+O00531,2025-03-30,Hyderabad-W1,EcomExpress,Regional,Fashion,Sunday,Winter,2025-04-06,4,2025-04-10,Delayed,23.1,1481.6,2
+O00532,2025-07-28,Bengaluru-W1,DTDC,East,Home,Friday,Spring,2025-08-02,2,2025-08-04,Delayed,6.4,1257.2,1
+O00533,2025-09-28,Kolkata-W1,EcomExpress,Local,Home,Friday,Summer,2025-10-05,2,2025-10-07,Delayed,2.1,142.5,1
+O00534,2026-02-10,Kolkata-W1,XpressBees,South,Sports,Friday,Summer,2026-02-15,0,2026-02-15,On Time,3.8,1055.5,2
+O00535,2025-10-05,Mumbai-W1,BlueDart,South,Beauty,Monday,Winter,2025-10-12,2,2025-10-14,Delayed,6.4,1478.7,1
+O00536,2025-07-25,Kolkata-W1,BlueDart,Regional,Home,Saturday,Summer,2025-07-30,2,2025-08-01,Delayed,7.4,704.5,2
+O00537,2026-08-13,Hyderabad-W1,XpressBees,South,Home,Wednesday,Festive,2026-08-18,2,2026-08-20,Delayed,23.4,360.4,1
+O00538,2025-11-24,Bengaluru-W1,XpressBees,Regional,Beauty,Wednesday,Spring,2025-11-29,3,2025-12-02,Delayed,14.7,1059.8,1
+O00539,2025-12-02,Delhi-W1,Delhivery,North,Fashion,Sunday,Monsoon,2025-12-06,3,2025-12-09,Delayed,11.2,1488.2,3
+O00540,2026-08-29,Delhi-W1,DTDC,Regional,Sports,Sunday,Monsoon,2026-09-04,2,2026-09-06,Delayed,18.7,92.7,1
+O00541,2026-08-15,Hyderabad-W1,DTDC,West,Sports,Saturday,Summer,2026-08-20,0,2026-08-20,On Time,12.5,1076.5,1
+O00542,2025-02-07,Kolkata-W1,DTDC,Local,Sports,Friday,Spring,2025-02-13,0,2025-02-13,On Time,14.2,1159.5,1
+O00543,2025-08-16,Delhi-W1,EcomExpress,West,Home,Wednesday,Festive,2025-08-22,5,2025-08-27,Delayed,7.1,1086.2,1
+O00544,2026-04-28,Kolkata-W1,Delhivery,South,Fashion,Wednesday,Monsoon,2026-05-01,1,2026-05-02,Delayed,2.8,1171.8,1
+O00545,2025-05-14,Hyderabad-W1,DTDC,South,Sports,Friday,Festive,2025-05-17,3,2025-05-20,Delayed,2.4,1138.3,3
+O00546,2026-01-25,Delhi-W1,EcomExpress,South,Beauty,Thursday,Festive,2026-01-27,6,2026-02-02,Delayed,2.4,239.1,1
+O00547,2026-03-01,Mumbai-W1,EcomExpress,Regional,Sports,Thursday,Monsoon,2026-03-08,4,2026-03-12,Delayed,13.2,426.7,2
+O00548,2026-08-10,Bengaluru-W1,BlueDart,East,Electronics,Friday,Monsoon,2026-08-13,1,2026-08-14,Delayed,4.9,1116.1,1
+O00549,2026-05-25,Kolkata-W1,EcomExpress,Regional,Fashion,Sunday,Summer,2026-05-30,5,2026-06-04,Delayed,7.1,36.8,1
+O00550,2026-08-18,Kolkata-W1,XpressBees,Local,Electronics,Monday,Spring,2026-08-24,2,2026-08-26,Delayed,3.1,1144.4,1
+O00551,2026-03-03,Kolkata-W1,EcomExpress,Regional,Fashion,Sunday,Winter,2026-03-10,3,2026-03-13,Delayed,17.2,1199.4,2
+O00552,2026-04-19,Kolkata-W1,XpressBees,South,Beauty,Sunday,Spring,2026-04-21,3,2026-04-24,Delayed,8.7,434.3,2
+O00553,2026-07-22,Hyderabad-W1,XpressBees,North,Home,Wednesday,Winter,2026-07-25,1,2026-07-26,Delayed,10.2,1078.6,1
+O00554,2025-12-27,Hyderabad-W1,BlueDart,Local,Home,Sunday,Monsoon,2025-12-31,0,2025-12-31,On Time,10.8,963.7,1
+O00555,2025-07-30,Hyderabad-W1,BlueDart,West,Fashion,Wednesday,Festive,2025-08-06,3,2025-08-09,Delayed,11.7,472.9,3
+O00556,2025-06-28,Hyderabad-W1,EcomExpress,North,Sports,Thursday,Spring,2025-06-30,3,2025-07-03,Delayed,17.7,836.0,1
+O00557,2025-02-27,Delhi-W1,BlueDart,Local,Electronics,Sunday,Festive,2025-03-04,3,2025-03-07,Delayed,13.5,1637.8,2
+O00558,2025-03-14,Hyderabad-W1,BlueDart,Local,Beauty,Friday,Spring,2025-03-21,2,2025-03-23,Delayed,4.2,770.8,3
+O00559,2025-08-03,Delhi-W1,DTDC,South,Sports,Saturday,Spring,2025-08-09,2,2025-08-11,Delayed,4.7,1135.6,1
+O00560,2025-03-14,Mumbai-W1,EcomExpress,West,Home,Saturday,Festive,2025-03-19,8,2025-03-27,Delayed,37.6,68.5,3
+O00561,2026-04-12,Hyderabad-W1,EcomExpress,Regional,Sports,Sunday,Summer,2026-04-17,6,2026-04-23,Delayed,15.8,144.7,1
+O00562,2025-09-28,Mumbai-W1,EcomExpress,West,Electronics,Monday,Monsoon,2025-10-05,5,2025-10-10,Delayed,30.2,150.9,2
+O00563,2026-05-14,Hyderabad-W1,BlueDart,South,Home,Sunday,Summer,2026-05-18,0,2026-05-18,On Time,7.5,1401.9,1
+O00564,2025-12-20,Mumbai-W1,BlueDart,South,Fashion,Friday,Summer,2025-12-24,2,2025-12-26,Delayed,21.5,633.7,1
+O00565,2025-08-22,Bengaluru-W1,XpressBees,South,Beauty,Thursday,Spring,2025-08-29,1,2025-08-30,Delayed,12.0,413.6,2
+O00566,2025-11-15,Mumbai-W1,Delhivery,North,Beauty,Thursday,Monsoon,2025-11-22,1,2025-11-23,Delayed,10.6,1346.4,1
+O00567,2025-01-19,Delhi-W1,Delhivery,West,Home,Sunday,Spring,2025-01-26,1,2025-01-27,Delayed,8.9,310.1,1
+O00568,2026-07-29,Kolkata-W1,Delhivery,West,Fashion,Wednesday,Winter,2026-08-04,0,2026-08-04,On Time,14.5,447.5,1
+O00569,2026-01-07,Mumbai-W1,DTDC,Local,Electronics,Tuesday,Spring,2026-01-10,0,2026-01-10,On Time,12.3,778.5,3
+O00570,2025-07-03,Kolkata-W1,BlueDart,East,Beauty,Monday,Festive,2025-07-08,4,2025-07-12,Delayed,7.8,599.9,1
+O00571,2025-10-04,Bengaluru-W1,XpressBees,Regional,Home,Monday,Spring,2025-10-11,1,2025-10-12,Delayed,5.8,1055.8,1
+O00572,2025-05-25,Bengaluru-W1,XpressBees,South,Beauty,Tuesday,Winter,2025-05-28,0,2025-05-28,On Time,7.9,611.4,3
+O00573,2025-03-22,Delhi-W1,Delhivery,West,Fashion,Saturday,Spring,2025-03-28,2,2025-03-30,Delayed,8.8,710.3,1
+O00574,2025-11-18,Delhi-W1,DTDC,West,Electronics,Saturday,Winter,2025-11-23,0,2025-11-23,On Time,6.7,1553.9,2
+O00575,2026-03-11,Mumbai-W1,DTDC,Local,Fashion,Saturday,Monsoon,2026-03-14,2,2026-03-16,Delayed,4.6,1592.7,1
+O00576,2025-02-12,Hyderabad-W1,Delhivery,Regional,Sports,Thursday,Spring,2025-02-17,4,2025-02-21,Delayed,9.2,1490.7,3
+O00577,2025-11-09,Bengaluru-W1,Delhivery,East,Fashion,Friday,Winter,2025-11-13,2,2025-11-15,Delayed,11.4,1557.4,1
+O00578,2025-10-20,Kolkata-W1,BlueDart,East,Fashion,Monday,Monsoon,2025-10-27,1,2025-10-28,Delayed,10.5,1027.7,1
+O00579,2025-03-10,Hyderabad-W1,DTDC,South,Beauty,Tuesday,Festive,2025-03-14,3,2025-03-17,Delayed,3.8,1165.0,1
+O00580,2025-02-25,Bengaluru-W1,XpressBees,East,Fashion,Wednesday,Summer,2025-02-27,0,2025-02-27,On Time,23.0,1005.1,2
+O00581,2025-07-23,Mumbai-W1,Delhivery,East,Home,Sunday,Winter,2025-07-29,1,2025-07-30,Delayed,26.4,1415.1,3
+O00582,2026-02-24,Bengaluru-W1,BlueDart,Regional,Beauty,Wednesday,Festive,2026-03-03,3,2026-03-06,Delayed,13.1,994.0,3
+O00583,2026-07-21,Delhi-W1,XpressBees,Regional,Beauty,Sunday,Monsoon,2026-07-24,2,2026-07-26,Delayed,14.8,204.4,3
+O00584,2026-07-04,Kolkata-W1,DTDC,South,Sports,Thursday,Festive,2026-07-09,3,2026-07-12,Delayed,10.2,1458.2,3
+O00585,2025-08-31,Kolkata-W1,Delhivery,West,Home,Monday,Spring,2025-09-02,1,2025-09-03,Delayed,11.0,1370.3,3
+O00586,2025-07-20,Delhi-W1,Delhivery,Local,Fashion,Friday,Summer,2025-07-26,1,2025-07-27,Delayed,2.3,1477.4,2
+O00587,2026-04-19,Hyderabad-W1,BlueDart,South,Sports,Monday,Winter,2026-04-25,0,2026-04-25,On Time,8.2,346.8,3
+O00588,2026-06-11,Delhi-W1,BlueDart,North,Home,Sunday,Monsoon,2026-06-17,2,2026-06-19,Delayed,8.3,492.6,2
+O00589,2025-03-18,Kolkata-W1,DTDC,East,Sports,Saturday,Summer,2025-03-21,0,2025-03-21,On Time,25.9,535.9,2
+O00590,2026-04-23,Mumbai-W1,Delhivery,Local,Electronics,Wednesday,Monsoon,2026-04-30,1,2026-05-01,Delayed,7.2,917.0,2
+O00591,2026-03-16,Hyderabad-W1,BlueDart,West,Fashion,Monday,Festive,2026-03-20,4,2026-03-24,Delayed,22.8,245.3,1
+O00592,2025-09-20,Bengaluru-W1,Delhivery,West,Sports,Wednesday,Monsoon,2025-09-22,2,2025-09-24,Delayed,8.9,696.8,1
+O00593,2025-07-04,Mumbai-W1,DTDC,Regional,Electronics,Tuesday,Monsoon,2025-07-07,2,2025-07-09,Delayed,6.5,332.0,1
+O00594,2025-02-24,Hyderabad-W1,Delhivery,North,Fashion,Tuesday,Festive,2025-03-01,4,2025-03-05,Delayed,2.4,480.2,1
+O00595,2025-11-04,Kolkata-W1,XpressBees,West,Sports,Wednesday,Festive,2025-11-07,2,2025-11-09,Delayed,10.9,1273.0,1
+O00596,2026-05-31,Kolkata-W1,Delhivery,North,Sports,Friday,Summer,2026-06-05,0,2026-06-05,On Time,5.1,1539.4,1
+O00597,2025-10-26,Mumbai-W1,EcomExpress,East,Sports,Friday,Winter,2025-10-31,2,2025-11-02,Delayed,2.6,46.1,2
+O00598,2026-07-06,Hyderabad-W1,EcomExpress,Regional,Sports,Monday,Festive,2026-07-12,5,2026-07-17,Delayed,13.0,1020.8,2
+O00599,2025-08-18,Bengaluru-W1,DTDC,Local,Beauty,Wednesday,Summer,2025-08-21,1,2025-08-22,Delayed,11.2,69.7,3
+O00600,2026-01-12,Bengaluru-W1,DTDC,Regional,Sports,Thursday,Monsoon,2026-01-16,2,2026-01-18,Delayed,11.8,158.0,2
+O00601,2025-10-13,Delhi-W1,DTDC,East,Beauty,Friday,Monsoon,2025-10-18,0,2025-10-18,On Time,8.9,1270.6,1
+O00602,2025-05-18,Mumbai-W1,XpressBees,West,Beauty,Sunday,Spring,2025-05-24,0,2025-05-24,On Time,5.4,1325.4,1
+O00603,2026-04-23,Hyderabad-W1,XpressBees,North,Electronics,Friday,Festive,2026-04-27,2,2026-04-29,Delayed,4.1,1466.1,2
+O00604,2025-01-07,Mumbai-W1,Delhivery,East,Fashion,Saturday,Summer,2025-01-10,0,2025-01-10,On Time,21.0,856.3,1
+O00605,2026-02-23,Bengaluru-W1,BlueDart,West,Beauty,Tuesday,Summer,2026-02-27,2,2026-03-01,Delayed,13.7,1548.4,1
+O00606,2026-04-17,Hyderabad-W1,EcomExpress,South,Home,Friday,Winter,2026-04-20,3,2026-04-23,Delayed,16.0,304.5,1
+O00607,2026-02-24,Kolkata-W1,EcomExpress,North,Beauty,Sunday,Summer,2026-03-01,4,2026-03-05,Delayed,8.0,453.2,3
+O00608,2025-10-03,Kolkata-W1,EcomExpress,East,Home,Friday,Festive,2025-10-05,5,2025-10-10,Delayed,5.0,246.4,3
+O00609,2026-07-15,Hyderabad-W1,Delhivery,Local,Electronics,Sunday,Summer,2026-07-17,3,2026-07-20,Delayed,4.6,1436.6,1
+O00610,2026-08-31,Mumbai-W1,Delhivery,Local,Home,Saturday,Spring,2026-09-07,3,2026-09-10,Delayed,9.3,415.5,1
+O00611,2026-07-25,Mumbai-W1,DTDC,West,Electronics,Sunday,Monsoon,2026-08-01,1,2026-08-02,Delayed,5.1,284.1,1
+O00612,2025-03-31,Kolkata-W1,BlueDart,West,Electronics,Friday,Monsoon,2025-04-05,1,2025-04-06,Delayed,2.1,1123.5,1
+O00613,2025-10-09,Kolkata-W1,DTDC,Local,Electronics,Saturday,Summer,2025-10-13,2,2025-10-15,Delayed,12.6,143.4,1
+O00614,2026-07-02,Bengaluru-W1,Delhivery,South,Home,Wednesday,Summer,2026-07-05,1,2026-07-06,Delayed,16.0,85.6,1
+O00615,2025-06-20,Hyderabad-W1,XpressBees,Regional,Home,Wednesday,Summer,2025-06-22,2,2025-06-24,Delayed,6.0,196.6,1
+O00616,2025-12-21,Mumbai-W1,DTDC,Local,Electronics,Tuesday,Summer,2025-12-24,0,2025-12-24,On Time,2.6,5.4,3
+O00617,2025-07-23,Bengaluru-W1,Delhivery,West,Electronics,Monday,Spring,2025-07-28,1,2025-07-29,Delayed,9.8,1256.1,1
+O00618,2025-10-16,Mumbai-W1,Delhivery,West,Fashion,Saturday,Festive,2025-10-20,6,2025-10-26,Delayed,7.9,1014.2,1
+O00619,2026-04-07,Kolkata-W1,XpressBees,South,Electronics,Friday,Spring,2026-04-10,1,2026-04-11,Delayed,6.8,381.7,1
+O00620,2025-06-22,Hyderabad-W1,XpressBees,Local,Sports,Monday,Spring,2025-06-26,3,2025-06-29,Delayed,11.6,423.2,1
+O00621,2025-10-28,Delhi-W1,XpressBees,South,Fashion,Wednesday,Spring,2025-10-30,3,2025-11-02,Delayed,9.5,1460.7,3
+O00622,2026-08-23,Hyderabad-W1,BlueDart,Local,Fashion,Friday,Monsoon,2026-08-26,1,2026-08-27,Delayed,11.4,905.8,3
+O00623,2026-06-13,Delhi-W1,Delhivery,Regional,Fashion,Monday,Spring,2026-06-19,3,2026-06-22,Delayed,9.2,1258.9,2
+O00624,2025-05-20,Bengaluru-W1,XpressBees,East,Sports,Saturday,Summer,2025-05-22,0,2025-05-22,On Time,5.1,817.7,1
+O00625,2025-10-05,Delhi-W1,BlueDart,Local,Fashion,Saturday,Spring,2025-10-09,2,2025-10-11,Delayed,4.8,431.7,1
+O00626,2026-05-26,Delhi-W1,EcomExpress,East,Fashion,Monday,Summer,2026-05-31,5,2026-06-05,Delayed,8.9,1746.9,3
+O00627,2025-12-12,Bengaluru-W1,EcomExpress,Local,Home,Sunday,Festive,2025-12-18,4,2025-12-22,Delayed,15.3,1020.3,1
+O00628,2025-05-20,Hyderabad-W1,EcomExpress,Regional,Home,Saturday,Monsoon,2025-05-27,5,2025-06-01,Delayed,9.4,240.1,1
+O00629,2025-04-24,Bengaluru-W1,Delhivery,West,Electronics,Thursday,Festive,2025-04-27,4,2025-05-01,Delayed,5.6,733.9,1
+O00630,2026-08-03,Kolkata-W1,BlueDart,East,Electronics,Wednesday,Festive,2026-08-10,5,2026-08-15,Delayed,9.8,596.2,1
+O00631,2026-05-22,Kolkata-W1,BlueDart,South,Beauty,Tuesday,Monsoon,2026-05-24,2,2026-05-26,Delayed,10.1,389.3,2
+O00632,2026-01-01,Delhi-W1,EcomExpress,Local,Sports,Tuesday,Summer,2026-01-04,4,2026-01-08,Delayed,5.1,1680.5,1
+O00633,2026-02-01,Bengaluru-W1,DTDC,West,Home,Thursday,Summer,2026-02-04,1,2026-02-05,Delayed,26.2,1586.3,1
+O00634,2025-04-21,Bengaluru-W1,EcomExpress,Local,Electronics,Monday,Summer,2025-04-27,5,2025-05-02,Delayed,14.8,362.5,1
+O00635,2025-12-24,Bengaluru-W1,Delhivery,South,Sports,Saturday,Monsoon,2025-12-30,3,2026-01-02,Delayed,8.0,637.1,2
+O00636,2025-08-26,Hyderabad-W1,EcomExpress,Regional,Fashion,Thursday,Spring,2025-09-01,3,2025-09-04,Delayed,25.0,1373.4,2
+O00637,2025-01-03,Mumbai-W1,EcomExpress,North,Sports,Thursday,Winter,2025-01-09,4,2025-01-13,Delayed,10.9,379.3,1
+O00638,2026-02-08,Mumbai-W1,BlueDart,Local,Home,Saturday,Spring,2026-02-13,0,2026-02-13,On Time,10.4,1066.9,2
+O00639,2025-01-25,Mumbai-W1,EcomExpress,South,Beauty,Wednesday,Spring,2025-01-29,2,2025-01-31,Delayed,19.8,1261.1,3
+O00640,2026-05-24,Hyderabad-W1,XpressBees,North,Home,Saturday,Festive,2026-05-30,4,2026-06-03,Delayed,14.8,1178.9,1
+O00641,2026-04-10,Bengaluru-W1,XpressBees,Local,Electronics,Saturday,Winter,2026-04-12,1,2026-04-13,Delayed,11.9,1273.0,1
+O00642,2025-03-02,Mumbai-W1,DTDC,East,Electronics,Sunday,Summer,2025-03-05,2,2025-03-07,Delayed,6.7,1273.5,1
+O00643,2026-05-23,Bengaluru-W1,Delhivery,West,Sports,Friday,Spring,2026-05-30,1,2026-05-31,Delayed,8.8,1736.8,1
+O00644,2025-05-03,Delhi-W1,Delhivery,West,Home,Monday,Monsoon,2025-05-09,1,2025-05-10,Delayed,7.9,627.0,2
+O00645,2026-05-12,Mumbai-W1,BlueDart,South,Electronics,Tuesday,Spring,2026-05-14,2,2026-05-16,Delayed,5.6,1582.1,1
+O00646,2025-02-24,Delhi-W1,Delhivery,East,Fashion,Tuesday,Summer,2025-03-01,1,2025-03-02,Delayed,31.3,44.1,1
+O00647,2025-06-12,Hyderabad-W1,DTDC,Regional,Fashion,Thursday,Spring,2025-06-14,3,2025-06-17,Delayed,14.9,522.3,1
+O00648,2025-02-08,Kolkata-W1,XpressBees,North,Beauty,Sunday,Festive,2025-02-15,4,2025-02-19,Delayed,7.7,92.3,1
+O00649,2025-03-24,Hyderabad-W1,BlueDart,South,Sports,Thursday,Festive,2025-03-31,2,2025-04-02,Delayed,11.2,1173.9,2
+O00650,2026-06-30,Hyderabad-W1,XpressBees,Local,Electronics,Thursday,Spring,2026-07-02,2,2026-07-04,Delayed,8.0,185.9,3
+O00651,2025-04-23,Hyderabad-W1,DTDC,West,Beauty,Monday,Festive,2025-04-28,4,2025-05-02,Delayed,5.0,1523.0,1
+O00652,2026-03-01,Mumbai-W1,BlueDart,Local,Fashion,Thursday,Monsoon,2026-03-08,2,2026-03-10,Delayed,2.0,1165.6,3
+O00653,2025-08-18,Delhi-W1,EcomExpress,North,Beauty,Thursday,Winter,2025-08-23,4,2025-08-27,Delayed,11.8,56.7,2
+O00654,2025-10-10,Mumbai-W1,Delhivery,East,Beauty,Friday,Spring,2025-10-13,3,2025-10-16,Delayed,9.0,1288.0,1
+O00655,2025-10-14,Kolkata-W1,DTDC,East,Electronics,Monday,Monsoon,2025-10-20,1,2025-10-21,Delayed,17.5,1552.4,1
+O00656,2025-06-04,Hyderabad-W1,BlueDart,South,Electronics,Wednesday,Monsoon,2025-06-11,3,2025-06-14,Delayed,6.1,1191.7,1
+O00657,2025-06-14,Bengaluru-W1,XpressBees,South,Electronics,Sunday,Monsoon,2025-06-16,2,2025-06-18,Delayed,17.5,59.8,1
+O00658,2025-07-01,Kolkata-W1,BlueDart,East,Sports,Wednesday,Summer,2025-07-05,0,2025-07-05,On Time,18.7,1545.0,1
+O00659,2025-08-27,Delhi-W1,EcomExpress,South,Beauty,Saturday,Spring,2025-08-31,2,2025-09-02,Delayed,2.8,1319.8,2
+O00660,2025-12-05,Kolkata-W1,DTDC,East,Beauty,Friday,Spring,2025-12-08,1,2025-12-09,Delayed,16.0,684.3,1
+O00661,2026-05-27,Mumbai-W1,BlueDart,North,Sports,Tuesday,Spring,2026-05-31,1,2026-06-01,Delayed,14.4,594.9,2
+O00662,2025-09-23,Bengaluru-W1,DTDC,South,Fashion,Saturday,Winter,2025-09-26,4,2025-09-30,Delayed,8.4,866.3,1
+O00663,2025-07-06,Mumbai-W1,DTDC,East,Home,Wednesday,Monsoon,2025-07-12,1,2025-07-13,Delayed,17.3,1561.4,1
+O00664,2025-02-09,Hyderabad-W1,XpressBees,South,Fashion,Monday,Spring,2025-02-12,2,2025-02-14,Delayed,15.6,457.4,1
+O00665,2026-05-08,Hyderabad-W1,Delhivery,Local,Sports,Tuesday,Festive,2026-05-13,6,2026-05-19,Delayed,9.6,186.2,1
+O00666,2026-01-26,Kolkata-W1,EcomExpress,West,Beauty,Thursday,Summer,2026-01-31,3,2026-02-03,Delayed,2.7,1557.0,2
+O00667,2025-09-17,Hyderabad-W1,BlueDart,Local,Beauty,Monday,Winter,2025-09-22,2,2025-09-24,Delayed,7.5,52.2,2
+O00668,2025-06-25,Hyderabad-W1,Delhivery,Regional,Electronics,Tuesday,Summer,2025-07-02,5,2025-07-07,Delayed,16.2,1640.2,2
+O00669,2025-11-25,Delhi-W1,XpressBees,East,Electronics,Wednesday,Monsoon,2025-11-30,0,2025-11-30,On Time,10.8,553.8,1
+O00670,2025-07-19,Delhi-W1,Delhivery,Regional,Beauty,Saturday,Festive,2025-07-24,3,2025-07-27,Delayed,6.5,917.3,3
+O00671,2025-07-15,Mumbai-W1,DTDC,East,Beauty,Thursday,Monsoon,2025-07-20,3,2025-07-23,Delayed,9.2,242.5,2
+O00672,2026-08-12,Mumbai-W1,DTDC,West,Electronics,Thursday,Spring,2026-08-17,0,2026-08-17,On Time,9.6,1624.5,2
+O00673,2026-06-15,Delhi-W1,EcomExpress,South,Electronics,Sunday,Summer,2026-06-22,3,2026-06-25,Delayed,4.9,1351.0,1
+O00674,2025-03-03,Kolkata-W1,BlueDart,East,Fashion,Monday,Festive,2025-03-08,2,2025-03-10,Delayed,6.4,1663.9,1
+O00675,2025-11-23,Delhi-W1,BlueDart,Local,Beauty,Saturday,Summer,2025-11-28,1,2025-11-29,Delayed,29.9,1231.4,1
+O00676,2025-10-08,Mumbai-W1,XpressBees,South,Beauty,Thursday,Winter,2025-10-14,1,2025-10-15,Delayed,0.9,336.5,1
+O00677,2025-08-15,Bengaluru-W1,EcomExpress,West,Sports,Tuesday,Festive,2025-08-22,4,2025-08-26,Delayed,9.1,558.3,1
+O00678,2025-02-27,Hyderabad-W1,BlueDart,Local,Fashion,Sunday,Winter,2025-03-04,1,2025-03-05,Delayed,16.2,878.9,3
+O00679,2026-04-22,Bengaluru-W1,DTDC,South,Home,Sunday,Festive,2026-04-25,2,2026-04-27,Delayed,9.0,1095.0,1
+O00680,2026-01-11,Bengaluru-W1,EcomExpress,East,Home,Friday,Spring,2026-01-17,3,2026-01-20,Delayed,5.9,1668.0,1
+O00681,2025-08-31,Hyderabad-W1,Delhivery,East,Home,Wednesday,Summer,2025-09-07,1,2025-09-08,Delayed,7.1,694.2,1
+O00682,2026-01-02,Delhi-W1,EcomExpress,Local,Electronics,Monday,Summer,2026-01-06,4,2026-01-10,Delayed,25.5,1267.0,1
+O00683,2026-05-15,Kolkata-W1,EcomExpress,North,Home,Saturday,Monsoon,2026-05-17,2,2026-05-19,Delayed,13.4,1730.0,1
+O00684,2025-09-09,Bengaluru-W1,BlueDart,East,Sports,Friday,Festive,2025-09-16,3,2025-09-19,Delayed,12.9,278.5,1
+O00685,2025-11-18,Kolkata-W1,XpressBees,North,Electronics,Friday,Festive,2025-11-24,2,2025-11-26,Delayed,8.4,1553.6,1
+O00686,2026-01-11,Mumbai-W1,XpressBees,South,Electronics,Monday,Winter,2026-01-16,0,2026-01-16,On Time,10.4,760.2,1
+O00687,2026-02-13,Bengaluru-W1,BlueDart,North,Home,Tuesday,Festive,2026-02-19,4,2026-02-23,Delayed,4.3,1319.7,1
+O00688,2026-05-03,Mumbai-W1,BlueDart,Local,Electronics,Saturday,Summer,2026-05-05,2,2026-05-07,Delayed,26.4,531.9,1
+O00689,2025-12-09,Delhi-W1,BlueDart,Regional,Fashion,Wednesday,Festive,2025-12-11,6,2025-12-17,Delayed,14.0,604.5,1
+O00690,2025-08-28,Bengaluru-W1,XpressBees,Regional,Fashion,Monday,Monsoon,2025-09-04,4,2025-09-08,Delayed,9.1,53.7,3
+O00691,2025-05-19,Mumbai-W1,BlueDart,Local,Home,Saturday,Monsoon,2025-05-24,0,2025-05-24,On Time,10.0,1748.7,1
+O00692,2025-05-02,Mumbai-W1,Delhivery,Regional,Sports,Friday,Summer,2025-05-07,3,2025-05-10,Delayed,12.2,1465.1,1
+O00693,2026-02-24,Delhi-W1,Delhivery,Local,Electronics,Friday,Summer,2026-02-27,0,2026-02-27,On Time,4.3,173.6,3
+O00694,2026-07-15,Kolkata-W1,DTDC,East,Beauty,Monday,Summer,2026-07-17,0,2026-07-17,On Time,7.3,1799.1,1
+O00695,2025-10-31,Kolkata-W1,Delhivery,North,Home,Saturday,Festive,2025-11-05,4,2025-11-09,Delayed,4.4,1091.0,1
+O00696,2025-04-25,Bengaluru-W1,EcomExpress,Regional,Electronics,Friday,Festive,2025-04-27,6,2025-05-03,Delayed,13.9,1537.4,3
+O00697,2025-12-09,Delhi-W1,DTDC,East,Home,Monday,Spring,2025-12-12,1,2025-12-13,Delayed,3.3,124.7,1
+O00698,2025-09-08,Bengaluru-W1,Delhivery,Regional,Home,Sunday,Winter,2025-09-12,1,2025-09-13,Delayed,4.6,704.1,1
+O00699,2025-01-07,Kolkata-W1,EcomExpress,South,Sports,Monday,Festive,2025-01-09,4,2025-01-13,Delayed,15.0,1207.0,2
+O00700,2026-08-12,Delhi-W1,Delhivery,Local,Beauty,Wednesday,Spring,2026-08-15,3,2026-08-18,Delayed,10.5,196.0,1
+O00701,2025-06-28,Hyderabad-W1,EcomExpress,Local,Electronics,Monday,Spring,2025-07-01,4,2025-07-05,Delayed,23.8,882.6,1
+O00702,2025-05-25,Delhi-W1,BlueDart,East,Home,Sunday,Monsoon,2025-05-28,0,2025-05-28,On Time,7.3,799.6,1
+O00703,2026-02-20,Delhi-W1,EcomExpress,South,Home,Saturday,Festive,2026-02-26,6,2026-03-04,Delayed,8.1,392.8,1
+O00704,2025-05-01,Hyderabad-W1,BlueDart,North,Electronics,Saturday,Spring,2025-05-08,0,2025-05-08,On Time,20.8,544.0,1
+O00705,2025-05-04,Mumbai-W1,EcomExpress,South,Home,Friday,Monsoon,2025-05-09,5,2025-05-14,Delayed,17.6,1741.0,3
+O00706,2025-05-30,Mumbai-W1,EcomExpress,South,Home,Thursday,Winter,2025-06-01,3,2025-06-04,Delayed,15.2,523.1,1
+O00707,2026-02-01,Mumbai-W1,Delhivery,West,Home,Wednesday,Monsoon,2026-02-08,3,2026-02-11,Delayed,5.3,388.1,1
+O00708,2026-01-16,Kolkata-W1,EcomExpress,North,Fashion,Saturday,Winter,2026-01-22,6,2026-01-28,Delayed,5.6,967.5,2
+O00709,2025-01-01,Delhi-W1,Delhivery,North,Fashion,Friday,Summer,2025-01-03,1,2025-01-04,Delayed,8.6,1209.4,1
+O00710,2025-09-01,Hyderabad-W1,EcomExpress,South,Beauty,Friday,Summer,2025-09-08,3,2025-09-11,Delayed,8.5,1306.5,1
+O00711,2026-02-02,Kolkata-W1,XpressBees,Regional,Sports,Wednesday,Monsoon,2026-02-08,3,2026-02-11,Delayed,5.4,1358.9,1
+O00712,2025-09-08,Hyderabad-W1,DTDC,West,Electronics,Wednesday,Summer,2025-09-13,2,2025-09-15,Delayed,7.1,71.1,3
+O00713,2026-07-30,Kolkata-W1,Delhivery,Regional,Sports,Friday,Festive,2026-08-02,6,2026-08-08,Delayed,8.8,711.8,1
+O00714,2025-10-26,Kolkata-W1,Delhivery,South,Sports,Sunday,Monsoon,2025-11-02,0,2025-11-02,On Time,17.0,1394.3,1
+O00715,2025-10-24,Kolkata-W1,BlueDart,Regional,Fashion,Thursday,Spring,2025-10-31,2,2025-11-02,Delayed,19.9,1629.2,1
+O00716,2026-05-15,Hyderabad-W1,XpressBees,North,Beauty,Sunday,Festive,2026-05-17,2,2026-05-19,Delayed,13.6,1085.9,1
+O00717,2025-04-25,Bengaluru-W1,BlueDart,North,Sports,Tuesday,Monsoon,2025-04-28,1,2025-04-29,Delayed,2.9,98.9,1
+O00718,2025-01-01,Kolkata-W1,XpressBees,Regional,Sports,Sunday,Winter,2025-01-06,2,2025-01-08,Delayed,18.4,717.0,1
+O00719,2026-07-07,Mumbai-W1,XpressBees,North,Home,Friday,Summer,2026-07-09,3,2026-07-12,Delayed,13.7,138.2,2
+O00720,2026-08-23,Delhi-W1,EcomExpress,Local,Electronics,Wednesday,Summer,2026-08-27,5,2026-09-01,Delayed,15.6,1348.6,1
+O00721,2026-04-27,Bengaluru-W1,BlueDart,North,Beauty,Monday,Summer,2026-05-01,2,2026-05-03,Delayed,5.6,119.0,1
+O00722,2026-08-23,Bengaluru-W1,DTDC,South,Electronics,Monday,Monsoon,2026-08-27,4,2026-08-31,Delayed,21.2,338.4,3
+O00723,2026-05-25,Hyderabad-W1,XpressBees,East,Fashion,Wednesday,Festive,2026-05-30,3,2026-06-02,Delayed,7.9,753.4,1
+O00724,2025-12-01,Bengaluru-W1,XpressBees,Regional,Sports,Sunday,Winter,2025-12-05,1,2025-12-06,Delayed,5.3,835.5,3
+O00725,2026-04-10,Hyderabad-W1,Delhivery,West,Sports,Wednesday,Summer,2026-04-17,2,2026-04-19,Delayed,14.4,734.6,1
+O00726,2025-05-21,Hyderabad-W1,EcomExpress,Regional,Electronics,Tuesday,Festive,2025-05-23,7,2025-05-30,Delayed,8.7,836.8,3
+O00727,2026-08-06,Mumbai-W1,DTDC,North,Fashion,Saturday,Spring,2026-08-13,1,2026-08-14,Delayed,13.4,1285.3,1
+O00728,2025-05-17,Kolkata-W1,XpressBees,North,Home,Wednesday,Spring,2025-05-21,2,2025-05-23,Delayed,7.0,667.8,1
+O00729,2025-06-16,Bengaluru-W1,Delhivery,East,Home,Monday,Winter,2025-06-18,2,2025-06-20,Delayed,4.1,988.2,3
+O00730,2025-12-09,Kolkata-W1,BlueDart,East,Sports,Thursday,Summer,2025-12-16,1,2025-12-17,Delayed,6.9,549.5,2
+O00731,2026-02-14,Kolkata-W1,XpressBees,West,Sports,Wednesday,Spring,2026-02-19,2,2026-02-21,Delayed,3.4,639.8,3
+O00732,2025-03-06,Kolkata-W1,Delhivery,South,Beauty,Tuesday,Festive,2025-03-09,2,2025-03-11,Delayed,13.7,1106.8,1
+O00733,2026-08-04,Hyderabad-W1,BlueDart,Local,Electronics,Thursday,Festive,2026-08-11,4,2026-08-15,Delayed,1.1,885.4,3
+O00734,2025-03-08,Kolkata-W1,EcomExpress,South,Sports,Tuesday,Spring,2025-03-14,5,2025-03-19,Delayed,17.7,1302.9,2
+O00735,2026-03-09,Bengaluru-W1,BlueDart,West,Fashion,Thursday,Summer,2026-03-13,0,2026-03-13,On Time,3.6,1011.2,3
+O00736,2025-02-19,Hyderabad-W1,XpressBees,Regional,Electronics,Wednesday,Winter,2025-02-25,4,2025-03-01,Delayed,16.4,1447.4,2
+O00737,2025-11-10,Bengaluru-W1,DTDC,North,Beauty,Monday,Summer,2025-11-13,1,2025-11-14,Delayed,12.7,800.9,1
+O00738,2025-11-05,Hyderabad-W1,BlueDart,South,Home,Thursday,Monsoon,2025-11-10,2,2025-11-12,Delayed,1.7,886.4,1
+O00739,2026-08-26,Delhi-W1,DTDC,North,Beauty,Friday,Spring,2026-09-02,1,2026-09-03,Delayed,10.2,1207.6,2
+O00740,2025-04-25,Delhi-W1,DTDC,North,Electronics,Saturday,Monsoon,2025-04-30,3,2025-05-03,Delayed,3.2,402.1,2
+O00741,2026-07-23,Delhi-W1,BlueDart,South,Home,Tuesday,Spring,2026-07-26,2,2026-07-28,Delayed,10.2,697.7,2
+O00742,2025-12-08,Delhi-W1,EcomExpress,South,Fashion,Thursday,Winter,2025-12-14,3,2025-12-17,Delayed,5.7,1126.6,1
+O00743,2026-06-14,Hyderabad-W1,BlueDart,East,Home,Tuesday,Summer,2026-06-21,2,2026-06-23,Delayed,1.7,56.8,1
+O00744,2026-05-10,Kolkata-W1,Delhivery,West,Home,Monday,Summer,2026-05-14,2,2026-05-16,Delayed,12.3,789.4,2
+O00745,2025-09-26,Mumbai-W1,DTDC,West,Fashion,Tuesday,Spring,2025-09-28,1,2025-09-29,Delayed,8.5,1079.9,1
+O00746,2025-03-21,Mumbai-W1,XpressBees,Local,Sports,Tuesday,Festive,2025-03-26,4,2025-03-30,Delayed,9.0,1741.4,1
+O00747,2026-04-01,Delhi-W1,DTDC,East,Sports,Friday,Monsoon,2026-04-04,3,2026-04-07,Delayed,2.0,1579.2,2
+O00748,2025-10-26,Kolkata-W1,XpressBees,Local,Home,Tuesday,Summer,2025-11-02,0,2025-11-02,On Time,1.8,508.9,1
+O00749,2025-07-21,Bengaluru-W1,Delhivery,South,Home,Thursday,Summer,2025-07-27,0,2025-07-27,On Time,7.4,915.4,1
+O00750,2026-05-18,Kolkata-W1,Delhivery,West,Beauty,Tuesday,Spring,2026-05-22,0,2026-05-22,On Time,16.1,106.3,1
+O00751,2026-04-30,Bengaluru-W1,Delhivery,West,Sports,Wednesday,Festive,2026-05-06,3,2026-05-09,Delayed,13.8,437.2,1
+O00752,2026-08-08,Mumbai-W1,BlueDart,Local,Fashion,Tuesday,Monsoon,2026-08-12,3,2026-08-15,Delayed,12.0,1395.9,1
+O00753,2026-07-14,Kolkata-W1,DTDC,Regional,Home,Wednesday,Festive,2026-07-21,4,2026-07-25,Delayed,19.2,226.3,1
+O00754,2025-01-18,Kolkata-W1,XpressBees,East,Home,Saturday,Festive,2025-01-20,4,2025-01-24,Delayed,5.9,467.6,3
+O00755,2026-04-23,Mumbai-W1,Delhivery,East,Beauty,Tuesday,Spring,2026-04-25,2,2026-04-27,Delayed,12.5,1699.6,3
+O00756,2026-05-03,Kolkata-W1,Delhivery,East,Beauty,Sunday,Festive,2026-05-06,4,2026-05-10,Delayed,2.5,1483.8,3
+O00757,2026-03-22,Bengaluru-W1,XpressBees,West,Beauty,Saturday,Monsoon,2026-03-25,1,2026-03-26,Delayed,31.0,1408.4,1
+O00758,2025-12-06,Kolkata-W1,DTDC,North,Electronics,Sunday,Winter,2025-12-10,0,2025-12-10,On Time,5.2,1556.9,3
+O00759,2026-06-15,Bengaluru-W1,DTDC,West,Fashion,Tuesday,Winter,2026-06-19,3,2026-06-22,Delayed,11.9,1350.5,1
+O00760,2025-04-26,Delhi-W1,XpressBees,North,Electronics,Thursday,Monsoon,2025-04-30,0,2025-04-30,On Time,23.5,221.5,1
+O00761,2025-03-15,Kolkata-W1,EcomExpress,West,Home,Sunday,Spring,2025-03-19,3,2025-03-22,Delayed,6.9,932.2,3
+O00762,2025-09-26,Bengaluru-W1,DTDC,South,Beauty,Wednesday,Summer,2025-10-03,4,2025-10-07,Delayed,11.7,802.4,1
+O00763,2025-04-26,Mumbai-W1,XpressBees,West,Beauty,Saturday,Spring,2025-05-03,1,2025-05-04,Delayed,10.1,563.5,1
+O00764,2025-06-13,Delhi-W1,XpressBees,South,Beauty,Saturday,Monsoon,2025-06-15,5,2025-06-20,Delayed,6.6,1502.1,1
+O00765,2026-08-06,Kolkata-W1,Delhivery,North,Sports,Wednesday,Festive,2026-08-09,2,2026-08-11,Delayed,5.7,838.1,1
+O00766,2025-08-10,Bengaluru-W1,XpressBees,East,Fashion,Friday,Winter,2025-08-13,2,2025-08-15,Delayed,3.6,113.2,2
+O00767,2025-05-06,Kolkata-W1,BlueDart,North,Electronics,Tuesday,Festive,2025-05-11,2,2025-05-13,Delayed,8.0,498.6,1
+O00768,2025-06-25,Bengaluru-W1,Delhivery,Local,Fashion,Tuesday,Spring,2025-06-28,1,2025-06-29,Delayed,5.3,415.4,1
+O00769,2026-01-10,Kolkata-W1,Delhivery,East,Beauty,Thursday,Monsoon,2026-01-13,1,2026-01-14,Delayed,5.0,1598.0,1
+O00770,2026-05-13,Delhi-W1,DTDC,West,Home,Friday,Winter,2026-05-19,1,2026-05-20,Delayed,13.0,1167.2,1
+O00771,2025-03-26,Delhi-W1,EcomExpress,West,Sports,Friday,Monsoon,2025-04-01,4,2025-04-05,Delayed,9.6,1010.9,1
+O00772,2026-01-18,Kolkata-W1,DTDC,West,Fashion,Sunday,Winter,2026-01-23,0,2026-01-23,On Time,16.8,914.4,1
+O00773,2026-04-08,Kolkata-W1,BlueDart,West,Home,Thursday,Winter,2026-04-12,0,2026-04-12,On Time,6.6,1172.0,2
+O00774,2026-03-27,Hyderabad-W1,Delhivery,West,Beauty,Saturday,Winter,2026-04-01,2,2026-04-03,Delayed,3.8,1360.0,3
+O00775,2026-06-02,Kolkata-W1,Delhivery,North,Beauty,Wednesday,Spring,2026-06-07,1,2026-06-08,Delayed,13.2,1000.1,2
+O00776,2026-07-04,Kolkata-W1,XpressBees,South,Beauty,Saturday,Monsoon,2026-07-06,4,2026-07-10,Delayed,13.6,1689.2,1
+O00777,2025-04-26,Delhi-W1,EcomExpress,North,Beauty,Monday,Summer,2025-05-03,3,2025-05-06,Delayed,10.7,1758.4,2
+O00778,2025-01-08,Kolkata-W1,EcomExpress,Regional,Sports,Thursday,Summer,2025-01-11,3,2025-01-14,Delayed,4.9,1791.6,2
+O00779,2025-08-06,Mumbai-W1,XpressBees,North,Sports,Wednesday,Summer,2025-08-08,1,2025-08-09,Delayed,9.1,1206.6,1
+O00780,2026-08-13,Kolkata-W1,BlueDart,East,Fashion,Saturday,Monsoon,2026-08-20,1,2026-08-21,Delayed,3.7,1679.1,1
+O00781,2026-02-08,Hyderabad-W1,EcomExpress,West,Beauty,Saturday,Festive,2026-02-11,4,2026-02-15,Delayed,5.2,731.0,3
+O00782,2026-07-21,Bengaluru-W1,Delhivery,North,Sports,Friday,Monsoon,2026-07-26,0,2026-07-26,On Time,18.1,1548.0,3
+O00783,2025-10-31,Delhi-W1,BlueDart,South,Home,Thursday,Winter,2025-11-03,1,2025-11-04,Delayed,6.2,1637.0,1
+O00784,2026-04-12,Mumbai-W1,DTDC,West,Sports,Monday,Festive,2026-04-16,3,2026-04-19,Delayed,15.6,1627.9,1
+O00785,2025-03-29,Bengaluru-W1,DTDC,Local,Sports,Tuesday,Winter,2025-04-02,1,2025-04-03,Delayed,11.2,1496.4,1
+O00786,2025-01-10,Mumbai-W1,BlueDart,Regional,Fashion,Thursday,Winter,2025-01-15,1,2025-01-16,Delayed,23.2,734.8,2
+O00787,2025-11-04,Delhi-W1,Delhivery,East,Sports,Monday,Monsoon,2025-11-10,1,2025-11-11,Delayed,10.9,290.2,2
+O00788,2026-03-10,Hyderabad-W1,DTDC,South,Home,Monday,Summer,2026-03-14,2,2026-03-16,Delayed,10.4,604.5,3
+O00789,2025-06-13,Delhi-W1,Delhivery,Regional,Beauty,Thursday,Festive,2025-06-18,3,2025-06-21,Delayed,2.5,1382.3,1
+O00790,2025-08-27,Mumbai-W1,XpressBees,North,Electronics,Wednesday,Spring,2025-08-29,1,2025-08-30,Delayed,5.4,423.0,1
+O00791,2025-11-13,Mumbai-W1,EcomExpress,Regional,Fashion,Thursday,Summer,2025-11-19,5,2025-11-24,Delayed,7.4,863.5,3
+O00792,2025-12-01,Delhi-W1,BlueDart,West,Home,Saturday,Spring,2025-12-05,3,2025-12-08,Delayed,28.7,1019.9,1
+O00793,2025-01-18,Kolkata-W1,EcomExpress,West,Fashion,Sunday,Monsoon,2025-01-23,4,2025-01-27,Delayed,5.7,1088.9,1
+O00794,2025-03-12,Delhi-W1,XpressBees,Local,Beauty,Friday,Festive,2025-03-17,4,2025-03-21,Delayed,3.9,1684.6,2
+O00795,2025-06-24,Hyderabad-W1,DTDC,Regional,Sports,Saturday,Monsoon,2025-06-26,1,2025-06-27,Delayed,2.9,1192.4,2
+O00796,2025-12-05,Delhi-W1,Delhivery,Regional,Sports,Monday,Spring,2025-12-07,2,2025-12-09,Delayed,2.5,1416.4,3
+O00797,2025-09-05,Bengaluru-W1,Delhivery,West,Home,Monday,Winter,2025-09-11,1,2025-09-12,Delayed,29.3,1049.5,1
+O00798,2025-07-12,Kolkata-W1,XpressBees,North,Beauty,Tuesday,Monsoon,2025-07-19,0,2025-07-19,On Time,9.9,1501.3,2
+O00799,2026-02-23,Bengaluru-W1,BlueDart,North,Electronics,Monday,Festive,2026-02-27,5,2026-03-04,Delayed,4.2,478.3,1
+O00800,2025-11-21,Delhi-W1,EcomExpress,East,Electronics,Sunday,Monsoon,2025-11-26,3,2025-11-29,Delayed,19.5,381.7,3
+O00801,2025-11-02,Kolkata-W1,DTDC,North,Sports,Tuesday,Summer,2025-11-08,2,2025-11-10,Delayed,25.0,1667.7,1
+O00802,2025-07-23,Bengaluru-W1,BlueDart,Regional,Beauty,Monday,Monsoon,2025-07-29,1,2025-07-30,Delayed,4.4,1249.8,1
+O00803,2025-05-03,Bengaluru-W1,XpressBees,Local,Beauty,Monday,Spring,2025-05-05,0,2025-05-05,On Time,6.4,1210.4,1
+O00804,2026-07-24,Kolkata-W1,XpressBees,North,Home,Thursday,Monsoon,2026-07-29,3,2026-08-01,Delayed,17.7,843.8,3
+O00805,2026-03-23,Kolkata-W1,Delhivery,West,Electronics,Thursday,Festive,2026-03-26,5,2026-03-31,Delayed,13.7,681.2,1
+O00806,2026-05-06,Mumbai-W1,DTDC,West,Home,Friday,Monsoon,2026-05-13,3,2026-05-16,Delayed,7.9,1002.5,2
+O00807,2026-03-09,Kolkata-W1,BlueDart,East,Fashion,Saturday,Monsoon,2026-03-16,4,2026-03-20,Delayed,18.0,221.4,1
+O00808,2025-05-08,Delhi-W1,Delhivery,East,Beauty,Wednesday,Festive,2025-05-10,3,2025-05-13,Delayed,2.4,821.2,3
+O00809,2026-07-02,Hyderabad-W1,DTDC,Regional,Electronics,Friday,Monsoon,2026-07-07,1,2026-07-08,Delayed,3.7,822.4,1
+O00810,2025-02-16,Mumbai-W1,EcomExpress,North,Home,Monday,Festive,2025-02-22,4,2025-02-26,Delayed,5.1,971.3,1
+O00811,2026-05-20,Kolkata-W1,EcomExpress,North,Sports,Friday,Spring,2026-05-27,2,2026-05-29,Delayed,4.7,1144.3,1
+O00812,2025-04-25,Hyderabad-W1,Delhivery,East,Fashion,Thursday,Festive,2025-05-01,5,2025-05-06,Delayed,1.3,1723.4,1
+O00813,2026-02-20,Mumbai-W1,BlueDart,North,Home,Saturday,Spring,2026-02-24,0,2026-02-24,On Time,6.7,1175.6,1
+O00814,2025-08-11,Delhi-W1,DTDC,Regional,Sports,Monday,Spring,2025-08-14,1,2025-08-15,Delayed,12.5,1591.3,1
+O00815,2026-05-18,Hyderabad-W1,EcomExpress,Local,Electronics,Monday,Festive,2026-05-20,4,2026-05-24,Delayed,14.9,1003.6,1
+O00816,2025-04-06,Kolkata-W1,EcomExpress,West,Electronics,Friday,Monsoon,2025-04-13,2,2025-04-15,Delayed,14.2,1130.3,1
+O00817,2025-04-17,Kolkata-W1,BlueDart,Regional,Fashion,Saturday,Summer,2025-04-21,2,2025-04-23,Delayed,17.0,130.4,2
+O00818,2025-02-01,Delhi-W1,Delhivery,North,Sports,Sunday,Festive,2025-02-05,4,2025-02-09,Delayed,11.6,244.2,1
+O00819,2026-05-08,Mumbai-W1,XpressBees,Regional,Beauty,Tuesday,Monsoon,2026-05-11,3,2026-05-14,Delayed,5.9,1045.5,1
+O00820,2025-03-07,Hyderabad-W1,DTDC,West,Electronics,Sunday,Spring,2025-03-09,0,2025-03-09,On Time,1.9,715.3,1
+O00821,2025-06-28,Delhi-W1,EcomExpress,South,Beauty,Wednesday,Winter,2025-06-30,2,2025-07-02,Delayed,1.9,1438.9,1
+O00822,2026-03-19,Mumbai-W1,XpressBees,West,Beauty,Saturday,Summer,2026-03-25,0,2026-03-25,On Time,9.5,980.0,1
+O00823,2026-07-03,Bengaluru-W1,BlueDart,West,Home,Friday,Monsoon,2026-07-05,1,2026-07-06,Delayed,4.4,1588.7,1
+O00824,2025-07-20,Bengaluru-W1,Delhivery,South,Home,Sunday,Summer,2025-07-24,1,2025-07-25,Delayed,9.2,1750.3,1
+O00825,2025-02-18,Mumbai-W1,DTDC,North,Electronics,Friday,Winter,2025-02-24,1,2025-02-25,Delayed,3.4,270.0,1
+O00826,2025-09-20,Kolkata-W1,BlueDart,North,Beauty,Wednesday,Winter,2025-09-22,1,2025-09-23,Delayed,19.1,713.7,1
+O00827,2025-05-13,Kolkata-W1,Delhivery,Local,Home,Monday,Winter,2025-05-16,0,2025-05-16,On Time,6.9,1198.6,2
+O00828,2025-12-10,Bengaluru-W1,BlueDart,West,Sports,Monday,Festive,2025-12-14,4,2025-12-18,Delayed,7.3,553.4,2
+O00829,2025-06-25,Kolkata-W1,EcomExpress,Regional,Sports,Tuesday,Summer,2025-06-30,5,2025-07-05,Delayed,7.7,484.3,2
+O00830,2026-01-26,Kolkata-W1,EcomExpress,Local,Sports,Friday,Festive,2026-01-29,6,2026-02-04,Delayed,0.4,1465.7,1
+O00831,2025-01-11,Mumbai-W1,XpressBees,North,Sports,Wednesday,Winter,2025-01-14,1,2025-01-15,Delayed,17.8,1764.8,1
+O00832,2025-07-20,Mumbai-W1,BlueDart,North,Beauty,Friday,Monsoon,2025-07-22,6,2025-07-28,Delayed,3.8,1394.0,1
+O00833,2025-01-03,Kolkata-W1,EcomExpress,East,Sports,Thursday,Winter,2025-01-09,3,2025-01-12,Delayed,7.9,945.0,1
+O00834,2025-08-02,Mumbai-W1,Delhivery,Local,Beauty,Friday,Festive,2025-08-08,8,2025-08-16,Delayed,9.0,799.3,2
+O00835,2025-11-03,Hyderabad-W1,XpressBees,North,Electronics,Friday,Winter,2025-11-07,0,2025-11-07,On Time,4.8,973.7,1
+O00836,2026-06-28,Bengaluru-W1,DTDC,South,Electronics,Thursday,Winter,2026-06-30,0,2026-06-30,On Time,12.7,835.8,1
+O00837,2026-07-14,Hyderabad-W1,BlueDart,East,Sports,Thursday,Festive,2026-07-20,3,2026-07-23,Delayed,16.5,907.7,3
+O00838,2025-11-23,Hyderabad-W1,EcomExpress,Regional,Sports,Sunday,Festive,2025-11-30,6,2025-12-06,Delayed,1.9,370.2,3
+O00839,2025-07-18,Kolkata-W1,Delhivery,East,Sports,Wednesday,Monsoon,2025-07-23,2,2025-07-25,Delayed,13.6,1627.2,1
+O00840,2026-08-24,Kolkata-W1,BlueDart,West,Electronics,Sunday,Festive,2026-08-31,4,2026-09-04,Delayed,1.6,1359.4,1
+O00841,2025-04-19,Hyderabad-W1,Delhivery,West,Home,Monday,Monsoon,2025-04-21,2,2025-04-23,Delayed,4.8,1227.4,1
+O00842,2025-10-18,Hyderabad-W1,XpressBees,Regional,Electronics,Tuesday,Spring,2025-10-20,1,2025-10-21,Delayed,5.8,1710.1,1
+O00843,2025-04-18,Delhi-W1,EcomExpress,South,Sports,Sunday,Spring,2025-04-24,2,2025-04-26,Delayed,6.0,515.5,1
+O00844,2026-02-12,Delhi-W1,EcomExpress,Regional,Home,Thursday,Festive,2026-02-15,5,2026-02-20,Delayed,18.3,150.7,3
+O00845,2026-07-06,Bengaluru-W1,XpressBees,Local,Home,Monday,Winter,2026-07-08,0,2026-07-08,On Time,6.2,1487.9,2
+O00846,2025-02-21,Hyderabad-W1,Delhivery,Regional,Fashion,Wednesday,Summer,2025-02-24,1,2025-02-25,Delayed,6.2,1797.2,2
+O00847,2025-04-22,Mumbai-W1,BlueDart,Regional,Beauty,Saturday,Winter,2025-04-26,6,2025-05-02,Delayed,3.0,1043.3,1
+O00848,2025-10-22,Delhi-W1,Delhivery,East,Sports,Friday,Festive,2025-10-26,3,2025-10-29,Delayed,10.5,110.6,1
+O00849,2026-08-03,Kolkata-W1,BlueDart,South,Beauty,Wednesday,Monsoon,2026-08-09,3,2026-08-12,Delayed,7.5,1405.9,1
+O00850,2025-07-08,Hyderabad-W1,XpressBees,Regional,Fashion,Wednesday,Winter,2025-07-12,2,2025-07-14,Delayed,11.9,137.4,3
+O00851,2025-03-06,Mumbai-W1,DTDC,Local,Beauty,Thursday,Spring,2025-03-13,0,2025-03-13,On Time,3.0,974.3,1
+O00852,2026-07-28,Mumbai-W1,BlueDart,East,Sports,Tuesday,Festive,2026-08-04,4,2026-08-08,Delayed,23.5,503.2,1
+O00853,2026-04-10,Mumbai-W1,EcomExpress,South,Fashion,Sunday,Winter,2026-04-17,4,2026-04-21,Delayed,14.2,1647.5,3
+O00854,2025-09-15,Kolkata-W1,EcomExpress,South,Beauty,Thursday,Winter,2025-09-21,2,2025-09-23,Delayed,51.9,815.1,1
+O00855,2025-11-27,Delhi-W1,EcomExpress,North,Electronics,Friday,Monsoon,2025-12-03,3,2025-12-06,Delayed,8.9,1617.7,1
+O00856,2026-05-16,Mumbai-W1,Delhivery,West,Home,Thursday,Monsoon,2026-05-23,1,2026-05-24,Delayed,16.0,541.9,1
+O00857,2025-07-29,Delhi-W1,Delhivery,Local,Fashion,Friday,Monsoon,2025-08-01,0,2025-08-01,On Time,23.9,700.3,2
+O00858,2025-03-30,Bengaluru-W1,Delhivery,West,Electronics,Thursday,Summer,2025-04-06,1,2025-04-07,Delayed,10.7,1705.1,2
+O00859,2025-01-28,Kolkata-W1,EcomExpress,East,Sports,Saturday,Festive,2025-01-31,6,2025-02-06,Delayed,7.6,366.4,1
+O00860,2025-08-26,Delhi-W1,BlueDart,East,Home,Tuesday,Festive,2025-08-30,4,2025-09-03,Delayed,6.1,1043.4,1
+O00861,2025-12-02,Delhi-W1,EcomExpress,Local,Fashion,Saturday,Spring,2025-12-05,5,2025-12-10,Delayed,7.0,702.4,1
+O00862,2025-03-04,Mumbai-W1,BlueDart,South,Home,Monday,Spring,2025-03-06,3,2025-03-09,Delayed,9.7,1394.6,1
+O00863,2026-07-07,Mumbai-W1,Delhivery,Regional,Fashion,Tuesday,Festive,2026-07-12,5,2026-07-17,Delayed,7.4,237.1,2
+O00864,2026-05-15,Kolkata-W1,DTDC,Local,Fashion,Sunday,Winter,2026-05-17,1,2026-05-18,Delayed,13.4,789.8,1
+O00865,2026-06-25,Delhi-W1,Delhivery,East,Beauty,Thursday,Festive,2026-06-27,2,2026-06-29,Delayed,20.2,1259.6,1
+O00866,2026-04-14,Hyderabad-W1,XpressBees,West,Home,Wednesday,Summer,2026-04-20,1,2026-04-21,Delayed,3.5,735.6,1
+O00867,2026-08-15,Mumbai-W1,BlueDart,Local,Home,Monday,Spring,2026-08-20,0,2026-08-20,On Time,3.5,110.1,2
+O00868,2025-02-20,Mumbai-W1,DTDC,South,Electronics,Wednesday,Spring,2025-02-26,1,2025-02-27,Delayed,6.3,1270.7,2
+O00869,2025-04-22,Bengaluru-W1,Delhivery,North,Sports,Saturday,Spring,2025-04-25,5,2025-04-30,Delayed,1.9,908.2,1
+O00870,2025-10-28,Kolkata-W1,DTDC,North,Electronics,Sunday,Festive,2025-11-04,3,2025-11-07,Delayed,22.5,25.3,1
+O00871,2025-03-31,Delhi-W1,EcomExpress,Regional,Beauty,Tuesday,Spring,2025-04-03,4,2025-04-07,Delayed,17.0,1104.7,1
+O00872,2025-08-17,Delhi-W1,BlueDart,Regional,Fashion,Sunday,Spring,2025-08-22,2,2025-08-24,Delayed,7.6,1656.2,2
+O00873,2025-05-30,Delhi-W1,XpressBees,South,Beauty,Monday,Festive,2025-06-03,2,2025-06-05,Delayed,8.1,204.3,2
+O00874,2025-05-18,Mumbai-W1,EcomExpress,West,Beauty,Saturday,Winter,2025-05-21,3,2025-05-24,Delayed,10.9,1065.3,1
+O00875,2025-05-15,Kolkata-W1,DTDC,Regional,Electronics,Thursday,Spring,2025-05-17,3,2025-05-20,Delayed,4.9,1313.0,2
+O00876,2026-04-02,Delhi-W1,Delhivery,North,Fashion,Wednesday,Spring,2026-04-07,0,2026-04-07,On Time,6.8,132.0,1
+O00877,2026-08-24,Hyderabad-W1,BlueDart,South,Sports,Thursday,Spring,2026-08-29,1,2026-08-30,Delayed,5.1,45.6,1
+O00878,2026-05-09,Bengaluru-W1,XpressBees,South,Beauty,Friday,Summer,2026-05-12,0,2026-05-12,On Time,9.0,838.2,1
+O00879,2026-06-11,Bengaluru-W1,Delhivery,South,Sports,Sunday,Festive,2026-06-14,3,2026-06-17,Delayed,9.2,1425.2,1
+O00880,2025-11-29,Delhi-W1,XpressBees,Local,Fashion,Monday,Spring,2025-12-05,0,2025-12-05,On Time,7.9,293.5,1
+O00881,2025-12-28,Mumbai-W1,BlueDart,West,Fashion,Wednesday,Summer,2026-01-03,2,2026-01-05,Delayed,16.0,1506.8,1
+O00882,2025-06-23,Bengaluru-W1,DTDC,West,Electronics,Tuesday,Winter,2025-06-25,1,2025-06-26,Delayed,8.0,1183.6,1
+O00883,2026-08-25,Bengaluru-W1,XpressBees,Regional,Home,Tuesday,Winter,2026-08-30,2,2026-09-01,Delayed,8.3,601.3,1
+O00884,2025-08-01,Bengaluru-W1,BlueDart,West,Electronics,Tuesday,Summer,2025-08-05,3,2025-08-08,Delayed,2.6,930.9,2
+O00885,2025-12-09,Bengaluru-W1,XpressBees,East,Sports,Saturday,Winter,2025-12-13,0,2025-12-13,On Time,13.1,1738.2,1
+O00886,2025-03-02,Delhi-W1,Delhivery,North,Electronics,Tuesday,Monsoon,2025-03-07,4,2025-03-11,Delayed,9.6,393.5,2
+O00887,2025-03-02,Kolkata-W1,XpressBees,Regional,Fashion,Wednesday,Winter,2025-03-04,5,2025-03-09,Delayed,14.0,901.7,1
+O00888,2026-06-08,Kolkata-W1,Delhivery,West,Beauty,Sunday,Monsoon,2026-06-14,0,2026-06-14,On Time,4.5,1126.0,1
+O00889,2025-08-04,Mumbai-W1,Delhivery,North,Home,Sunday,Summer,2025-08-10,3,2025-08-13,Delayed,3.7,252.7,1
+O00890,2026-08-12,Hyderabad-W1,BlueDart,Regional,Fashion,Sunday,Monsoon,2026-08-18,2,2026-08-20,Delayed,7.3,83.1,2
+O00891,2026-08-01,Kolkata-W1,EcomExpress,East,Beauty,Saturday,Winter,2026-08-05,3,2026-08-08,Delayed,1.6,29.2,3
+O00892,2026-02-27,Hyderabad-W1,XpressBees,North,Sports,Friday,Spring,2026-03-03,1,2026-03-04,Delayed,23.3,587.8,2
+O00893,2026-02-27,Kolkata-W1,DTDC,East,Sports,Tuesday,Monsoon,2026-03-01,0,2026-03-01,On Time,7.2,137.7,1
+O00894,2026-01-06,Kolkata-W1,Delhivery,North,Sports,Sunday,Winter,2026-01-10,1,2026-01-11,Delayed,0.9,1447.8,1
+O00895,2025-07-25,Mumbai-W1,EcomExpress,Local,Electronics,Tuesday,Spring,2025-07-28,5,2025-08-02,Delayed,6.0,1795.2,2
+O00896,2025-10-13,Bengaluru-W1,Delhivery,Local,Sports,Saturday,Summer,2025-10-17,1,2025-10-18,Delayed,7.7,115.0,1
+O00897,2025-04-15,Mumbai-W1,EcomExpress,North,Sports,Tuesday,Summer,2025-04-21,4,2025-04-25,Delayed,20.3,781.7,1
+O00898,2026-06-27,Kolkata-W1,EcomExpress,North,Electronics,Friday,Festive,2026-06-29,5,2026-07-04,Delayed,8.9,51.2,3
+O00899,2025-08-30,Bengaluru-W1,DTDC,East,Beauty,Saturday,Summer,2025-09-04,2,2025-09-06,Delayed,2.8,245.5,3
+O00900,2026-05-06,Bengaluru-W1,EcomExpress,West,Fashion,Saturday,Festive,2026-05-11,7,2026-05-18,Delayed,11.0,584.6,2
+O00901,2026-05-13,Bengaluru-W1,DTDC,South,Home,Monday,Summer,2026-05-15,3,2026-05-18,Delayed,8.9,711.7,1
+O00902,2026-03-11,Hyderabad-W1,BlueDart,North,Sports,Saturday,Summer,2026-03-14,1,2026-03-15,Delayed,7.5,1691.9,2
+O00903,2026-04-29,Kolkata-W1,Delhivery,Regional,Sports,Tuesday,Summer,2026-05-04,2,2026-05-06,Delayed,6.7,715.5,3
+O00904,2026-03-23,Delhi-W1,DTDC,Regional,Sports,Saturday,Festive,2026-03-29,5,2026-04-03,Delayed,15.4,895.8,3
+O00905,2026-01-19,Mumbai-W1,Delhivery,Regional,Electronics,Tuesday,Festive,2026-01-24,4,2026-01-28,Delayed,8.7,445.8,1
+O00906,2026-05-25,Hyderabad-W1,XpressBees,Local,Electronics,Tuesday,Monsoon,2026-05-30,4,2026-06-03,Delayed,8.3,5.2,1
+O00907,2025-06-19,Mumbai-W1,BlueDart,West,Electronics,Sunday,Winter,2025-06-25,1,2025-06-26,Delayed,17.6,1619.3,1
+O00908,2025-11-19,Delhi-W1,XpressBees,East,Home,Saturday,Winter,2025-11-23,1,2025-11-24,Delayed,14.3,151.7,3
+O00909,2026-04-19,Bengaluru-W1,XpressBees,West,Fashion,Monday,Winter,2026-04-22,1,2026-04-23,Delayed,11.0,1735.8,3
+O00910,2025-08-20,Delhi-W1,EcomExpress,Local,Sports,Tuesday,Summer,2025-08-26,3,2025-08-29,Delayed,5.2,239.9,2
+O00911,2025-12-25,Mumbai-W1,EcomExpress,West,Beauty,Sunday,Winter,2025-12-31,4,2026-01-04,Delayed,7.0,1090.8,2
+O00912,2025-10-02,Delhi-W1,XpressBees,West,Sports,Monday,Festive,2025-10-09,3,2025-10-12,Delayed,8.1,1798.9,1
+O00913,2025-02-01,Kolkata-W1,EcomExpress,Regional,Sports,Monday,Monsoon,2025-02-03,4,2025-02-07,Delayed,3.1,253.5,3
+O00914,2025-06-26,Delhi-W1,Delhivery,North,Sports,Saturday,Spring,2025-06-29,1,2025-06-30,Delayed,6.1,766.0,2
+O00915,2025-03-06,Kolkata-W1,EcomExpress,Regional,Sports,Thursday,Monsoon,2025-03-10,3,2025-03-13,Delayed,8.9,1405.9,1
+O00916,2025-01-27,Delhi-W1,XpressBees,West,Fashion,Sunday,Winter,2025-02-03,1,2025-02-04,Delayed,12.5,62.8,1
+O00917,2026-04-24,Kolkata-W1,EcomExpress,North,Beauty,Thursday,Winter,2026-04-30,2,2026-05-02,Delayed,12.2,1243.2,3
+O00918,2025-09-25,Kolkata-W1,EcomExpress,East,Electronics,Tuesday,Festive,2025-10-02,4,2025-10-06,Delayed,2.1,149.3,1
+O00919,2026-08-20,Delhi-W1,DTDC,South,Beauty,Wednesday,Monsoon,2026-08-24,1,2026-08-25,Delayed,6.7,429.6,3
+O00920,2025-03-07,Hyderabad-W1,DTDC,North,Sports,Thursday,Festive,2025-03-14,5,2025-03-19,Delayed,4.8,292.3,2
+O00921,2025-05-13,Bengaluru-W1,XpressBees,Local,Beauty,Sunday,Festive,2025-05-20,2,2025-05-22,Delayed,1.8,1633.7,3
+O00922,2026-01-01,Bengaluru-W1,Delhivery,Regional,Sports,Saturday,Spring,2026-01-08,3,2026-01-11,Delayed,7.9,328.9,1
+O00923,2025-03-23,Bengaluru-W1,BlueDart,Regional,Beauty,Sunday,Festive,2025-03-29,4,2025-04-02,Delayed,6.0,77.6,3
+O00924,2025-11-24,Kolkata-W1,BlueDart,West,Home,Saturday,Festive,2025-11-30,3,2025-12-03,Delayed,8.7,1059.8,2
+O00925,2025-04-08,Bengaluru-W1,XpressBees,West,Beauty,Thursday,Spring,2025-04-10,4,2025-04-14,Delayed,12.3,626.4,1
+O00926,2026-08-08,Kolkata-W1,Delhivery,West,Electronics,Wednesday,Summer,2026-08-13,4,2026-08-17,Delayed,10.9,733.2,2
+O00927,2025-11-23,Hyderabad-W1,Delhivery,West,Electronics,Friday,Summer,2025-11-26,0,2025-11-26,On Time,25.3,218.7,1
+O00928,2026-06-26,Delhi-W1,Delhivery,Regional,Beauty,Tuesday,Spring,2026-06-28,1,2026-06-29,Delayed,9.6,1348.1,2
+O00929,2025-05-05,Delhi-W1,DTDC,North,Beauty,Sunday,Festive,2025-05-09,3,2025-05-12,Delayed,19.8,1084.8,1
+O00930,2025-07-29,Kolkata-W1,XpressBees,East,Fashion,Friday,Winter,2025-08-05,0,2025-08-05,On Time,3.8,658.8,3
+O00931,2025-05-13,Kolkata-W1,BlueDart,North,Beauty,Friday,Monsoon,2025-05-19,2,2025-05-21,Delayed,10.8,313.0,1
+O00932,2026-05-18,Hyderabad-W1,Delhivery,Local,Electronics,Monday,Winter,2026-05-25,1,2026-05-26,Delayed,5.2,1070.2,3
+O00933,2025-06-06,Bengaluru-W1,XpressBees,Regional,Home,Monday,Winter,2025-06-12,1,2025-06-13,Delayed,7.2,1402.6,1
+O00934,2026-07-13,Hyderabad-W1,BlueDart,North,Electronics,Tuesday,Festive,2026-07-16,3,2026-07-19,Delayed,14.5,565.8,2
+O00935,2026-01-17,Delhi-W1,DTDC,Regional,Fashion,Wednesday,Monsoon,2026-01-19,4,2026-01-23,Delayed,7.2,51.4,1
+O00936,2025-01-22,Delhi-W1,EcomExpress,Local,Beauty,Monday,Monsoon,2025-01-24,3,2025-01-27,Delayed,16.2,389.7,3
+O00937,2026-08-18,Bengaluru-W1,BlueDart,South,Home,Sunday,Summer,2026-08-22,0,2026-08-22,On Time,5.3,1229.9,1
+O00938,2026-02-23,Delhi-W1,BlueDart,South,Electronics,Sunday,Spring,2026-02-25,2,2026-02-27,Delayed,3.7,1780.4,1
+O00939,2026-04-17,Kolkata-W1,BlueDart,South,Home,Thursday,Festive,2026-04-19,2,2026-04-21,Delayed,10.0,29.0,1
+O00940,2025-08-22,Delhi-W1,EcomExpress,Regional,Sports,Sunday,Monsoon,2025-08-27,7,2025-09-03,Delayed,10.3,554.5,1
+O00941,2026-07-26,Mumbai-W1,Delhivery,North,Electronics,Tuesday,Festive,2026-07-29,2,2026-07-31,Delayed,6.9,116.3,1
+O00942,2026-03-30,Bengaluru-W1,EcomExpress,Regional,Sports,Saturday,Summer,2026-04-06,4,2026-04-10,Delayed,12.8,572.8,2
+O00943,2026-07-24,Bengaluru-W1,BlueDart,East,Home,Friday,Winter,2026-07-26,0,2026-07-26,On Time,1.5,733.6,1
+O00944,2025-06-11,Bengaluru-W1,DTDC,North,Beauty,Sunday,Monsoon,2025-06-15,2,2025-06-17,Delayed,4.2,1657.9,1
+O00945,2025-10-28,Mumbai-W1,BlueDart,Local,Beauty,Tuesday,Summer,2025-11-04,2,2025-11-06,Delayed,11.4,149.6,1
+O00946,2025-11-02,Hyderabad-W1,DTDC,West,Beauty,Saturday,Festive,2025-11-08,2,2025-11-10,Delayed,7.4,1400.0,1
+O00947,2025-01-02,Kolkata-W1,XpressBees,South,Sports,Saturday,Summer,2025-01-04,0,2025-01-04,On Time,5.5,715.0,3
+O00948,2025-09-28,Bengaluru-W1,DTDC,North,Beauty,Monday,Summer,2025-09-30,1,2025-10-01,Delayed,9.5,1461.2,2
+O00949,2026-02-25,Delhi-W1,BlueDart,North,Fashion,Saturday,Summer,2026-03-04,2,2026-03-06,Delayed,15.5,926.6,1
+O00950,2025-05-23,Kolkata-W1,EcomExpress,South,Electronics,Wednesday,Summer,2025-05-29,2,2025-05-31,Delayed,10.8,75.5,1
+O00951,2026-06-19,Delhi-W1,BlueDart,Local,Electronics,Saturday,Summer,2026-06-24,0,2026-06-24,On Time,13.9,1703.4,1
+O00952,2025-02-06,Kolkata-W1,BlueDart,Regional,Home,Saturday,Summer,2025-02-09,1,2025-02-10,Delayed,11.2,153.5,1
+O00953,2025-04-17,Kolkata-W1,XpressBees,Regional,Sports,Friday,Spring,2025-04-22,1,2025-04-23,Delayed,17.9,1077.8,2
+O00954,2025-10-24,Delhi-W1,Delhivery,West,Electronics,Wednesday,Festive,2025-10-28,3,2025-10-31,Delayed,6.1,1580.4,2
+O00955,2025-04-07,Delhi-W1,BlueDart,North,Sports,Tuesday,Winter,2025-04-14,3,2025-04-17,Delayed,16.1,148.2,3
+O00956,2025-10-08,Kolkata-W1,XpressBees,South,Home,Wednesday,Festive,2025-10-10,4,2025-10-14,Delayed,2.3,999.2,1
+O00957,2025-04-20,Bengaluru-W1,EcomExpress,East,Beauty,Wednesday,Monsoon,2025-04-25,5,2025-04-30,Delayed,3.4,1484.6,2
+O00958,2026-07-03,Delhi-W1,XpressBees,Local,Home,Tuesday,Monsoon,2026-07-06,1,2026-07-07,Delayed,12.7,1775.5,2
+O00959,2026-07-06,Mumbai-W1,XpressBees,Regional,Fashion,Friday,Festive,2026-07-10,5,2026-07-15,Delayed,3.3,1305.2,1
+O00960,2026-08-20,Mumbai-W1,DTDC,Local,Beauty,Sunday,Summer,2026-08-25,0,2026-08-25,On Time,6.9,504.6,3
+O00961,2025-07-07,Kolkata-W1,Delhivery,Local,Beauty,Saturday,Spring,2025-07-09,2,2025-07-11,Delayed,17.8,1260.7,1
+O00962,2026-05-03,Hyderabad-W1,Delhivery,West,Beauty,Wednesday,Winter,2026-05-06,2,2026-05-08,Delayed,3.8,1271.9,3
+O00963,2025-12-20,Kolkata-W1,EcomExpress,Local,Home,Wednesday,Summer,2025-12-22,2,2025-12-24,Delayed,14.7,1261.4,1
+O00964,2025-01-19,Kolkata-W1,XpressBees,South,Fashion,Sunday,Festive,2025-01-21,2,2025-01-23,Delayed,6.7,1538.4,1
+O00965,2026-01-28,Bengaluru-W1,EcomExpress,West,Sports,Tuesday,Festive,2026-02-01,5,2026-02-06,Delayed,3.5,161.8,1
+O00966,2025-09-18,Bengaluru-W1,EcomExpress,South,Home,Thursday,Spring,2025-09-21,3,2025-09-24,Delayed,8.6,199.6,1
+O00967,2026-02-14,Hyderabad-W1,Delhivery,West,Electronics,Sunday,Spring,2026-02-20,0,2026-02-20,On Time,17.1,1154.9,3
+O00968,2026-02-07,Hyderabad-W1,Delhivery,South,Electronics,Wednesday,Festive,2026-02-09,2,2026-02-11,Delayed,3.2,1717.2,1
+O00969,2026-04-29,Hyderabad-W1,Delhivery,West,Home,Monday,Summer,2026-05-02,1,2026-05-03,Delayed,3.0,841.2,3
+O00970,2025-10-31,Hyderabad-W1,BlueDart,West,Sports,Saturday,Summer,2025-11-02,1,2025-11-03,Delayed,12.4,1729.2,3
+O00971,2025-01-18,Hyderabad-W1,XpressBees,North,Electronics,Saturday,Summer,2025-01-23,1,2025-01-24,Delayed,5.8,1688.9,1
+O00972,2025-07-03,Kolkata-W1,EcomExpress,South,Sports,Sunday,Winter,2025-07-08,4,2025-07-12,Delayed,25.5,1625.7,2
+O00973,2026-02-09,Kolkata-W1,XpressBees,North,Beauty,Friday,Winter,2026-02-12,2,2026-02-14,Delayed,10.3,1638.2,3
+O00974,2025-05-11,Mumbai-W1,EcomExpress,West,Home,Sunday,Summer,2025-05-15,4,2025-05-19,Delayed,15.4,1617.5,1
+O00975,2026-04-24,Mumbai-W1,EcomExpress,Regional,Beauty,Wednesday,Festive,2026-04-30,7,2026-05-07,Delayed,10.1,1476.7,1
+O00976,2025-01-08,Delhi-W1,EcomExpress,West,Electronics,Tuesday,Spring,2025-01-13,3,2025-01-16,Delayed,3.2,1252.5,1
+O00977,2025-11-14,Kolkata-W1,EcomExpress,Regional,Sports,Monday,Monsoon,2025-11-18,4,2025-11-22,Delayed,4.4,48.8,3
+O00978,2026-01-26,Hyderabad-W1,DTDC,Regional,Beauty,Sunday,Spring,2026-02-01,4,2026-02-05,Delayed,4.9,242.4,1
+O00979,2026-06-03,Delhi-W1,DTDC,Regional,Electronics,Tuesday,Spring,2026-06-08,3,2026-06-11,Delayed,11.6,245.9,1
+O00980,2025-05-16,Bengaluru-W1,BlueDart,Regional,Fashion,Sunday,Monsoon,2025-05-22,1,2025-05-23,Delayed,8.4,47.3,3
+O00981,2026-06-15,Kolkata-W1,Delhivery,South,Beauty,Wednesday,Summer,2026-06-22,2,2026-06-24,Delayed,1.9,214.5,1
+O00982,2026-01-02,Mumbai-W1,EcomExpress,East,Fashion,Monday,Spring,2026-01-04,4,2026-01-08,Delayed,13.1,1655.9,1
+O00983,2026-05-04,Kolkata-W1,XpressBees,South,Fashion,Friday,Monsoon,2026-05-07,1,2026-05-08,Delayed,28.3,1196.5,2
+O00984,2025-01-11,Kolkata-W1,DTDC,East,Electronics,Friday,Festive,2025-01-16,3,2025-01-19,Delayed,3.7,565.2,3
+O00985,2026-07-07,Kolkata-W1,Delhivery,South,Home,Sunday,Festive,2026-07-12,5,2026-07-17,Delayed,4.2,1429.1,2
+O00986,2026-03-22,Kolkata-W1,BlueDart,Regional,Sports,Friday,Festive,2026-03-24,3,2026-03-27,Delayed,5.3,881.6,1
+O00987,2025-04-24,Bengaluru-W1,Delhivery,Local,Electronics,Thursday,Summer,2025-04-29,0,2025-04-29,On Time,7.8,260.1,1
+O00988,2025-07-15,Mumbai-W1,EcomExpress,West,Beauty,Tuesday,Spring,2025-07-20,5,2025-07-25,Delayed,4.0,1592.7,1
+O00989,2025-11-19,Kolkata-W1,Delhivery,East,Sports,Wednesday,Spring,2025-11-26,2,2025-11-28,Delayed,17.6,612.9,2
+O00990,2026-05-27,Bengaluru-W1,EcomExpress,Local,Home,Monday,Winter,2026-06-01,4,2026-06-05,Delayed,21.7,1259.5,1
+O00991,2025-06-14,Delhi-W1,DTDC,Regional,Electronics,Sunday,Festive,2025-06-19,3,2025-06-22,Delayed,9.2,526.6,3
+O00992,2025-09-09,Kolkata-W1,DTDC,East,Home,Sunday,Summer,2025-09-14,0,2025-09-14,On Time,8.1,902.6,2
+O00993,2025-02-13,Bengaluru-W1,EcomExpress,Local,Beauty,Saturday,Monsoon,2025-02-17,2,2025-02-19,Delayed,2.1,1470.2,1
+O00994,2026-04-15,Hyderabad-W1,XpressBees,South,Electronics,Saturday,Summer,2026-04-20,1,2026-04-21,Delayed,3.5,286.4,1
+O00995,2026-05-04,Delhi-W1,DTDC,Regional,Beauty,Tuesday,Spring,2026-05-06,2,2026-05-08,Delayed,1.3,1759.2,3
+O00996,2025-06-30,Mumbai-W1,XpressBees,South,Sports,Wednesday,Festive,2025-07-07,4,2025-07-11,Delayed,5.5,131.0,3
+O00997,2025-03-18,Kolkata-W1,EcomExpress,South,Sports,Thursday,Winter,2025-03-23,2,2025-03-25,Delayed,6.3,963.5,1
+O00998,2026-01-09,Kolkata-W1,EcomExpress,Regional,Home,Wednesday,Summer,2026-01-15,3,2026-01-18,Delayed,12.3,1649.3,1
+O00999,2025-03-08,Bengaluru-W1,DTDC,East,Home,Tuesday,Winter,2025-03-15,2,2025-03-17,Delayed,9.2,1702.5,1
+O01000,2026-06-09,Mumbai-W1,XpressBees,West,Sports,Wednesday,Spring,2026-06-16,2,2026-06-18,Delayed,4.7,421.6,1
+O01001,2025-04-02,Hyderabad-W1,EcomExpress,North,Fashion,Saturday,Monsoon,2025-04-08,2,2025-04-10,Delayed,12.7,263.5,1
+O01002,2025-09-01,Delhi-W1,DTDC,North,Sports,Saturday,Summer,2025-09-03,1,2025-09-04,Delayed,31.1,1305.3,2
+O01003,2025-12-07,Mumbai-W1,EcomExpress,West,Electronics,Monday,Spring,2025-12-11,5,2025-12-16,Delayed,13.1,80.3,3
+O01004,2025-10-31,Kolkata-W1,Delhivery,Regional,Beauty,Thursday,Festive,2025-11-02,5,2025-11-07,Delayed,5.9,876.0,1
+O01005,2026-02-02,Bengaluru-W1,Delhivery,North,Sports,Saturday,Summer,2026-02-06,2,2026-02-08,Delayed,9.9,1434.5,1
+O01006,2026-03-24,Hyderabad-W1,DTDC,West,Sports,Monday,Winter,2026-03-27,2,2026-03-29,Delayed,3.9,1010.7,1
+O01007,2025-04-07,Bengaluru-W1,EcomExpress,Local,Beauty,Thursday,Summer,2025-04-13,3,2025-04-16,Delayed,3.6,342.5,2
+O01008,2025-11-27,Delhi-W1,DTDC,West,Beauty,Saturday,Spring,2025-12-04,1,2025-12-05,Delayed,22.7,879.2,1
+O01009,2025-07-24,Mumbai-W1,BlueDart,East,Electronics,Thursday,Spring,2025-07-31,1,2025-08-01,Delayed,10.0,1658.7,1
+O01010,2026-03-25,Bengaluru-W1,DTDC,West,Beauty,Wednesday,Winter,2026-04-01,4,2026-04-05,Delayed,15.7,1112.9,1
+O01011,2026-02-22,Bengaluru-W1,DTDC,South,Home,Monday,Spring,2026-02-28,1,2026-03-01,Delayed,7.0,1300.1,2
+O01012,2025-03-18,Kolkata-W1,Delhivery,South,Sports,Thursday,Summer,2025-03-24,2,2025-03-26,Delayed,3.5,608.6,1
+O01013,2026-07-03,Bengaluru-W1,Delhivery,Regional,Beauty,Sunday,Winter,2026-07-07,4,2026-07-11,Delayed,3.0,343.3,2
+O01014,2026-03-01,Hyderabad-W1,EcomExpress,South,Electronics,Thursday,Spring,2026-03-08,3,2026-03-11,Delayed,4.3,463.9,1
+O01015,2026-03-05,Mumbai-W1,DTDC,Local,Beauty,Wednesday,Spring,2026-03-07,2,2026-03-09,Delayed,10.9,962.1,1
+O01016,2026-04-30,Delhi-W1,DTDC,West,Sports,Saturday,Summer,2026-05-04,1,2026-05-05,Delayed,2.5,508.0,3
+O01017,2025-05-15,Bengaluru-W1,EcomExpress,Local,Fashion,Saturday,Spring,2025-05-22,2,2025-05-24,Delayed,8.7,977.8,1
+O01018,2025-09-11,Hyderabad-W1,XpressBees,Regional,Beauty,Sunday,Summer,2025-09-17,1,2025-09-18,Delayed,11.8,1275.5,1
+O01019,2026-07-14,Delhi-W1,EcomExpress,South,Home,Tuesday,Festive,2026-07-20,6,2026-07-26,Delayed,3.4,1323.2,1
+O01020,2025-09-12,Hyderabad-W1,Delhivery,North,Sports,Tuesday,Summer,2025-09-18,0,2025-09-18,On Time,31.0,300.6,1
+O01021,2026-05-14,Bengaluru-W1,Delhivery,West,Electronics,Saturday,Monsoon,2026-05-21,2,2026-05-23,Delayed,14.6,1352.0,2
+O01022,2026-04-29,Bengaluru-W1,DTDC,North,Sports,Sunday,Spring,2026-05-05,0,2026-05-05,On Time,7.7,1212.5,1
+O01023,2025-02-15,Mumbai-W1,Delhivery,East,Fashion,Friday,Festive,2025-02-18,2,2025-02-20,Delayed,4.9,26.5,1
+O01024,2026-03-19,Kolkata-W1,EcomExpress,Regional,Electronics,Friday,Winter,2026-03-25,4,2026-03-29,Delayed,10.2,110.7,3
+O01025,2026-08-05,Hyderabad-W1,DTDC,East,Fashion,Sunday,Monsoon,2026-08-12,1,2026-08-13,Delayed,10.0,1165.0,3
+O01026,2026-08-02,Kolkata-W1,EcomExpress,North,Fashion,Thursday,Winter,2026-08-06,3,2026-08-09,Delayed,8.8,693.7,3
+O01027,2025-01-04,Kolkata-W1,EcomExpress,North,Home,Saturday,Monsoon,2025-01-10,4,2025-01-14,Delayed,10.5,267.3,1
+O01028,2025-01-01,Delhi-W1,DTDC,North,Beauty,Tuesday,Festive,2025-01-06,2,2025-01-08,Delayed,4.0,84.7,2
+O01029,2025-10-17,Delhi-W1,XpressBees,East,Home,Thursday,Festive,2025-10-20,4,2025-10-24,Delayed,13.1,291.1,2
+O01030,2025-04-19,Hyderabad-W1,Delhivery,Regional,Home,Monday,Festive,2025-04-26,5,2025-05-01,Delayed,2.8,1723.7,2
+O01031,2026-07-29,Kolkata-W1,BlueDart,West,Home,Sunday,Monsoon,2026-08-04,0,2026-08-04,On Time,1.4,1311.0,2
+O01032,2026-04-05,Mumbai-W1,BlueDart,West,Electronics,Sunday,Summer,2026-04-10,0,2026-04-10,On Time,12.2,952.2,1
+O01033,2025-09-23,Kolkata-W1,BlueDart,Local,Beauty,Tuesday,Winter,2025-09-30,1,2025-10-01,Delayed,10.7,1695.1,1
+O01034,2025-05-18,Delhi-W1,Delhivery,Local,Beauty,Tuesday,Summer,2025-05-22,1,2025-05-23,Delayed,8.3,1116.3,1
+O01035,2026-03-10,Kolkata-W1,XpressBees,North,Electronics,Tuesday,Summer,2026-03-13,2,2026-03-15,Delayed,5.3,1307.5,1
+O01036,2025-02-13,Bengaluru-W1,EcomExpress,Regional,Home,Sunday,Spring,2025-02-19,4,2025-02-23,Delayed,6.0,512.4,2
+O01037,2026-05-25,Bengaluru-W1,DTDC,Regional,Home,Friday,Winter,2026-05-29,2,2026-05-31,Delayed,3.9,1062.2,1
+O01038,2025-09-19,Mumbai-W1,XpressBees,South,Fashion,Wednesday,Monsoon,2025-09-26,0,2025-09-26,On Time,9.9,262.5,1
+O01039,2025-06-01,Hyderabad-W1,BlueDart,South,Fashion,Wednesday,Spring,2025-06-06,0,2025-06-06,On Time,1.2,731.0,1
+O01040,2025-08-01,Kolkata-W1,Delhivery,East,Sports,Sunday,Spring,2025-08-08,2,2025-08-10,Delayed,1.8,64.7,1
+O01041,2025-08-22,Bengaluru-W1,Delhivery,South,Fashion,Friday,Festive,2025-08-29,2,2025-08-31,Delayed,4.1,393.8,2
+O01042,2025-12-27,Hyderabad-W1,DTDC,West,Beauty,Saturday,Monsoon,2025-12-30,0,2025-12-30,On Time,9.1,139.4,1
+O01043,2025-11-16,Bengaluru-W1,EcomExpress,West,Electronics,Saturday,Summer,2025-11-22,3,2025-11-25,Delayed,7.8,701.1,2
+O01044,2025-08-10,Hyderabad-W1,XpressBees,East,Home,Sunday,Summer,2025-08-14,1,2025-08-15,Delayed,18.4,1518.2,2
+O01045,2025-07-29,Hyderabad-W1,XpressBees,Local,Sports,Sunday,Summer,2025-08-01,1,2025-08-02,Delayed,6.9,683.4,2
+O01046,2026-01-31,Bengaluru-W1,XpressBees,North,Fashion,Friday,Festive,2026-02-05,4,2026-02-09,Delayed,13.8,1497.8,3
+O01047,2026-08-06,Delhi-W1,EcomExpress,Regional,Sports,Friday,Summer,2026-08-12,5,2026-08-17,Delayed,8.8,1183.4,2
+O01048,2026-05-04,Hyderabad-W1,EcomExpress,Local,Electronics,Saturday,Winter,2026-05-07,5,2026-05-12,Delayed,1.4,919.6,2
+O01049,2026-08-24,Kolkata-W1,EcomExpress,West,Electronics,Wednesday,Summer,2026-08-29,2,2026-08-31,Delayed,3.5,430.2,1
+O01050,2026-04-09,Bengaluru-W1,DTDC,Local,Sports,Thursday,Summer,2026-04-14,2,2026-04-16,Delayed,3.9,1660.3,1
+O01051,2026-03-28,Delhi-W1,Delhivery,East,Sports,Friday,Winter,2026-04-01,1,2026-04-02,Delayed,4.7,102.3,3
+O01052,2026-02-17,Bengaluru-W1,BlueDart,North,Sports,Thursday,Festive,2026-02-24,4,2026-02-28,Delayed,6.4,1241.6,3
+O01053,2026-04-21,Mumbai-W1,EcomExpress,West,Home,Thursday,Spring,2026-04-26,3,2026-04-29,Delayed,16.0,1120.1,2
+O01054,2025-09-13,Kolkata-W1,Delhivery,East,Beauty,Monday,Monsoon,2025-09-18,0,2025-09-18,On Time,7.3,796.7,1
+O01055,2025-05-30,Mumbai-W1,EcomExpress,Local,Fashion,Wednesday,Festive,2025-06-06,4,2025-06-10,Delayed,5.1,436.4,1
+O01056,2025-05-07,Hyderabad-W1,BlueDart,Regional,Fashion,Sunday,Summer,2025-05-09,3,2025-05-12,Delayed,14.3,778.1,1
+O01057,2026-01-27,Hyderabad-W1,EcomExpress,South,Fashion,Thursday,Spring,2026-02-01,3,2026-02-04,Delayed,14.3,1571.6,1
+O01058,2026-04-25,Mumbai-W1,Delhivery,East,Sports,Sunday,Monsoon,2026-05-01,1,2026-05-02,Delayed,1.0,1507.0,1
+O01059,2026-02-01,Mumbai-W1,DTDC,West,Sports,Sunday,Monsoon,2026-02-04,0,2026-02-04,On Time,7.8,1694.8,1
+O01060,2026-02-06,Hyderabad-W1,BlueDart,Local,Sports,Wednesday,Monsoon,2026-02-13,0,2026-02-13,On Time,17.3,557.5,1
+O01061,2025-10-01,Delhi-W1,Delhivery,South,Home,Wednesday,Winter,2025-10-08,2,2025-10-10,Delayed,7.0,699.9,1
+O01062,2025-05-19,Kolkata-W1,XpressBees,South,Home,Monday,Winter,2025-05-26,0,2025-05-26,On Time,3.7,38.6,1
+O01063,2025-04-13,Bengaluru-W1,XpressBees,Local,Home,Sunday,Spring,2025-04-19,2,2025-04-21,Delayed,13.7,1697.6,1
+O01064,2025-08-30,Mumbai-W1,XpressBees,North,Home,Saturday,Summer,2025-09-06,0,2025-09-06,On Time,3.3,596.3,1
+O01065,2025-04-27,Kolkata-W1,DTDC,Local,Electronics,Wednesday,Spring,2025-05-03,0,2025-05-03,On Time,8.9,730.5,1
+O01066,2025-08-02,Bengaluru-W1,EcomExpress,West,Home,Thursday,Summer,2025-08-06,4,2025-08-10,Delayed,6.9,1634.5,1
+O01067,2026-04-29,Bengaluru-W1,EcomExpress,Regional,Home,Saturday,Festive,2026-05-01,5,2026-05-06,Delayed,2.1,950.2,1
+O01068,2026-06-13,Mumbai-W1,EcomExpress,West,Home,Saturday,Monsoon,2026-06-20,4,2026-06-24,Delayed,15.5,1021.3,1
+O01069,2025-08-12,Delhi-W1,DTDC,South,Fashion,Tuesday,Monsoon,2025-08-14,2,2025-08-16,Delayed,10.4,321.3,2
+O01070,2025-09-27,Delhi-W1,XpressBees,Regional,Fashion,Thursday,Winter,2025-10-04,3,2025-10-07,Delayed,18.9,900.1,1
+O01071,2025-05-14,Kolkata-W1,EcomExpress,East,Fashion,Thursday,Festive,2025-05-20,5,2025-05-25,Delayed,7.8,1653.2,3
+O01072,2025-04-24,Kolkata-W1,DTDC,South,Beauty,Wednesday,Festive,2025-04-27,5,2025-05-02,Delayed,3.9,1007.9,2
+O01073,2026-03-17,Hyderabad-W1,DTDC,North,Electronics,Thursday,Summer,2026-03-19,1,2026-03-20,Delayed,2.3,462.9,1
+O01074,2025-12-31,Delhi-W1,Delhivery,Local,Sports,Sunday,Festive,2026-01-02,2,2026-01-04,Delayed,14.4,61.0,3
+O01075,2025-08-20,Kolkata-W1,EcomExpress,East,Home,Tuesday,Winter,2025-08-26,2,2025-08-28,Delayed,3.6,608.7,2
+O01076,2026-04-03,Hyderabad-W1,XpressBees,West,Fashion,Wednesday,Summer,2026-04-05,0,2026-04-05,On Time,30.9,1032.8,1
+O01077,2026-01-10,Bengaluru-W1,BlueDart,Regional,Electronics,Friday,Spring,2026-01-14,1,2026-01-15,Delayed,23.3,81.5,3
+O01078,2026-08-27,Kolkata-W1,DTDC,East,Home,Thursday,Summer,2026-09-02,2,2026-09-04,Delayed,8.3,1099.6,3
+O01079,2025-07-26,Hyderabad-W1,Delhivery,North,Beauty,Thursday,Spring,2025-07-28,2,2025-07-30,Delayed,6.6,944.5,1
+O01080,2026-06-04,Delhi-W1,BlueDart,Local,Sports,Monday,Summer,2026-06-06,2,2026-06-08,Delayed,4.7,1411.3,2
+O01081,2026-04-13,Bengaluru-W1,DTDC,East,Home,Friday,Monsoon,2026-04-15,1,2026-04-16,Delayed,5.1,56.9,3
+O01082,2026-03-19,Kolkata-W1,Delhivery,West,Sports,Friday,Spring,2026-03-25,0,2026-03-25,On Time,27.6,1406.6,1
+O01083,2025-11-17,Delhi-W1,EcomExpress,Regional,Home,Sunday,Winter,2025-11-20,3,2025-11-23,Delayed,5.9,940.0,2
+O01084,2025-04-03,Bengaluru-W1,Delhivery,East,Beauty,Tuesday,Spring,2025-04-08,3,2025-04-11,Delayed,10.9,670.1,1
+O01085,2026-02-12,Mumbai-W1,DTDC,Local,Electronics,Sunday,Spring,2026-02-19,0,2026-02-19,On Time,11.4,1737.9,1
+O01086,2025-06-07,Delhi-W1,EcomExpress,West,Sports,Friday,Summer,2025-06-09,3,2025-06-12,Delayed,15.0,292.4,1
+O01087,2025-04-09,Mumbai-W1,XpressBees,East,Sports,Sunday,Monsoon,2025-04-14,0,2025-04-14,On Time,10.3,976.7,1
+O01088,2025-08-13,Kolkata-W1,Delhivery,Regional,Electronics,Sunday,Summer,2025-08-18,2,2025-08-20,Delayed,7.9,581.2,1
+O01089,2026-03-17,Hyderabad-W1,BlueDart,Local,Sports,Monday,Summer,2026-03-19,0,2026-03-19,On Time,4.3,951.8,1
+O01090,2026-08-08,Kolkata-W1,EcomExpress,North,Fashion,Tuesday,Monsoon,2026-08-10,5,2026-08-15,Delayed,11.3,996.3,1
+O01091,2026-02-05,Delhi-W1,EcomExpress,North,Electronics,Sunday,Summer,2026-02-12,3,2026-02-15,Delayed,9.8,165.6,1
+O01092,2026-07-25,Mumbai-W1,XpressBees,South,Beauty,Sunday,Monsoon,2026-07-30,4,2026-08-03,Delayed,5.8,1191.7,1
+O01093,2025-03-05,Mumbai-W1,Delhivery,East,Home,Friday,Winter,2025-03-08,2,2025-03-10,Delayed,10.6,1143.9,2
+O01094,2026-07-14,Bengaluru-W1,BlueDart,Regional,Home,Tuesday,Monsoon,2026-07-19,1,2026-07-20,Delayed,7.4,1386.2,3
+O01095,2025-10-06,Kolkata-W1,XpressBees,East,Electronics,Friday,Festive,2025-10-09,6,2025-10-15,Delayed,9.8,167.7,2
+O01096,2026-06-03,Kolkata-W1,Delhivery,Local,Fashion,Friday,Monsoon,2026-06-07,1,2026-06-08,Delayed,12.7,538.6,1
+O01097,2025-09-05,Delhi-W1,BlueDart,South,Beauty,Sunday,Monsoon,2025-09-08,1,2025-09-09,Delayed,8.9,1171.9,1
+O01098,2026-01-03,Mumbai-W1,BlueDart,Regional,Home,Saturday,Festive,2026-01-10,4,2026-01-14,Delayed,13.4,250.4,1
+O01099,2025-04-08,Delhi-W1,DTDC,East,Home,Friday,Monsoon,2025-04-14,1,2025-04-15,Delayed,8.8,1221.3,1
+O01100,2025-09-25,Delhi-W1,BlueDart,Regional,Fashion,Sunday,Spring,2025-09-27,1,2025-09-28,Delayed,15.0,111.0,1
+O01101,2025-03-01,Mumbai-W1,Delhivery,Local,Sports,Thursday,Summer,2025-03-05,1,2025-03-06,Delayed,6.4,606.2,1
+O01102,2026-05-15,Delhi-W1,XpressBees,South,Electronics,Friday,Summer,2026-05-20,0,2026-05-20,On Time,3.7,1524.8,2
+O01103,2025-11-04,Mumbai-W1,XpressBees,Regional,Fashion,Thursday,Winter,2025-11-07,4,2025-11-11,Delayed,9.5,1394.9,1
+O01104,2026-05-08,Delhi-W1,DTDC,Local,Fashion,Wednesday,Winter,2026-05-12,0,2026-05-12,On Time,21.4,1162.3,1
+O01105,2026-02-15,Hyderabad-W1,Delhivery,North,Fashion,Saturday,Festive,2026-02-21,5,2026-02-26,Delayed,14.0,1567.5,1
+O01106,2025-05-20,Delhi-W1,BlueDart,Regional,Fashion,Monday,Spring,2025-05-23,1,2025-05-24,Delayed,21.2,1278.1,2
+O01107,2025-11-24,Delhi-W1,DTDC,South,Sports,Tuesday,Winter,2025-12-01,0,2025-12-01,On Time,5.8,937.3,2
+O01108,2026-04-09,Hyderabad-W1,EcomExpress,West,Beauty,Tuesday,Summer,2026-04-14,3,2026-04-17,Delayed,7.9,1763.6,3
+O01109,2025-06-12,Kolkata-W1,Delhivery,West,Fashion,Wednesday,Winter,2025-06-17,1,2025-06-18,Delayed,3.9,1252.3,1
+O01110,2025-03-01,Mumbai-W1,DTDC,Regional,Fashion,Friday,Winter,2025-03-04,2,2025-03-06,Delayed,3.0,1084.5,3
+O01111,2025-01-31,Bengaluru-W1,XpressBees,Regional,Electronics,Monday,Monsoon,2025-02-06,2,2025-02-08,Delayed,19.5,738.9,1
+O01112,2025-11-29,Hyderabad-W1,DTDC,Local,Home,Wednesday,Winter,2025-12-01,2,2025-12-03,Delayed,18.3,1624.8,3
+O01113,2025-03-17,Kolkata-W1,EcomExpress,East,Sports,Wednesday,Festive,2025-03-19,9,2025-03-28,Delayed,12.0,535.8,1
+O01114,2025-11-13,Delhi-W1,Delhivery,West,Fashion,Tuesday,Summer,2025-11-18,0,2025-11-18,On Time,5.8,21.5,1
+O01115,2026-02-21,Kolkata-W1,DTDC,East,Beauty,Thursday,Festive,2026-02-27,4,2026-03-03,Delayed,12.9,358.1,1
+O01116,2025-07-09,Hyderabad-W1,BlueDart,West,Beauty,Thursday,Festive,2025-07-14,3,2025-07-17,Delayed,17.3,201.6,2
+O01117,2026-05-04,Delhi-W1,Delhivery,Regional,Beauty,Friday,Spring,2026-05-06,4,2026-05-10,Delayed,22.8,577.6,3
+O01118,2025-11-11,Kolkata-W1,DTDC,South,Electronics,Friday,Monsoon,2025-11-16,1,2025-11-17,Delayed,2.5,1487.5,2
+O01119,2025-10-23,Bengaluru-W1,DTDC,South,Beauty,Sunday,Festive,2025-10-26,3,2025-10-29,Delayed,6.4,1174.5,3
+O01120,2026-05-16,Mumbai-W1,Delhivery,West,Electronics,Sunday,Spring,2026-05-23,1,2026-05-24,Delayed,6.0,308.3,3
+O01121,2025-06-26,Mumbai-W1,XpressBees,West,Sports,Wednesday,Summer,2025-06-29,2,2025-07-01,Delayed,7.2,1420.9,1
+O01122,2025-08-03,Hyderabad-W1,BlueDart,Local,Beauty,Friday,Summer,2025-08-10,0,2025-08-10,On Time,11.4,910.1,3
+O01123,2026-08-20,Delhi-W1,Delhivery,Regional,Home,Thursday,Spring,2026-08-26,3,2026-08-29,Delayed,1.5,925.3,2
+O01124,2025-11-28,Delhi-W1,BlueDart,Regional,Fashion,Monday,Festive,2025-11-30,4,2025-12-04,Delayed,5.7,655.0,3
+O01125,2025-05-08,Mumbai-W1,BlueDart,East,Sports,Tuesday,Festive,2025-05-14,4,2025-05-18,Delayed,6.1,1557.0,3
+O01126,2025-09-26,Kolkata-W1,Delhivery,Local,Home,Thursday,Monsoon,2025-10-02,4,2025-10-06,Delayed,8.7,576.4,1
+O01127,2026-07-05,Delhi-W1,DTDC,North,Sports,Sunday,Monsoon,2026-07-07,1,2026-07-08,Delayed,9.4,174.0,1
+O01128,2026-06-19,Bengaluru-W1,XpressBees,South,Beauty,Saturday,Summer,2026-06-23,0,2026-06-23,On Time,7.1,548.4,1
+O01129,2026-01-01,Bengaluru-W1,BlueDart,South,Sports,Friday,Monsoon,2026-01-05,2,2026-01-07,Delayed,25.8,1289.1,1
+O01130,2025-12-14,Delhi-W1,BlueDart,Regional,Sports,Tuesday,Spring,2025-12-19,2,2025-12-21,Delayed,7.5,1185.4,1
+O01131,2025-05-22,Delhi-W1,DTDC,Local,Sports,Saturday,Summer,2025-05-26,1,2025-05-27,Delayed,11.3,342.5,1
+O01132,2025-05-25,Mumbai-W1,Delhivery,North,Electronics,Tuesday,Festive,2025-05-28,2,2025-05-30,Delayed,12.6,205.7,1
+O01133,2025-09-02,Hyderabad-W1,XpressBees,South,Home,Wednesday,Summer,2025-09-09,3,2025-09-12,Delayed,4.2,1191.3,2
+O01134,2026-03-18,Mumbai-W1,BlueDart,Local,Beauty,Friday,Winter,2026-03-24,1,2026-03-25,Delayed,4.4,1219.1,1
+O01135,2025-10-17,Hyderabad-W1,BlueDart,North,Fashion,Wednesday,Summer,2025-10-22,0,2025-10-22,On Time,12.8,662.2,3
+O01136,2025-04-22,Bengaluru-W1,Delhivery,West,Beauty,Tuesday,Monsoon,2025-04-28,1,2025-04-29,Delayed,18.4,1517.8,1
+O01137,2025-08-02,Hyderabad-W1,DTDC,Regional,Beauty,Wednesday,Spring,2025-08-04,7,2025-08-11,Delayed,22.8,1760.9,3
+O01138,2025-07-19,Mumbai-W1,EcomExpress,East,Electronics,Friday,Festive,2025-07-23,5,2025-07-28,Delayed,4.3,374.1,1
+O01139,2026-02-09,Delhi-W1,DTDC,South,Electronics,Thursday,Festive,2026-02-11,3,2026-02-14,Delayed,15.4,1040.8,3
+O01140,2026-02-25,Hyderabad-W1,BlueDart,South,Sports,Monday,Monsoon,2026-03-02,0,2026-03-02,On Time,8.3,14.6,1
+O01141,2025-01-07,Mumbai-W1,BlueDart,North,Beauty,Saturday,Monsoon,2025-01-14,1,2025-01-15,Delayed,18.2,1284.9,1
+O01142,2026-06-09,Bengaluru-W1,XpressBees,East,Home,Thursday,Monsoon,2026-06-12,2,2026-06-14,Delayed,10.5,748.6,3
+O01143,2026-08-15,Hyderabad-W1,DTDC,West,Electronics,Tuesday,Winter,2026-08-19,2,2026-08-21,Delayed,12.0,351.9,1
+O01144,2025-10-13,Bengaluru-W1,EcomExpress,Local,Electronics,Thursday,Spring,2025-10-15,4,2025-10-19,Delayed,20.2,1355.2,2
+O01145,2026-01-24,Bengaluru-W1,XpressBees,Regional,Home,Wednesday,Winter,2026-01-31,1,2026-02-01,Delayed,21.5,1460.1,2
+O01146,2026-02-20,Kolkata-W1,EcomExpress,Local,Electronics,Friday,Monsoon,2026-02-24,2,2026-02-26,Delayed,9.2,204.5,2
+O01147,2025-05-30,Hyderabad-W1,XpressBees,North,Home,Thursday,Spring,2025-06-05,0,2025-06-05,On Time,2.2,78.6,2
+O01148,2026-03-04,Mumbai-W1,DTDC,South,Fashion,Thursday,Monsoon,2026-03-07,0,2026-03-07,On Time,5.0,604.7,1
+O01149,2025-10-20,Hyderabad-W1,BlueDart,West,Home,Friday,Spring,2025-10-27,1,2025-10-28,Delayed,28.0,1128.7,1
+O01150,2025-11-30,Hyderabad-W1,EcomExpress,South,Fashion,Wednesday,Festive,2025-12-04,5,2025-12-09,Delayed,12.4,1429.2,1
+O01151,2025-09-29,Bengaluru-W1,DTDC,Local,Sports,Monday,Winter,2025-10-02,1,2025-10-03,Delayed,4.3,985.2,2
+O01152,2025-02-12,Bengaluru-W1,EcomExpress,West,Sports,Thursday,Monsoon,2025-02-19,4,2025-02-23,Delayed,5.5,1047.4,2
+O01153,2026-04-13,Bengaluru-W1,DTDC,Regional,Electronics,Saturday,Monsoon,2026-04-19,2,2026-04-21,Delayed,16.5,1440.7,3
+O01154,2025-11-15,Bengaluru-W1,XpressBees,North,Home,Tuesday,Summer,2025-11-21,0,2025-11-21,On Time,25.4,954.3,2
+O01155,2026-05-07,Mumbai-W1,DTDC,Regional,Electronics,Sunday,Festive,2026-05-09,5,2026-05-14,Delayed,8.6,1102.0,1
+O01156,2026-06-11,Delhi-W1,XpressBees,North,Home,Wednesday,Monsoon,2026-06-16,3,2026-06-19,Delayed,18.3,931.6,2
+O01157,2025-06-21,Kolkata-W1,BlueDart,Regional,Electronics,Wednesday,Winter,2025-06-23,1,2025-06-24,Delayed,15.3,1585.4,2
+O01158,2025-11-17,Bengaluru-W1,XpressBees,Local,Sports,Thursday,Festive,2025-11-20,3,2025-11-23,Delayed,10.6,427.8,1
+O01159,2025-02-13,Bengaluru-W1,Delhivery,East,Sports,Saturday,Monsoon,2025-02-15,3,2025-02-18,Delayed,13.4,478.9,1
+O01160,2026-06-16,Kolkata-W1,BlueDart,West,Electronics,Sunday,Winter,2026-06-23,3,2026-06-26,Delayed,10.3,234.7,1
+O01161,2026-03-30,Bengaluru-W1,DTDC,North,Home,Friday,Summer,2026-04-03,3,2026-04-06,Delayed,18.7,1475.9,3
+O01162,2025-03-24,Delhi-W1,DTDC,Local,Beauty,Sunday,Summer,2025-03-31,4,2025-04-04,Delayed,13.9,744.1,1
+O01163,2026-06-27,Hyderabad-W1,Delhivery,South,Home,Thursday,Winter,2026-06-29,0,2026-06-29,On Time,2.5,629.5,1
+O01164,2025-11-18,Kolkata-W1,DTDC,South,Electronics,Thursday,Festive,2025-11-23,5,2025-11-28,Delayed,7.5,1766.5,2
+O01165,2025-08-22,Mumbai-W1,BlueDart,Regional,Home,Friday,Winter,2025-08-29,1,2025-08-30,Delayed,4.3,1668.6,3
+O01166,2026-06-24,Kolkata-W1,BlueDart,South,Fashion,Tuesday,Winter,2026-07-01,1,2026-07-02,Delayed,9.3,1749.7,1
+O01167,2025-09-09,Delhi-W1,XpressBees,East,Home,Friday,Summer,2025-09-16,0,2025-09-16,On Time,7.2,260.4,3
+O01168,2026-03-25,Mumbai-W1,EcomExpress,North,Sports,Thursday,Summer,2026-03-30,2,2026-04-01,Delayed,5.4,1604.8,1
+O01169,2025-08-27,Hyderabad-W1,DTDC,Regional,Sports,Monday,Summer,2025-09-03,2,2025-09-05,Delayed,3.3,595.0,2
+O01170,2026-05-05,Bengaluru-W1,Delhivery,North,Fashion,Friday,Monsoon,2026-05-08,0,2026-05-08,On Time,1.3,27.7,1
+O01171,2026-04-09,Kolkata-W1,BlueDart,North,Home,Tuesday,Monsoon,2026-04-15,2,2026-04-17,Delayed,18.5,707.4,1
+O01172,2025-11-10,Mumbai-W1,BlueDart,Local,Beauty,Friday,Spring,2025-11-15,2,2025-11-17,Delayed,18.5,919.0,1
+O01173,2025-06-24,Kolkata-W1,BlueDart,South,Home,Friday,Monsoon,2025-06-27,0,2025-06-27,On Time,3.2,199.3,2
+O01174,2025-06-29,Hyderabad-W1,EcomExpress,West,Sports,Wednesday,Festive,2025-07-04,5,2025-07-09,Delayed,10.5,970.1,2
+O01175,2026-01-20,Kolkata-W1,EcomExpress,North,Sports,Wednesday,Festive,2026-01-25,5,2026-01-30,Delayed,1.9,1475.9,1
+O01176,2025-10-22,Mumbai-W1,DTDC,East,Electronics,Thursday,Summer,2025-10-28,1,2025-10-29,Delayed,4.7,682.9,1
+O01177,2025-08-03,Delhi-W1,Delhivery,East,Sports,Thursday,Winter,2025-08-07,1,2025-08-08,Delayed,6.8,638.0,1
+O01178,2025-03-16,Mumbai-W1,EcomExpress,West,Electronics,Sunday,Summer,2025-03-19,3,2025-03-22,Delayed,5.1,613.2,2
+O01179,2025-12-10,Kolkata-W1,XpressBees,South,Sports,Friday,Winter,2025-12-15,0,2025-12-15,On Time,12.4,1662.0,1
+O01180,2025-05-22,Hyderabad-W1,EcomExpress,South,Sports,Monday,Summer,2025-05-27,2,2025-05-29,Delayed,0.7,92.5,3
+O01181,2025-07-18,Bengaluru-W1,BlueDart,Regional,Beauty,Saturday,Summer,2025-07-20,2,2025-07-22,Delayed,4.6,803.9,3
+O01182,2025-06-20,Bengaluru-W1,Delhivery,Regional,Electronics,Thursday,Festive,2025-06-27,6,2025-07-03,Delayed,14.7,480.0,3
+O01183,2026-02-10,Hyderabad-W1,DTDC,Regional,Electronics,Friday,Winter,2026-02-14,4,2026-02-18,Delayed,1.8,1609.4,2
+O01184,2025-08-16,Kolkata-W1,EcomExpress,South,Sports,Friday,Spring,2025-08-22,6,2025-08-28,Delayed,5.0,177.4,1
+O01185,2026-02-15,Hyderabad-W1,BlueDart,North,Electronics,Saturday,Spring,2026-02-18,1,2026-02-19,Delayed,15.9,743.5,1
+O01186,2025-03-03,Kolkata-W1,XpressBees,Local,Sports,Friday,Summer,2025-03-08,0,2025-03-08,On Time,27.1,735.2,1
+O01187,2025-11-23,Mumbai-W1,XpressBees,West,Sports,Saturday,Summer,2025-11-30,2,2025-12-02,Delayed,18.5,1599.7,2
+O01188,2025-05-13,Delhi-W1,DTDC,West,Home,Saturday,Festive,2025-05-16,3,2025-05-19,Delayed,6.7,391.8,3
+O01189,2026-08-07,Kolkata-W1,DTDC,West,Electronics,Sunday,Winter,2026-08-13,3,2026-08-16,Delayed,26.9,1162.6,2
+O01190,2026-08-13,Bengaluru-W1,EcomExpress,Regional,Fashion,Friday,Summer,2026-08-17,4,2026-08-21,Delayed,14.9,246.3,1
+O01191,2025-07-08,Bengaluru-W1,DTDC,Local,Electronics,Sunday,Spring,2025-07-10,2,2025-07-12,Delayed,3.2,1717.4,2
+O01192,2025-12-22,Delhi-W1,BlueDart,East,Electronics,Friday,Winter,2025-12-26,0,2025-12-26,On Time,2.0,1069.5,1
+O01193,2025-03-12,Kolkata-W1,BlueDart,South,Beauty,Wednesday,Summer,2025-03-14,0,2025-03-14,On Time,14.2,1129.1,2
+O01194,2025-09-20,Delhi-W1,BlueDart,East,Fashion,Saturday,Winter,2025-09-23,2,2025-09-25,Delayed,7.6,783.6,1
+O01195,2025-11-02,Mumbai-W1,EcomExpress,Regional,Fashion,Tuesday,Festive,2025-11-06,7,2025-11-13,Delayed,3.1,619.4,2
+O01196,2026-07-12,Delhi-W1,EcomExpress,North,Beauty,Saturday,Spring,2026-07-16,3,2026-07-19,Delayed,7.4,386.8,1
+O01197,2025-08-12,Mumbai-W1,DTDC,Regional,Beauty,Tuesday,Winter,2025-08-16,2,2025-08-18,Delayed,16.7,1089.2,1
+O01198,2025-11-24,Bengaluru-W1,EcomExpress,Local,Electronics,Friday,Spring,2025-11-30,5,2025-12-05,Delayed,5.2,1718.4,3
+O01199,2026-08-11,Mumbai-W1,BlueDart,Regional,Home,Thursday,Summer,2026-08-14,1,2026-08-15,Delayed,5.1,650.8,1
+O01200,2025-03-15,Kolkata-W1,Delhivery,West,Beauty,Monday,Monsoon,2025-03-17,3,2025-03-20,Delayed,7.3,1590.3,1

@@ -1,0 +1,451 @@
+customer_id,customer_name,segment,city,state
+C0001,Customer_0001,New,Bengaluru,Karnataka
+C0002,Customer_0002,Premium,Mumbai,Tamil Nadu
+C0003,Customer_0003,Regular,Hyderabad,Delhi
+C0004,Customer_0004,Regular,Chennai,Karnataka
+C0005,Customer_0005,New,Delhi,Karnataka
+C0006,Customer_0006,New,Howrah,Maharashtra
+C0007,Customer_0007,New,Howrah,Karnataka
+C0008,Customer_0008,Premium,Delhi,Tamil Nadu
+C0009,Customer_0009,Regular,Chennai,Tamil Nadu
+C0010,Customer_0010,Regular,Hyderabad,West Bengal
+C0011,Customer_0011,New,Delhi,Tamil Nadu
+C0012,Customer_0012,Premium,Bengaluru,Tamil Nadu
+C0013,Customer_0013,Regular,Bengaluru,Maharashtra
+C0014,Customer_0014,New,Howrah,Tamil Nadu
+C0015,Customer_0015,New,Mumbai,West Bengal
+C0016,Customer_0016,New,Hyderabad,Delhi
+C0017,Customer_0017,New,Howrah,Maharashtra
+C0018,Customer_0018,Regular,Mumbai,Delhi
+C0019,Customer_0019,New,Mumbai,Maharashtra
+C0020,Customer_0020,New,Pune,Telangana
+C0021,Customer_0021,Regular,Bengaluru,Karnataka
+C0022,Customer_0022,New,Chennai,Telangana
+C0023,Customer_0023,New,Kolkata,Tamil Nadu
+C0024,Customer_0024,New,Chennai,Delhi
+C0025,Customer_0025,Regular,Kolkata,Tamil Nadu
+C0026,Customer_0026,Regular,Delhi,Karnataka
+C0027,Customer_0027,New,Bengaluru,Maharashtra
+C0028,Customer_0028,Regular,Mumbai,Karnataka
+C0029,Customer_0029,Regular,Hyderabad,West Bengal
+C0030,Customer_0030,New,Kolkata,Karnataka
+C0031,Customer_0031,Regular,Chennai,West Bengal
+C0032,Customer_0032,New,Mumbai,Karnataka
+C0033,Customer_0033,New,Kolkata,West Bengal
+C0034,Customer_0034,Premium,Kolkata,Delhi
+C0035,Customer_0035,Premium,Pune,Tamil Nadu
+C0036,Customer_0036,Regular,Kolkata,Tamil Nadu
+C0037,Customer_0037,New,Hyderabad,Telangana
+C0038,Customer_0038,New,Bengaluru,Tamil Nadu
+C0039,Customer_0039,Regular,Hyderabad,Maharashtra
+C0040,Customer_0040,New,Howrah,Karnataka
+C0041,Customer_0041,New,Mumbai,Telangana
+C0042,Customer_0042,Regular,Bengaluru,Maharashtra
+C0043,Customer_0043,New,Pune,Maharashtra
+C0044,Customer_0044,Premium,Bengaluru,West Bengal
+C0045,Customer_0045,New,Bengaluru,Tamil Nadu
+C0046,Customer_0046,Regular,Chennai,Delhi
+C0047,Customer_0047,New,Bengaluru,Delhi
+C0048,Customer_0048,Regular,Pune,Telangana
+C0049,Customer_0049,Regular,Hyderabad,Delhi
+C0050,Customer_0050,New,Bengaluru,Karnataka
+C0051,Customer_0051,Premium,Delhi,Delhi
+C0052,Customer_0052,Regular,Mumbai,Telangana
+C0053,Customer_0053,Premium,Bengaluru,Delhi
+C0054,Customer_0054,Premium,Mumbai,Karnataka
+C0055,Customer_0055,Regular,Delhi,West Bengal
+C0056,Customer_0056,Premium,Delhi,Telangana
+C0057,Customer_0057,New,Mumbai,West Bengal
+C0058,Customer_0058,New,Kolkata,West Bengal
+C0059,Customer_0059,New,Howrah,West Bengal
+C0060,Customer_0060,New,Chennai,Maharashtra
+C0061,Customer_0061,New,Kolkata,Tamil Nadu
+C0062,Customer_0062,New,Kolkata,Maharashtra
+C0063,Customer_0063,Regular,Hyderabad,Tamil Nadu
+C0064,Customer_0064,New,Chennai,West Bengal
+C0065,Customer_0065,New,Chennai,Telangana
+C0066,Customer_0066,Regular,Kolkata,Tamil Nadu
+C0067,Customer_0067,New,Bengaluru,Karnataka
+C0068,Customer_0068,Regular,Hyderabad,Karnataka
+C0069,Customer_0069,New,Hyderabad,Delhi
+C0070,Customer_0070,Premium,Delhi,Tamil Nadu
+C0071,Customer_0071,Regular,Pune,Telangana
+C0072,Customer_0072,New,Chennai,Maharashtra
+C0073,Customer_0073,New,Kolkata,West Bengal
+C0074,Customer_0074,Regular,Delhi,Delhi
+C0075,Customer_0075,Regular,Mumbai,Karnataka
+C0076,Customer_0076,Regular,Howrah,Maharashtra
+C0077,Customer_0077,Regular,Pune,Maharashtra
+C0078,Customer_0078,New,Pune,West Bengal
+C0079,Customer_0079,New,Pune,Tamil Nadu
+C0080,Customer_0080,New,Hyderabad,Karnataka
+C0081,Customer_0081,Premium,Mumbai,Telangana
+C0082,Customer_0082,Regular,Pune,Maharashtra
+C0083,Customer_0083,New,Mumbai,West Bengal
+C0084,Customer_0084,New,Bengaluru,Telangana
+C0085,Customer_0085,New,Pune,Tamil Nadu
+C0086,Customer_0086,New,Howrah,Karnataka
+C0087,Customer_0087,Regular,Mumbai,Tamil Nadu
+C0088,Customer_0088,Regular,Mumbai,Maharashtra
+C0089,Customer_0089,Premium,Howrah,Telangana
+C0090,Customer_0090,Regular,Pune,Telangana
+C0091,Customer_0091,New,Howrah,Telangana
+C0092,Customer_0092,Regular,Mumbai,Maharashtra
+C0093,Customer_0093,Regular,Howrah,Maharashtra
+C0094,Customer_0094,Regular,Mumbai,Tamil Nadu
+C0095,Customer_0095,Regular,Mumbai,Delhi
+C0096,Customer_0096,Regular,Bengaluru,Tamil Nadu
+C0097,Customer_0097,Regular,Kolkata,Karnataka
+C0098,Customer_0098,New,Mumbai,West Bengal
+C0099,Customer_0099,New,Pune,Telangana
+C0100,Customer_0100,New,Delhi,Delhi
+C0101,Customer_0101,New,Hyderabad,West Bengal
+C0102,Customer_0102,Regular,Chennai,Delhi
+C0103,Customer_0103,New,Kolkata,Tamil Nadu
+C0104,Customer_0104,Regular,Kolkata,Maharashtra
+C0105,Customer_0105,Premium,Kolkata,Telangana
+C0106,Customer_0106,New,Bengaluru,Tamil Nadu
+C0107,Customer_0107,New,Mumbai,West Bengal
+C0108,Customer_0108,Regular,Bengaluru,West Bengal
+C0109,Customer_0109,New,Mumbai,West Bengal
+C0110,Customer_0110,New,Pune,West Bengal
+C0111,Customer_0111,New,Bengaluru,West Bengal
+C0112,Customer_0112,New,Bengaluru,Delhi
+C0113,Customer_0113,Premium,Hyderabad,Tamil Nadu
+C0114,Customer_0114,Regular,Delhi,Telangana
+C0115,Customer_0115,Regular,Bengaluru,Maharashtra
+C0116,Customer_0116,Premium,Hyderabad,Maharashtra
+C0117,Customer_0117,Regular,Howrah,Tamil Nadu
+C0118,Customer_0118,New,Delhi,Tamil Nadu
+C0119,Customer_0119,Premium,Pune,Maharashtra
+C0120,Customer_0120,Regular,Bengaluru,Maharashtra
+C0121,Customer_0121,Regular,Chennai,Delhi
+C0122,Customer_0122,Premium,Kolkata,Karnataka
+C0123,Customer_0123,New,Howrah,Telangana
+C0124,Customer_0124,New,Howrah,West Bengal
+C0125,Customer_0125,New,Pune,Karnataka
+C0126,Customer_0126,New,Hyderabad,Tamil Nadu
+C0127,Customer_0127,Regular,Howrah,Maharashtra
+C0128,Customer_0128,Premium,Delhi,Karnataka
+C0129,Customer_0129,New,Bengaluru,Telangana
+C0130,Customer_0130,Regular,Bengaluru,Tamil Nadu
+C0131,Customer_0131,New,Chennai,West Bengal
+C0132,Customer_0132,New,Pune,West Bengal
+C0133,Customer_0133,New,Kolkata,Telangana
+C0134,Customer_0134,New,Hyderabad,Telangana
+C0135,Customer_0135,Premium,Kolkata,Maharashtra
+C0136,Customer_0136,New,Howrah,West Bengal
+C0137,Customer_0137,Regular,Pune,Tamil Nadu
+C0138,Customer_0138,Regular,Chennai,Karnataka
+C0139,Customer_0139,New,Kolkata,Tamil Nadu
+C0140,Customer_0140,Premium,Delhi,Delhi
+C0141,Customer_0141,Premium,Bengaluru,Delhi
+C0142,Customer_0142,New,Howrah,Telangana
+C0143,Customer_0143,Regular,Chennai,Maharashtra
+C0144,Customer_0144,New,Kolkata,Delhi
+C0145,Customer_0145,New,Hyderabad,West Bengal
+C0146,Customer_0146,New,Delhi,Tamil Nadu
+C0147,Customer_0147,Regular,Delhi,Tamil Nadu
+C0148,Customer_0148,Regular,Kolkata,Telangana
+C0149,Customer_0149,New,Bengaluru,Karnataka
+C0150,Customer_0150,New,Kolkata,Telangana
+C0151,Customer_0151,Premium,Howrah,Karnataka
+C0152,Customer_0152,New,Kolkata,Telangana
+C0153,Customer_0153,New,Delhi,Telangana
+C0154,Customer_0154,Regular,Chennai,Telangana
+C0155,Customer_0155,Premium,Kolkata,Karnataka
+C0156,Customer_0156,New,Bengaluru,Karnataka
+C0157,Customer_0157,Regular,Pune,Telangana
+C0158,Customer_0158,Regular,Chennai,Delhi
+C0159,Customer_0159,New,Hyderabad,Maharashtra
+C0160,Customer_0160,Regular,Mumbai,Maharashtra
+C0161,Customer_0161,New,Kolkata,Maharashtra
+C0162,Customer_0162,Regular,Bengaluru,Karnataka
+C0163,Customer_0163,Regular,Chennai,Karnataka
+C0164,Customer_0164,Regular,Bengaluru,Delhi
+C0165,Customer_0165,New,Hyderabad,Maharashtra
+C0166,Customer_0166,Regular,Delhi,Maharashtra
+C0167,Customer_0167,New,Bengaluru,Telangana
+C0168,Customer_0168,New,Chennai,Karnataka
+C0169,Customer_0169,New,Bengaluru,Maharashtra
+C0170,Customer_0170,Regular,Bengaluru,Tamil Nadu
+C0171,Customer_0171,Regular,Bengaluru,Delhi
+C0172,Customer_0172,New,Howrah,Tamil Nadu
+C0173,Customer_0173,Regular,Howrah,Tamil Nadu
+C0174,Customer_0174,New,Delhi,Delhi
+C0175,Customer_0175,Regular,Kolkata,Tamil Nadu
+C0176,Customer_0176,New,Bengaluru,Maharashtra
+C0177,Customer_0177,Regular,Hyderabad,Karnataka
+C0178,Customer_0178,New,Kolkata,Delhi
+C0179,Customer_0179,Premium,Hyderabad,Telangana
+C0180,Customer_0180,New,Kolkata,Tamil Nadu
+C0181,Customer_0181,New,Delhi,Delhi
+C0182,Customer_0182,New,Bengaluru,West Bengal
+C0183,Customer_0183,Premium,Bengaluru,West Bengal
+C0184,Customer_0184,Premium,Mumbai,Karnataka
+C0185,Customer_0185,New,Hyderabad,Maharashtra
+C0186,Customer_0186,Regular,Kolkata,Karnataka
+C0187,Customer_0187,Regular,Kolkata,Karnataka
+C0188,Customer_0188,Regular,Pune,Karnataka
+C0189,Customer_0189,Regular,Pune,Karnataka
+C0190,Customer_0190,New,Howrah,Telangana
+C0191,Customer_0191,New,Mumbai,Telangana
+C0192,Customer_0192,Premium,Chennai,Delhi
+C0193,Customer_0193,Premium,Pune,West Bengal
+C0194,Customer_0194,Regular,Chennai,Karnataka
+C0195,Customer_0195,New,Howrah,Delhi
+C0196,Customer_0196,New,Howrah,West Bengal
+C0197,Customer_0197,Regular,Howrah,Tamil Nadu
+C0198,Customer_0198,Premium,Hyderabad,Maharashtra
+C0199,Customer_0199,Premium,Hyderabad,Telangana
+C0200,Customer_0200,Regular,Delhi,Tamil Nadu
+C0201,Customer_0201,Regular,Delhi,West Bengal
+C0202,Customer_0202,New,Howrah,Tamil Nadu
+C0203,Customer_0203,New,Mumbai,Maharashtra
+C0204,Customer_0204,Premium,Kolkata,West Bengal
+C0205,Customer_0205,Regular,Hyderabad,Tamil Nadu
+C0206,Customer_0206,New,Mumbai,Telangana
+C0207,Customer_0207,New,Bengaluru,Telangana
+C0208,Customer_0208,Regular,Hyderabad,Delhi
+C0209,Customer_0209,New,Hyderabad,Tamil Nadu
+C0210,Customer_0210,New,Delhi,Karnataka
+C0211,Customer_0211,Regular,Kolkata,Tamil Nadu
+C0212,Customer_0212,Regular,Kolkata,West Bengal
+C0213,Customer_0213,Regular,Pune,West Bengal
+C0214,Customer_0214,New,Chennai,Tamil Nadu
+C0215,Customer_0215,Regular,Chennai,Maharashtra
+C0216,Customer_0216,New,Chennai,Telangana
+C0217,Customer_0217,New,Chennai,West Bengal
+C0218,Customer_0218,Regular,Bengaluru,Telangana
+C0219,Customer_0219,Regular,Bengaluru,West Bengal
+C0220,Customer_0220,Regular,Hyderabad,Delhi
+C0221,Customer_0221,Regular,Howrah,Karnataka
+C0222,Customer_0222,Regular,Delhi,West Bengal
+C0223,Customer_0223,New,Delhi,Telangana
+C0224,Customer_0224,New,Chennai,Delhi
+C0225,Customer_0225,New,Hyderabad,West Bengal
+C0226,Customer_0226,New,Pune,Maharashtra
+C0227,Customer_0227,Premium,Mumbai,Karnataka
+C0228,Customer_0228,New,Howrah,West Bengal
+C0229,Customer_0229,Premium,Hyderabad,Delhi
+C0230,Customer_0230,Regular,Howrah,Maharashtra
+C0231,Customer_0231,Regular,Howrah,Tamil Nadu
+C0232,Customer_0232,Regular,Howrah,Delhi
+C0233,Customer_0233,Regular,Hyderabad,Delhi
+C0234,Customer_0234,Regular,Chennai,Maharashtra
+C0235,Customer_0235,New,Delhi,Delhi
+C0236,Customer_0236,Regular,Delhi,Maharashtra
+C0237,Customer_0237,New,Chennai,West Bengal
+C0238,Customer_0238,New,Howrah,Maharashtra
+C0239,Customer_0239,Regular,Mumbai,Maharashtra
+C0240,Customer_0240,New,Kolkata,Karnataka
+C0241,Customer_0241,Premium,Hyderabad,Maharashtra
+C0242,Customer_0242,Premium,Kolkata,Maharashtra
+C0243,Customer_0243,Premium,Pune,Tamil Nadu
+C0244,Customer_0244,New,Chennai,West Bengal
+C0245,Customer_0245,New,Mumbai,Karnataka
+C0246,Customer_0246,Premium,Hyderabad,Tamil Nadu
+C0247,Customer_0247,New,Chennai,Telangana
+C0248,Customer_0248,Premium,Howrah,West Bengal
+C0249,Customer_0249,Premium,Delhi,West Bengal
+C0250,Customer_0250,Premium,Kolkata,Telangana
+C0251,Customer_0251,New,Bengaluru,Maharashtra
+C0252,Customer_0252,New,Bengaluru,Tamil Nadu
+C0253,Customer_0253,Premium,Mumbai,Delhi
+C0254,Customer_0254,New,Howrah,Karnataka
+C0255,Customer_0255,New,Pune,Delhi
+C0256,Customer_0256,Regular,Kolkata,Telangana
+C0257,Customer_0257,Premium,Howrah,West Bengal
+C0258,Customer_0258,Regular,Kolkata,West Bengal
+C0259,Customer_0259,Regular,Mumbai,Karnataka
+C0260,Customer_0260,New,Mumbai,West Bengal
+C0261,Customer_0261,Regular,Pune,West Bengal
+C0262,Customer_0262,Premium,Bengaluru,Karnataka
+C0263,Customer_0263,New,Howrah,Tamil Nadu
+C0264,Customer_0264,Regular,Hyderabad,Tamil Nadu
+C0265,Customer_0265,Premium,Bengaluru,Karnataka
+C0266,Customer_0266,Regular,Howrah,Telangana
+C0267,Customer_0267,Regular,Bengaluru,West Bengal
+C0268,Customer_0268,Regular,Hyderabad,West Bengal
+C0269,Customer_0269,New,Delhi,Telangana
+C0270,Customer_0270,New,Delhi,Tamil Nadu
+C0271,Customer_0271,Regular,Pune,Maharashtra
+C0272,Customer_0272,Regular,Delhi,Maharashtra
+C0273,Customer_0273,Premium,Delhi,Maharashtra
+C0274,Customer_0274,Premium,Chennai,Tamil Nadu
+C0275,Customer_0275,Regular,Kolkata,Tamil Nadu
+C0276,Customer_0276,Regular,Chennai,Telangana
+C0277,Customer_0277,Regular,Chennai,West Bengal
+C0278,Customer_0278,Regular,Pune,Telangana
+C0279,Customer_0279,Regular,Chennai,Telangana
+C0280,Customer_0280,Regular,Delhi,Tamil Nadu
+C0281,Customer_0281,Premium,Hyderabad,Maharashtra
+C0282,Customer_0282,New,Pune,Delhi
+C0283,Customer_0283,New,Pune,West Bengal
+C0284,Customer_0284,New,Mumbai,Tamil Nadu
+C0285,Customer_0285,Regular,Pune,Maharashtra
+C0286,Customer_0286,New,Mumbai,Delhi
+C0287,Customer_0287,Regular,Pune,Delhi
+C0288,Customer_0288,Regular,Kolkata,Tamil Nadu
+C0289,Customer_0289,New,Delhi,Karnataka
+C0290,Customer_0290,Regular,Pune,West Bengal
+C0291,Customer_0291,New,Delhi,Delhi
+C0292,Customer_0292,New,Delhi,Tamil Nadu
+C0293,Customer_0293,Regular,Bengaluru,Tamil Nadu
+C0294,Customer_0294,New,Pune,Maharashtra
+C0295,Customer_0295,New,Howrah,Karnataka
+C0296,Customer_0296,Regular,Bengaluru,West Bengal
+C0297,Customer_0297,Regular,Howrah,Telangana
+C0298,Customer_0298,New,Delhi,Maharashtra
+C0299,Customer_0299,Regular,Delhi,Delhi
+C0300,Customer_0300,New,Bengaluru,Delhi
+C0301,Customer_0301,New,Bengaluru,Maharashtra
+C0302,Customer_0302,Regular,Howrah,Tamil Nadu
+C0303,Customer_0303,Regular,Mumbai,Delhi
+C0304,Customer_0304,Regular,Howrah,Karnataka
+C0305,Customer_0305,Regular,Bengaluru,West Bengal
+C0306,Customer_0306,Premium,Hyderabad,Karnataka
+C0307,Customer_0307,Regular,Bengaluru,Delhi
+C0308,Customer_0308,New,Hyderabad,Telangana
+C0309,Customer_0309,Regular,Kolkata,West Bengal
+C0310,Customer_0310,New,Bengaluru,West Bengal
+C0311,Customer_0311,New,Kolkata,Maharashtra
+C0312,Customer_0312,New,Mumbai,Maharashtra
+C0313,Customer_0313,New,Howrah,Telangana
+C0314,Customer_0314,Premium,Hyderabad,Tamil Nadu
+C0315,Customer_0315,Regular,Howrah,West Bengal
+C0316,Customer_0316,Regular,Kolkata,Telangana
+C0317,Customer_0317,New,Hyderabad,Maharashtra
+C0318,Customer_0318,New,Howrah,Maharashtra
+C0319,Customer_0319,New,Bengaluru,West Bengal
+C0320,Customer_0320,New,Delhi,Karnataka
+C0321,Customer_0321,Regular,Kolkata,Delhi
+C0322,Customer_0322,Regular,Howrah,Maharashtra
+C0323,Customer_0323,Regular,Kolkata,Tamil Nadu
+C0324,Customer_0324,New,Chennai,Tamil Nadu
+C0325,Customer_0325,Premium,Kolkata,Maharashtra
+C0326,Customer_0326,Regular,Hyderabad,Karnataka
+C0327,Customer_0327,Regular,Chennai,Karnataka
+C0328,Customer_0328,Regular,Pune,Telangana
+C0329,Customer_0329,New,Hyderabad,Tamil Nadu
+C0330,Customer_0330,New,Delhi,Telangana
+C0331,Customer_0331,New,Chennai,Tamil Nadu
+C0332,Customer_0332,Regular,Pune,Delhi
+C0333,Customer_0333,New,Bengaluru,Delhi
+C0334,Customer_0334,New,Kolkata,West Bengal
+C0335,Customer_0335,New,Howrah,Telangana
+C0336,Customer_0336,New,Mumbai,Maharashtra
+C0337,Customer_0337,Premium,Kolkata,Telangana
+C0338,Customer_0338,Regular,Pune,Maharashtra
+C0339,Customer_0339,Regular,Kolkata,Karnataka
+C0340,Customer_0340,New,Delhi,Telangana
+C0341,Customer_0341,Regular,Bengaluru,Karnataka
+C0342,Customer_0342,Regular,Mumbai,Delhi
+C0343,Customer_0343,New,Chennai,Delhi
+C0344,Customer_0344,New,Chennai,West Bengal
+C0345,Customer_0345,New,Chennai,Telangana
+C0346,Customer_0346,Regular,Pune,Karnataka
+C0347,Customer_0347,Regular,Hyderabad,Maharashtra
+C0348,Customer_0348,New,Hyderabad,Delhi
+C0349,Customer_0349,New,Howrah,Delhi
+C0350,Customer_0350,Regular,Mumbai,Maharashtra
+C0351,Customer_0351,Regular,Chennai,Karnataka
+C0352,Customer_0352,Premium,Hyderabad,Karnataka
+C0353,Customer_0353,Regular,Pune,Telangana
+C0354,Customer_0354,New,Howrah,Telangana
+C0355,Customer_0355,New,Bengaluru,Tamil Nadu
+C0356,Customer_0356,Regular,Howrah,Tamil Nadu
+C0357,Customer_0357,New,Hyderabad,West Bengal
+C0358,Customer_0358,Regular,Delhi,Delhi
+C0359,Customer_0359,Premium,Pune,Telangana
+C0360,Customer_0360,Regular,Delhi,Karnataka
+C0361,Customer_0361,New,Chennai,Maharashtra
+C0362,Customer_0362,Regular,Delhi,Karnataka
+C0363,Customer_0363,Regular,Chennai,Delhi
+C0364,Customer_0364,Regular,Chennai,Tamil Nadu
+C0365,Customer_0365,Premium,Hyderabad,Karnataka
+C0366,Customer_0366,New,Delhi,West Bengal
+C0367,Customer_0367,Premium,Chennai,Delhi
+C0368,Customer_0368,Premium,Mumbai,Tamil Nadu
+C0369,Customer_0369,New,Bengaluru,Maharashtra
+C0370,Customer_0370,New,Howrah,Tamil Nadu
+C0371,Customer_0371,New,Howrah,West Bengal
+C0372,Customer_0372,New,Hyderabad,Delhi
+C0373,Customer_0373,New,Delhi,Maharashtra
+C0374,Customer_0374,Regular,Delhi,West Bengal
+C0375,Customer_0375,New,Chennai,Tamil Nadu
+C0376,Customer_0376,New,Pune,West Bengal
+C0377,Customer_0377,Regular,Kolkata,Delhi
+C0378,Customer_0378,New,Chennai,Telangana
+C0379,Customer_0379,Regular,Bengaluru,West Bengal
+C0380,Customer_0380,New,Mumbai,West Bengal
+C0381,Customer_0381,New,Howrah,Tamil Nadu
+C0382,Customer_0382,Regular,Chennai,Tamil Nadu
+C0383,Customer_0383,Regular,Kolkata,Maharashtra
+C0384,Customer_0384,Premium,Kolkata,Tamil Nadu
+C0385,Customer_0385,Regular,Chennai,Karnataka
+C0386,Customer_0386,Regular,Hyderabad,Delhi
+C0387,Customer_0387,New,Howrah,Delhi
+C0388,Customer_0388,New,Hyderabad,Telangana
+C0389,Customer_0389,Regular,Mumbai,Telangana
+C0390,Customer_0390,Regular,Kolkata,Delhi
+C0391,Customer_0391,Premium,Kolkata,Telangana
+C0392,Customer_0392,New,Bengaluru,Maharashtra
+C0393,Customer_0393,New,Mumbai,Tamil Nadu
+C0394,Customer_0394,Regular,Kolkata,Delhi
+C0395,Customer_0395,New,Mumbai,Telangana
+C0396,Customer_0396,Premium,Howrah,Delhi
+C0397,Customer_0397,Premium,Delhi,Karnataka
+C0398,Customer_0398,New,Kolkata,West Bengal
+C0399,Customer_0399,Regular,Bengaluru,Tamil Nadu
+C0400,Customer_0400,Regular,Howrah,Delhi
+C0401,Customer_0401,New,Chennai,West Bengal
+C0402,Customer_0402,Premium,Mumbai,Telangana
+C0403,Customer_0403,Regular,Chennai,West Bengal
+C0404,Customer_0404,Regular,Hyderabad,Tamil Nadu
+C0405,Customer_0405,New,Howrah,Delhi
+C0406,Customer_0406,Premium,Chennai,Karnataka
+C0407,Customer_0407,New,Pune,Telangana
+C0408,Customer_0408,New,Pune,Delhi
+C0409,Customer_0409,Premium,Kolkata,Tamil Nadu
+C0410,Customer_0410,New,Mumbai,Telangana
+C0411,Customer_0411,New,Delhi,Maharashtra
+C0412,Customer_0412,Premium,Howrah,West Bengal
+C0413,Customer_0413,Premium,Kolkata,Tamil Nadu
+C0414,Customer_0414,Regular,Bengaluru,Maharashtra
+C0415,Customer_0415,Regular,Hyderabad,Delhi
+C0416,Customer_0416,New,Mumbai,Karnataka
+C0417,Customer_0417,New,Howrah,Telangana
+C0418,Customer_0418,New,Pune,West Bengal
+C0419,Customer_0419,Regular,Howrah,Telangana
+C0420,Customer_0420,Regular,Delhi,Delhi
+C0421,Customer_0421,Regular,Pune,Telangana
+C0422,Customer_0422,Regular,Delhi,West Bengal
+C0423,Customer_0423,New,Bengaluru,Delhi
+C0424,Customer_0424,Regular,Hyderabad,Telangana
+C0425,Customer_0425,New,Bengaluru,Karnataka
+C0426,Customer_0426,Regular,Kolkata,Tamil Nadu
+C0427,Customer_0427,New,Kolkata,Delhi
+C0428,Customer_0428,Premium,Bengaluru,Tamil Nadu
+C0429,Customer_0429,New,Hyderabad,Delhi
+C0430,Customer_0430,New,Bengaluru,Karnataka
+C0431,Customer_0431,New,Hyderabad,Tamil Nadu
+C0432,Customer_0432,Regular,Hyderabad,Maharashtra
+C0433,Customer_0433,Regular,Chennai,West Bengal
+C0434,Customer_0434,New,Pune,Maharashtra
+C0435,Customer_0435,New,Mumbai,Telangana
+C0436,Customer_0436,Regular,Hyderabad,Karnataka
+C0437,Customer_0437,New,Delhi,Maharashtra
+C0438,Customer_0438,Regular,Hyderabad,Delhi
+C0439,Customer_0439,Regular,Hyderabad,Telangana
+C0440,Customer_0440,New,Hyderabad,Telangana
+C0441,Customer_0441,New,Chennai,Maharashtra
+C0442,Customer_0442,Premium,Pune,Maharashtra
+C0443,Customer_0443,New,Chennai,Karnataka
+C0444,Customer_0444,New,Kolkata,West Bengal
+C0445,Customer_0445,Regular,Chennai,Maharashtra
+C0446,Customer_0446,Premium,Delhi,Maharashtra
+C0447,Customer_0447,Premium,Delhi,Tamil Nadu
+C0448,Customer_0448,Regular,Chennai,Delhi
+C0449,Customer_0449,New,Pune,Tamil Nadu
+C0450,Customer_0450,New,Bengaluru,Tamil Nadu
